@@ -26,10 +26,7 @@ buyer = Agent(
     name="dealroom-buyer",
     seed=require_seed("BUYER_SEED"),
     mailbox=True,   # reachable from ASI:One through Agentverse
-    description="DealRoom: a negotiating purchasing agent for small businesses. Reads QuickBooks "
-                "accounts payable, finds supplier bills worth renegotiating (price creep, reliable "
-                "payment history, bills due near payroll), haggles with the supplier's agent on price "
-                "and payment terms, and asks the owner to approve every deal.",
+    description="DealRoom: negotiating purchasing agent for small businesses. Reads QuickBooks bills, finds supplier deals worth renegotiating, haggles on price and payment terms, and asks the owner to approve every deal.",
     readme_path=os.path.join(os.path.dirname(__file__), "buyer_readme.md"),
     publish_agent_details=True,
 )
