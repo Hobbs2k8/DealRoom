@@ -62,7 +62,7 @@ class SupplierPolicy:
 
     def opening(self, quantity: int) -> dict:
         """First quote: list price at net 30."""
-        return self._offer(self.ask, 30, f"Our price for {quantity} units is ${self.ask:.2f} each, net 30.")
+        return self._offer(self.ask, 30, f"Our price for {quantity} units is ${self.ask:,.2f} each, net 30.")
 
     def respond(self, price: float, quantity: int, pay_in_days: int) -> dict:
         """Answer a buyer offer with accept, a counteroffer, or reject."""
@@ -80,7 +80,7 @@ class SupplierPolicy:
 
         if price >= next_ask or (price >= floor and self.round >= self.s.max_rounds - 1):
             return {"kind": "accept", "price": round(price, 2), "pay_in_days": pay_in_days,
-                    "message": f"Deal at ${price:.2f}, paid in {pay_in_days} days."}
+                    "message": f"Deal at ${price:,.2f}, paid in {pay_in_days} days."}
         if self.round >= self.s.max_rounds:
             return self._reject("We've gone as far as we can. No deal this time.")
 
@@ -91,14 +91,14 @@ class SupplierPolicy:
     def _counter_text(self, ask: float, pay_in_days: int) -> str:
         p = self.s.personality
         if p == "bluffer" and self.round <= 2:
-            return f"${ask:.2f} is our final offer."
+            return f"${ask:,.2f} is our final offer."
         if p == "stubborn":
-            return f"Costs are up for us too. Best I can do is ${ask:.2f}."
+            return f"Costs are up for us too. Best I can do is ${ask:,.2f}."
         if p == "desperate":
-            return f"We'd like to keep your business. How about ${ask:.2f}?"
+            return f"We'd like to keep your business. How about ${ask:,.2f}?"
         if p == "walker":
-            return f"${ask:.2f}. We don't have much room left."
-        return f"We can do ${ask:.2f}, paid in {pay_in_days} days."
+            return f"${ask:,.2f}. We don't have much room left."
+        return f"We can do ${ask:,.2f}, paid in {pay_in_days} days."
 
     def _offer(self, price: float, pay_in_days: int, message: str) -> dict:
         return {"kind": "offer", "price": round(price, 2), "pay_in_days": pay_in_days, "message": message}

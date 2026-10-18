@@ -45,7 +45,8 @@ def candidate_moves(inp: SearchInput) -> list[Offer]:
     shift = MODES[inp.mode]["price_shift"]
     b = inp.belief
     levels = [b.low * 0.98, b.best_guess, (b.best_guess + inp.ask) / 2, inp.ask * 0.99]
-    floor_price = (inp.last_offer or 0) + 0.01
+    # Never go backwards; when raising, move by at least 0.25% of list (not a single cent).
+    floor_price = (inp.last_offer or 0) + max(0.01, round(inp.list_price * 0.0025, 2))
     prices = sorted({round(min(inp.ask, max(floor_price, p * shift)), 2) for p in levels})
     return [Offer(p, inp.quantity, pay) for p in prices for pay in (PAY_NOW, PAY_LATER)]
 

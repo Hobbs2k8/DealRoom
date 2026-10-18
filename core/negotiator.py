@@ -19,6 +19,7 @@ class BuyerNegotiator:
         v = opp.vendor
         self.opp = opp
         self.item = v.top_item
+        self.unit = v.unit            # "unit" (per-item price) or "payment" (per-bill price)
         self.list_price = v.price_now
         self.quantity = v.typical_qty
         self.cash = cash
@@ -47,7 +48,8 @@ class BuyerNegotiator:
             self.belief.observe_accept(reply["price"], reply["pay_in_days"])
             self.status = "agreed"
             self.final = {
-                "vendor": self.opp.vendor.name, "item": self.item, "quantity": self.quantity,
+                "vendor": self.opp.vendor.name, "item": self.item, "unit": self.unit,
+                "quantity": self.quantity,
                 "price": reply["price"], "pay_in_days": reply["pay_in_days"],
                 "list_price": self.list_price,
                 "saved": round((self.list_price - reply["price"]) * self.quantity, 2),
@@ -86,7 +88,7 @@ class BuyerNegotiator:
             self.last_predictor = result["predictor"]
         self.last_offer = best
         reason = self._leverage() if self.round == 1 else "We're close; this works for us."
-        msg = writer.offer_message(best.price, best.quantity, best.pay_in_days, self.item, reason)
+        msg = writer.offer_message(best.price, best.quantity, best.pay_in_days, self.item, reason, self.unit)
         self.history.append({"round": self.round, "from": "buyer", "kind": "offer", **best.to_dict(),
                              "message": msg})
         self._save()
@@ -103,6 +105,7 @@ class BuyerNegotiator:
     def snapshot(self) -> dict:
         return {
             "company": self.opp.company, "vendor": self.opp.vendor.name, "item": self.item,
+            "unit": self.unit,
             "quantity": self.quantity, "list_price": self.list_price, "mode": self.mode,
             "round": self.round, "status": self.status, "offers": self.history,
             "belief": self.belief.summary(), "top_moves": self.last_considered,

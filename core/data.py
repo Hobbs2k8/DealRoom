@@ -9,6 +9,8 @@ from functools import lru_cache
 import yaml
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+# The C loader is ~10x faster on the large files; fall back to pure Python if missing.
+_Loader = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
 
 
 def company_dir(company_id: str) -> str:
@@ -26,7 +28,7 @@ def load(company_id: str, name: str) -> list | dict:
         raise PermissionError("Agents may not read hidden/ simulation files")
     path = os.path.join(company_dir(company_id), f"{name}.yaml")
     with open(path) as f:
-        return yaml.safe_load(f) or []
+        return yaml.load(f, Loader=_Loader) or []
 
 
 def company_name(company_id: str) -> str:

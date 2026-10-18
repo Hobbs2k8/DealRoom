@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dotenv import load_dotenv
 
 from core.negotiator import BuyerNegotiator
+from core.offers import describe_order
 from core.predictor import make_predictor
 from core.scout import best_opportunity, cash_context
 from supplier.policy import PERSONALITIES, SupplierPolicy, make_secret, write_secret
@@ -43,7 +44,7 @@ def main():
     cash = {**cash_context(args.company), "cash_floor": args.cash_floor}
     v = opp.vendor
     print(f"\n== SCOUT: {opp.company} ==")
-    print(f"Target: {v.name}, {v.typical_qty} x {v.top_item} at ${v.price_now:.2f}")
+    print(f"Target: {v.name}, {describe_order(v.typical_qty, v.top_item, v.unit, v.price_now)}")
     for r in opp.reasons:
         print(f"  - {r}")
     print(f"Cash ${cash['cash']:,.0f}, payroll next 14 days ${cash['payroll_next']:,.0f}, "
@@ -80,7 +81,7 @@ def main():
     print("\n== RESULT ==")
     if buyer.final:
         f = buyer.final
-        print(f"Supplier accepted: {f['quantity']} x {f['item']} at ${f['price']:.2f}, "
+        print(f"Supplier accepted: {describe_order(f['quantity'], f['item'], f['unit'], f['price'])}, "
               f"pay in {f['pay_in_days']}d. Saves ${f['saved']:,.2f} vs ${f['list_price']:.2f}.")
         print("Waiting for owner approval (nothing is final until the owner approves).")
     else:

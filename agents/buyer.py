@@ -14,6 +14,7 @@ from agents.config import require_seed
 from agents.messages import Accept, NegotiationStart, Offer, Reject
 from core import demo_state, writer
 from core.negotiator import BuyerNegotiator
+from core.offers import describe_order
 from core.predictor import make_predictor
 from core.scout import best_opportunity, cash_context
 
@@ -59,8 +60,8 @@ class BuyerController:
         v = o.vendor
         reasons = "\n".join(f"- {r}" for r in o.reasons)
         await self.notify_owner(ctx, (
-            f"Best opportunity for {o.company}: {v.name}, {v.typical_qty} x {v.top_item} "
-            f"at ${v.price_now:.2f}.\n{reasons}\nSay 'negotiate' to start (mode: {self.mode})."))
+            f"Best opportunity for {o.company}: {v.name}, "
+            f"{describe_order(v.typical_qty, v.top_item, v.unit, v.price_now)}.\n{reasons}\nSay 'negotiate' to start (mode: {self.mode})."))
 
     def set_mode(self, mode: str) -> str:
         if mode not in MODES:
@@ -84,7 +85,8 @@ class BuyerController:
         await ctx.send(self.supplier_address,
                        NegotiationStart(item=n.item, quantity=n.quantity, list_price=n.list_price))
         await self.notify_owner(ctx, f"Negotiating with {self.opportunity.vendor.name} "
-                                     f"for {n.quantity} x {n.item} ({self.mode} mode)...")
+                                     f"for {describe_order(n.quantity, n.item, n.unit, n.list_price)} "
+                                     f"({self.mode} mode)...")
 
     async def decide(self, ctx: Context, approved: bool) -> None:
         """Owner approves or declines the supplier-accepted deal."""
@@ -96,8 +98,9 @@ class BuyerController:
         demo_state.write(n.snapshot())
         f = n.final
         if approved:
-            await self.notify_owner(ctx, f"Approved. Ordering {f['quantity']} x {f['item']} at "
-                                         f"${f['price']:.2f}, paid in {f['pay_in_days']} days. "
+            await self.notify_owner(ctx, f"Approved. Ordering "
+                                         f"{describe_order(f['quantity'], f['item'], f['unit'], f['price'])}, "
+                                         f"paid in {f['pay_in_days']} days. "
                                          f"You save ${f['saved']:,.2f}.")
         else:
             await self.notify_owner(ctx, "Declined. Nothing was ordered.")
@@ -112,8 +115,9 @@ class BuyerController:
         n.observe(reply)
         if n.status == "agreed":
             f = n.final
-            facts = (f"{f['vendor']} accepted {f['quantity']} x {f['item']} at ${f['price']:.2f} "
-                     f"(was ${f['list_price']:.2f}), paid in {f['pay_in_days']} days. "
+            facts = (f"{f['vendor']} accepted "
+                     f"{describe_order(f['quantity'], f['item'], f['unit'], f['price'])} "
+                     f"(was ${f['list_price']:,.2f}), paid in {f['pay_in_days']} days. "
                      f"That saves ${f['saved']:,.2f}. Reply 'approve' or 'decline'.")
             await self.notify_owner(ctx, await asyncio.to_thread(writer.owner_message, facts))
             return

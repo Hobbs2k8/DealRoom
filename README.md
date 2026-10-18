@@ -78,7 +78,8 @@ Options: `--personality stubborn|desperate|bluffer|walker`, `--season busy|norma
 | `core/negotiator.py` | Buyer session loop; writes `demo_state.json` every round |
 | `core/writer.py` | Message text via Claude (`ANTHROPIC_API_KEY`), template fallback |
 | `supplier/policy.py` | Rule-based supplier: secret floor, personality, season, prepay, terms. Imports nothing from `core/` |
-| `scripts/run_terminal_negotiation.py` | Step 2 demo |
+| `scripts/run_terminal_negotiation.py` | Step 2 demo (`--company company-063` to try another business) |
+| `scripts/sweep_companies.py` | Scout + one negotiation for every company in `data/`; prints a summary |
 | `agents/messages.py` | `NegotiationStart`, `Offer`, `Accept`, `Reject` (uagents Models) |
 | `agents/config.py` | Loads `.env` (seeds) and CA certificates |
 | `agents/buyer.py` | Buyer uAgent; `BuyerController` handles scan / negotiate / mode / approve / decline |
@@ -96,6 +97,20 @@ Set `TYPESAFE_API_KEY` in `.env` and both `run.py` and the terminal script switc
 - Jev reads the negotiation history, not the sampled floor. Its probabilities are blended 50/50 (`JEV_WEIGHT`) with the heuristic for each sampled supplier. Deeper playout steps use the heuristic, so a turn costs one round of API calls.
 - Calls time out after 1.2 s, inside the search's 2 s budget. A timeout or error falls back to the heuristic for that turn; a rejected key turns Jev off for the rest of the run. Both are logged, and `demo_state.json` records which predictor was used (`predictor`).
 - The 2026-10 build was tested with mocked Jev responses and a bad key only, not with a real key. Check the real probabilities before relying on them in the demo.
+
+## Works across all 100 companies
+
+```bash
+./scripts/fetch_data.sh                 # once: downloads the other 99 companies (gitignored)
+python -m scripts.sweep_companies       # ~35 s; every company should reach a deal
+```
+
+The scout picks one of two kinds of opportunity:
+
+- **Product** (26 companies, mostly wholesale): an item bought repeatedly, priced per unit, e.g. `255 x Croissant Tray at $9.86 each`. Items with 6+ purchases are preferred; 3+ is the fallback.
+- **Service** (74 companies): a recurring overhead bill from a negotiable vendor (subcontractor, operating service, rent, insurance, account-line supply orders), priced per payment over the next quarter, e.g. `3 rent payments of $2,571.42`. Taxes, utilities and lenders are skipped. A rise in bill amounts only counts as price creep when the bills are steady; for variable bills (a courier billed per shipment) the growth is volume, not price.
+
+Last sweep: 100/100 companies reached a supplier-accepted deal (26 product, 74 service), median saving about $1,150. The simulated supplier's floor is 8-18% under the current price for every kind of bill, so rent cuts are more generous than a real landlord would give.
 
 ## Data notes (company-001)
 
