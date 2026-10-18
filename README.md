@@ -4,7 +4,7 @@ A negotiating purchasing agent for small businesses. LA Hacks AI Hackathon 2026:
 
 A **buyer agent** reads a small business's QuickBooks accounts-payable data, finds a bill worth negotiating (price creep, a reliable payment history, a bill due near payroll), asks the owner in ASI:One whether to negotiate, haggles with a **supplier agent**, and asks the owner to approve the final deal. Nothing is agreed without owner approval.
 
-> Status: step 2 of 5. The brain and supplier logic run as plain Python in the terminal. uAgents, ACP and Jev come next.
+> Status: step 3 of 5. Buyer and supplier run as uAgents in one Bureau and negotiate agent to agent. ASI:One chat (ACP) and Jev come next.
 
 ## Setup
 
@@ -26,6 +26,16 @@ Python 3.13 works with uagents 0.26.1.
 ```
 
 Each company lives at `data/company-XXX/rwm-v4/world-<id>/`, with one YAML file per entity type; field reference is in `SCHEMA.md` next to the YAML. Agents must never read a `hidden/` folder; the participant download does not include one, and `.gitignore` blocks it.
+
+## Run the agents (step 3)
+
+```bash
+python run.py --auto                       # buyer scans and negotiates on startup
+python run.py --auto --mode aggressive
+SUPPLIER_PERSONALITY=walker SUPPLIER_RNG_SEED=11 python run.py --auto
+```
+
+Both agents run in one Bureau on port 8000 (`BUREAU_PORT`). Without `--auto` they start and wait; the owner chat arrives in step 4. Supplier settings are optional env vars: `SUPPLIER_PERSONALITY`, `SUPPLIER_SEASON`, `SUPPLIER_RNG_SEED`. The "not enough funds to register on Almanac contract" warnings are expected: the agents register through the Almanac API instead, which is free.
 
 ## Run a negotiation in the terminal (no API keys needed)
 
@@ -52,8 +62,11 @@ Options: `--personality stubborn|desperate|bluffer|walker`, `--season busy|norma
 | `core/writer.py` | Message text via Claude (`ANTHROPIC_API_KEY`), template fallback |
 | `supplier/policy.py` | Rule-based supplier: secret floor, personality, season, prepay, terms. Imports nothing from `core/` |
 | `scripts/run_terminal_negotiation.py` | Step 2 demo |
-
-Planned: `agents/messages.py`, `agents/buyer.py`, `agents/supplier.py`, `run.py` (Bureau).
+| `agents/messages.py` | `NegotiationStart`, `Offer`, `Accept`, `Reject` (uagents Models) |
+| `agents/config.py` | Loads `.env` (seeds) and CA certificates |
+| `agents/buyer.py` | Buyer uAgent; `BuyerController` handles scan / negotiate / mode / approve / decline |
+| `agents/supplier.py` | Supplier uAgent around `supplier/policy.py` |
+| `run.py` | Bureau with both agents |
 
 ## Data notes (company-001)
 
