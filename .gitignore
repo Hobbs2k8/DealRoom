@@ -1,2 +1,23 @@
-motion-primitives-main/
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# runtime output
+demo_state.json
+supplier_secret.json
+*.log
+
+# full dataset download (company-001 is committed; others come from scripts/fetch_data.sh)
+data/company-*/
+!data/company-001/
+data/*.tar.gz
+
+# never commit simulation ground truth
+**/hidden/
+
 .DS_Store
+motion-primitives-main/

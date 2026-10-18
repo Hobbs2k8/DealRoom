@@ -1,0 +1,213 @@
+report: Balance Sheet
+company: Hearthloaf Bakeries
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-a0bb0d826496e79a
+period_end:
+  as_of_sim_day: 365
+  as_of_date: '2026-10-06'
+  sections:
+    Assets:
+    - account_id: acct-checking
+      name: Business Checking
+      amount: '104107.55'
+    - account_id: acct-inventory
+      name: Inventory Asset
+      amount: '11896.30'
+    - account_id: acct-receivable
+      name: Accounts Receivable
+      amount: '26128.87'
+    Liabilities:
+    - account_id: acct-payable
+      name: Accounts Payable
+      amount: '26999.25'
+    - account_id: acct-wages-payable
+      name: Wages Payable
+      amount: '3000.00'
+    Equity:
+    - account_id: acct-opening-equity
+      name: Opening Balance Equity
+      amount: '115191.26'
+    - account_id: acct-owner-distributions
+      name: Owner Distributions
+      amount: '-93601.92'
+    - account_id: retained-earnings
+      name: Retained Earnings
+      amount: '90544.13'
+  total_assets: '142132.72'
+  total_liabilities: '29999.25'
+  total_equity: '112133.47'
+  total_liabilities_and_equity: '142132.72'
+  balances: true
+quarter_end:
+- as_of_sim_day: 86
+  as_of_date: '2025-12-31'
+  sections:
+    Assets:
+    - account_id: acct-checking
+      name: Business Checking
+      amount: '113159.74'
+    - account_id: acct-inventory
+      name: Inventory Asset
+      amount: '14007.96'
+    - account_id: acct-receivable
+      name: Accounts Receivable
+      amount: '25818.89'
+    Liabilities:
+    - account_id: acct-payable
+      name: Accounts Payable
+      amount: '10227.24'
+    - account_id: acct-wages-payable
+      name: Wages Payable
+      amount: '750.00'
+    Equity:
+    - account_id: acct-opening-equity
+      name: Opening Balance Equity
+      amount: '115191.26'
+    - account_id: retained-earnings
+      name: Retained Earnings
+      amount: '26818.09'
+  total_assets: '152986.59'
+  total_liabilities: '10977.24'
+  total_equity: '142009.35'
+  total_liabilities_and_equity: '152986.59'
+  balances: true
+- as_of_sim_day: 176
+  as_of_date: '2026-03-31'
+  sections:
+    Assets:
+    - account_id: acct-checking
+      name: Business Checking
+      amount: '141428.13'
+    - account_id: acct-inventory
+      name: Inventory Asset
+      amount: '10955.44'
+    - account_id: acct-receivable
+      name: Accounts Receivable
+      amount: '24483.44'
+    Liabilities:
+    - account_id: acct-payable
+      name: Accounts Payable
+      amount: '8892.00'
+    - account_id: acct-wages-payable
+      name: Wages Payable
+      amount: '2250.00'
+    Equity:
+    - account_id: acct-opening-equity
+      name: Opening Balance Equity
+      amount: '115191.26'
+    - account_id: retained-earnings
+      name: Retained Earnings
+      amount: '50533.75'
+  total_assets: '176867.01'
+  total_liabilities: '11142.00'
+  total_equity: '165725.01'
+  total_liabilities_and_equity: '176867.01'
+  balances: true
+- as_of_sim_day: 267
+  as_of_date: '2026-06-30'
+  sections:
+    Assets:
+    - account_id: acct-checking
+      name: Business Checking
+      amount: '130985.48'
+    - account_id: acct-inventory
+      name: Inventory Asset
+      amount: '7030.47'
+    - account_id: acct-receivable
+      name: Accounts Receivable
+      amount: '23706.58'
+    Liabilities:
+    - account_id: acct-payable
+      name: Accounts Payable
+      amount: '5997.28'
+    - account_id: acct-wages-payable
+      name: Wages Payable
+      amount: '3000.00'
+    Equity:
+    - account_id: acct-opening-equity
+      name: Opening Balance Equity
+      amount: '115191.26'
+    - account_id: acct-owner-distributions
+      name: Owner Distributions
+      amount: '-32876.76'
+    - account_id: retained-earnings
+      name: Retained Earnings
+      amount: '70410.75'
+  total_assets: '161722.53'
+  total_liabilities: '8997.28'
+  total_equity: '152725.25'
+  total_liabilities_and_equity: '161722.53'
+  balances: true
+- as_of_sim_day: 359
+  as_of_date: '2026-09-30'
+  sections:
+    Assets:
+    - account_id: acct-checking
+      name: Business Checking
+      amount: '107373.66'
+    - account_id: acct-inventory
+      name: Inventory Asset
+      amount: '12453.39'
+    - account_id: acct-receivable
+      name: Accounts Receivable
+      amount: '24627.19'
+    Liabilities:
+    - account_id: acct-payable
+      name: Accounts Payable
+      amount: '11830.65'
+    - account_id: acct-wages-payable
+      name: Wages Payable
+      amount: '750.00'
+    Equity:
+    - account_id: acct-opening-equity
+      name: Opening Balance Equity
+      amount: '115191.26'
+    - account_id: acct-owner-distributions
+      name: Owner Distributions
+      amount: '-78918.05'
+    - account_id: retained-earnings
+      name: Retained Earnings
+      amount: '95600.38'
+  total_assets: '144454.24'
+  total_liabilities: '12580.65'
+  total_equity: '131873.59'
+  total_liabilities_and_equity: '144454.24'
+  balances: true
+- as_of_sim_day: 365
+  as_of_date: '2026-10-06'
+  sections:
+    Assets:
+    - account_id: acct-checking
+      name: Business Checking
+      amount: '104107.55'
+    - account_id: acct-inventory
+      name: Inventory Asset
+      amount: '11896.30'
+    - account_id: acct-receivable
+      name: Accounts Receivable
+      amount: '26128.87'
+    Liabilities:
+    - account_id: acct-payable
+      name: Accounts Payable
+      amount: '26999.25'
+    - account_id: acct-wages-payable
+      name: Wages Payable
+      amount: '3000.00'
+    Equity:
+    - account_id: acct-opening-equity
+      name: Opening Balance Equity
+      amount: '115191.26'
+    - account_id: acct-owner-distributions
+      name: Owner Distributions
+      amount: '-93601.92'
+    - account_id: retained-earnings
+      name: Retained Earnings
+      amount: '90544.13'
+  total_assets: '142132.72'
+  total_liabilities: '29999.25'
+  total_equity: '112133.47'
+  total_liabilities_and_equity: '142132.72'
+  balances: true

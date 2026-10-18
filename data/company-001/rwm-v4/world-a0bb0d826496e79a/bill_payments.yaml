@@ -1,0 +1,5504 @@
+- id: bpay-00002
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 9
+  txn_date: '2025-10-15'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00003
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00002
+  sim_payment_id: payment-00002
+  sim_obligation_id: obligation-00003
+  sim_event_ids:
+  - event-00170
+- id: bpay-00008
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 14
+  txn_date: '2025-10-20'
+  amount: '4098.00'
+  applications:
+  - document_id: bill-00005
+    amount: '4098.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00008
+  sim_payment_id: payment-00008
+  sim_obligation_id: obligation-00001
+  sim_event_ids:
+  - event-00274
+- id: bpay-00012
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 15
+  txn_date: '2025-10-21'
+  amount: '3.00'
+  applications:
+  - document_id: bill-utilities-00015
+    amount: '3.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00012
+  sim_payment_id: payment-00012
+  sim_obligation_id: obligation-00015
+  sim_event_ids:
+  - event-00310
+- id: bpay-00015
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 15
+  txn_date: '2025-10-21'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00018
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00015
+  sim_payment_id: payment-00015
+  sim_obligation_id: obligation-00018
+  sim_event_ids:
+  - event-00311
+- id: bpay-00013
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 16
+  txn_date: '2025-10-22'
+  amount: '263.52'
+  applications:
+  - document_id: bill-variable-services-00016
+    amount: '263.52'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00013
+  sim_payment_id: payment-00013
+  sim_obligation_id: obligation-00016
+  sim_event_ids:
+  - event-00324
+- id: bpay-00011
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 17
+  txn_date: '2025-10-23'
+  amount: '15.00'
+  applications:
+  - document_id: bill-utilities-00014
+    amount: '15.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00011
+  sim_payment_id: payment-00011
+  sim_obligation_id: obligation-00014
+  sim_event_ids:
+  - event-00343
+- id: bpay-00019
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 18
+  txn_date: '2025-10-24'
+  amount: '10367.94'
+  applications:
+  - document_id: bill-00034
+    amount: '10367.94'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00019
+  sim_payment_id: payment-00019
+  sim_obligation_id: obligation-00008
+  sim_event_ids:
+  - event-00370
+- id: bpay-00034
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 22
+  txn_date: '2025-10-28'
+  amount: '15.00'
+  applications:
+  - document_id: bill-utilities-00031
+    amount: '15.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00034
+  sim_payment_id: payment-00034
+  sim_obligation_id: obligation-00031
+  sim_event_ids:
+  - event-00487
+- id: bpay-00035
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 22
+  txn_date: '2025-10-28'
+  amount: '3.00'
+  applications:
+  - document_id: bill-utilities-00032
+    amount: '3.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00035
+  sim_payment_id: payment-00035
+  sim_obligation_id: obligation-00032
+  sim_event_ids:
+  - event-00488
+- id: bpay-00036
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 22
+  txn_date: '2025-10-28'
+  amount: '381.24'
+  applications:
+  - document_id: bill-variable-services-00033
+    amount: '381.24'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00036
+  sim_payment_id: payment-00036
+  sim_obligation_id: obligation-00033
+  sim_event_ids:
+  - event-00489
+- id: bpay-00038
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 24
+  txn_date: '2025-10-30'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00035
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00038
+  sim_payment_id: payment-00038
+  sim_obligation_id: obligation-00035
+  sim_event_ids:
+  - event-00523
+- id: bpay-00051
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 27
+  txn_date: '2025-11-02'
+  amount: '6187.98'
+  applications:
+  - document_id: bill-00068
+    amount: '6187.98'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00051
+  sim_payment_id: payment-00051
+  sim_obligation_id: obligation-00030
+  sim_event_ids:
+  - event-00587
+- id: bpay-00061
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 29
+  txn_date: '2025-11-04'
+  amount: '15.00'
+  applications:
+  - document_id: bill-utilities-00048
+    amount: '15.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00061
+  sim_payment_id: payment-00061
+  sim_obligation_id: obligation-00048
+  sim_event_ids:
+  - event-00698
+- id: bpay-00063
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 30
+  txn_date: '2025-11-05'
+  amount: '315.36'
+  applications:
+  - document_id: bill-variable-services-00050
+    amount: '315.36'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00063
+  sim_payment_id: payment-00063
+  sim_obligation_id: obligation-00050
+  sim_event_ids:
+  - event-00715
+- id: bpay-00060
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 31
+  txn_date: '2025-11-06'
+  amount: '1080.00'
+  applications:
+  - document_id: bill-growth-00047
+    amount: '1080.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00060
+  sim_payment_id: payment-00060
+  sim_obligation_id: obligation-00047
+  sim_event_ids:
+  - event-00748
+- id: bpay-00062
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 31
+  txn_date: '2025-11-06'
+  amount: '3.00'
+  applications:
+  - document_id: bill-utilities-00049
+    amount: '3.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00062
+  sim_payment_id: payment-00062
+  sim_obligation_id: obligation-00049
+  sim_event_ids:
+  - event-00749
+- id: bpay-00065
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 31
+  txn_date: '2025-11-06'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00052
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00065
+  sim_payment_id: payment-00065
+  sim_obligation_id: obligation-00052
+  sim_event_ids:
+  - event-00751
+- id: bpay-00088
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 36
+  txn_date: '2025-11-11'
+  amount: '6249.45'
+  applications:
+  - document_id: bill-00095
+    amount: '6249.45'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00088
+  sim_payment_id: payment-00088
+  sim_obligation_id: obligation-00046
+  sim_event_ids:
+  - event-00945
+- id: bpay-00102
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 37
+  txn_date: '2025-11-12'
+  amount: '9.00'
+  applications:
+  - document_id: bill-utilities-00083
+    amount: '9.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00102
+  sim_payment_id: payment-00102
+  sim_obligation_id: obligation-00083
+  sim_event_ids:
+  - event-01001
+- id: bpay-00103
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 37
+  txn_date: '2025-11-12'
+  amount: '925.56'
+  applications:
+  - document_id: bill-variable-services-00084
+    amount: '925.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00103
+  sim_payment_id: payment-00103
+  sim_obligation_id: obligation-00084
+  sim_event_ids:
+  - event-01002
+- id: bpay-00105
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 37
+  txn_date: '2025-11-12'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00086
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00105
+  sim_payment_id: payment-00105
+  sim_obligation_id: obligation-00086
+  sim_event_ids:
+  - event-01003
+- id: bpay-00101
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 38
+  txn_date: '2025-11-13'
+  amount: '45.00'
+  applications:
+  - document_id: bill-utilities-00082
+    amount: '45.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00101
+  sim_payment_id: payment-00101
+  sim_obligation_id: obligation-00082
+  sim_event_ids:
+  - event-01037
+- id: bpay-00128
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 41
+  txn_date: '2025-11-16'
+  amount: '6536.31'
+  applications:
+  - document_id: bill-00122
+    amount: '6536.31'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00128
+  sim_payment_id: payment-00128
+  sim_obligation_id: obligation-00068
+  sim_event_ids:
+  - event-01130
+- id: bpay-00158
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 43
+  txn_date: '2025-11-18'
+  amount: '45.00'
+  applications:
+  - document_id: bill-utilities-00116
+    amount: '45.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00158
+  sim_payment_id: payment-00158
+  sim_obligation_id: obligation-00116
+  sim_event_ids:
+  - event-01269
+- id: bpay-00159
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 44
+  txn_date: '2025-11-19'
+  amount: '9.00'
+  applications:
+  - document_id: bill-utilities-00117
+    amount: '9.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00159
+  sim_payment_id: payment-00159
+  sim_obligation_id: obligation-00117
+  sim_event_ids:
+  - event-01289
+- id: bpay-00160
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 44
+  txn_date: '2025-11-19'
+  amount: '1022.76'
+  applications:
+  - document_id: bill-variable-services-00118
+    amount: '1022.76'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00160
+  sim_payment_id: payment-00160
+  sim_obligation_id: obligation-00118
+  sim_event_ids:
+  - event-01290
+- id: bpay-00162
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 45
+  txn_date: '2025-11-20'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00120
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00162
+  sim_payment_id: payment-00162
+  sim_obligation_id: obligation-00120
+  sim_event_ids:
+  - event-01339
+- id: bpay-00189
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 47
+  txn_date: '2025-11-22'
+  amount: '6792.35'
+  applications:
+  - document_id: bill-00152
+    amount: '6792.35'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00189
+  sim_payment_id: payment-00189
+  sim_obligation_id: obligation-00108
+  sim_event_ids:
+  - event-01411
+- id: bpay-00215
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 51
+  txn_date: '2025-11-26'
+  amount: '9.00'
+  applications:
+  - document_id: bill-utilities-00152
+    amount: '9.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00215
+  sim_payment_id: payment-00215
+  sim_obligation_id: obligation-00152
+  sim_event_ids:
+  - event-01598
+- id: bpay-00218
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 51
+  txn_date: '2025-11-26'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00155
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00218
+  sim_payment_id: payment-00218
+  sim_obligation_id: obligation-00155
+  sim_event_ids:
+  - event-01599
+- id: bpay-00214
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 52
+  txn_date: '2025-11-27'
+  amount: '45.00'
+  applications:
+  - document_id: bill-utilities-00151
+    amount: '45.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00214
+  sim_payment_id: payment-00214
+  sim_obligation_id: obligation-00151
+  sim_event_ids:
+  - event-01630
+- id: bpay-00216
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 52
+  txn_date: '2025-11-27'
+  amount: '926.57'
+  applications:
+  - document_id: bill-variable-services-00153
+    amount: '926.57'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00216
+  sim_payment_id: payment-00216
+  sim_obligation_id: obligation-00153
+  sim_event_ids:
+  - event-01631
+- id: bpay-00250
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 56
+  txn_date: '2025-12-01'
+  amount: '7755.20'
+  applications:
+  - document_id: bill-00178
+    amount: '7755.20'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00250
+  sim_payment_id: payment-00250
+  sim_obligation_id: obligation-00143
+  sim_event_ids:
+  - event-01813
+- id: bpay-00275
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 57
+  txn_date: '2025-12-02'
+  amount: '45.00'
+  applications:
+  - document_id: bill-utilities-00186
+    amount: '45.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00275
+  sim_payment_id: payment-00275
+  sim_obligation_id: obligation-00186
+  sim_event_ids:
+  - event-01893
+- id: bpay-00271
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 58
+  txn_date: '2025-12-03'
+  amount: '1727.86'
+  applications:
+  - document_id: bill-product-development-00182
+    amount: '1727.86'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00271
+  sim_payment_id: payment-00271
+  sim_obligation_id: obligation-00182
+  sim_event_ids:
+  - event-01922
+- id: bpay-00272
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 58
+  txn_date: '2025-12-03'
+  amount: '360.00'
+  applications:
+  - document_id: bill-growth-00183
+    amount: '360.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00272
+  sim_payment_id: payment-00272
+  sim_obligation_id: obligation-00183
+  sim_event_ids:
+  - event-01923
+- id: bpay-00276
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 58
+  txn_date: '2025-12-03'
+  amount: '9.00'
+  applications:
+  - document_id: bill-utilities-00187
+    amount: '9.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00276
+  sim_payment_id: payment-00276
+  sim_obligation_id: obligation-00187
+  sim_event_ids:
+  - event-01925
+- id: bpay-00279
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 58
+  txn_date: '2025-12-03'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00190
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00279
+  sim_payment_id: payment-00279
+  sim_obligation_id: obligation-00190
+  sim_event_ids:
+  - event-01927
+- id: bpay-00277
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 59
+  txn_date: '2025-12-04'
+  amount: '967.91'
+  applications:
+  - document_id: bill-variable-services-00188
+    amount: '967.91'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00277
+  sim_payment_id: payment-00277
+  sim_obligation_id: obligation-00188
+  sim_event_ids:
+  - event-01972
+- id: bpay-00318
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 61
+  txn_date: '2025-12-06'
+  amount: '8108.90'
+  applications:
+  - document_id: bill-00210
+    amount: '8108.90'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00318
+  sim_payment_id: payment-00318
+  sim_obligation_id: obligation-00175
+  sim_event_ids:
+  - event-02081
+- id: bpay-00348
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 64
+  txn_date: '2025-12-09'
+  amount: '75.00'
+  applications:
+  - document_id: bill-utilities-00233
+    amount: '75.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00348
+  sim_payment_id: payment-00348
+  sim_obligation_id: obligation-00233
+  sim_event_ids:
+  - event-02258
+- id: bpay-00349
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 65
+  txn_date: '2025-12-10'
+  amount: '15.00'
+  applications:
+  - document_id: bill-utilities-00234
+    amount: '15.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00349
+  sim_payment_id: payment-00349
+  sim_obligation_id: obligation-00234
+  sim_event_ids:
+  - event-02284
+- id: bpay-00352
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 65
+  txn_date: '2025-12-10'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00237
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00352
+  sim_payment_id: payment-00352
+  sim_obligation_id: obligation-00237
+  sim_event_ids:
+  - event-02285
+- id: bpay-00350
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 66
+  txn_date: '2025-12-11'
+  amount: '1525.88'
+  applications:
+  - document_id: bill-variable-services-00235
+    amount: '1525.88'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00350
+  sim_payment_id: payment-00350
+  sim_obligation_id: obligation-00235
+  sim_event_ids:
+  - event-02340
+- id: bpay-00381
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 68
+  txn_date: '2025-12-13'
+  amount: '7899.30'
+  applications:
+  - document_id: bill-00239
+    amount: '7899.30'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00381
+  sim_payment_id: payment-00381
+  sim_obligation_id: obligation-00212
+  sim_event_ids:
+  - event-02452
+- id: bpay-00432
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 71
+  txn_date: '2025-12-16'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00282
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00432
+  sim_payment_id: payment-00432
+  sim_obligation_id: obligation-00282
+  sim_event_ids:
+  - event-02629
+- id: bpay-00430
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 72
+  txn_date: '2025-12-17'
+  amount: '1542.44'
+  applications:
+  - document_id: bill-variable-services-00280
+    amount: '1542.44'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00430
+  sim_payment_id: payment-00430
+  sim_obligation_id: obligation-00280
+  sim_event_ids:
+  - event-02660
+- id: bpay-00428
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 73
+  txn_date: '2025-12-18'
+  amount: '75.00'
+  applications:
+  - document_id: bill-utilities-00278
+    amount: '75.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00428
+  sim_payment_id: payment-00428
+  sim_obligation_id: obligation-00278
+  sim_event_ids:
+  - event-02711
+- id: bpay-00429
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 73
+  txn_date: '2025-12-18'
+  amount: '15.00'
+  applications:
+  - document_id: bill-utilities-00279
+    amount: '15.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00429
+  sim_payment_id: payment-00429
+  sim_obligation_id: obligation-00279
+  sim_event_ids:
+  - event-02712
+- id: bpay-00436
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 74
+  txn_date: '2025-12-19'
+  amount: '8089.48'
+  applications:
+  - document_id: bill-00267
+    amount: '8089.48'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00436
+  sim_payment_id: payment-00436
+  sim_obligation_id: obligation-00245
+  sim_event_ids:
+  - event-02769
+- id: bpay-00512
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 78
+  txn_date: '2025-12-23'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00328
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00512
+  sim_payment_id: payment-00512
+  sim_obligation_id: obligation-00328
+  sim_event_ids:
+  - event-03022
+- id: bpay-00508
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 79
+  txn_date: '2025-12-24'
+  amount: '75.00'
+  applications:
+  - document_id: bill-utilities-00324
+    amount: '75.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00508
+  sim_payment_id: payment-00508
+  sim_obligation_id: obligation-00324
+  sim_event_ids:
+  - event-03053
+- id: bpay-00509
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 79
+  txn_date: '2025-12-24'
+  amount: '15.00'
+  applications:
+  - document_id: bill-utilities-00325
+    amount: '15.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00509
+  sim_payment_id: payment-00509
+  sim_obligation_id: obligation-00325
+  sim_event_ids:
+  - event-03054
+- id: bpay-00510
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 79
+  txn_date: '2025-12-24'
+  amount: '1549.77'
+  applications:
+  - document_id: bill-variable-services-00326
+    amount: '1549.77'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00510
+  sim_payment_id: payment-00510
+  sim_obligation_id: obligation-00326
+  sim_event_ids:
+  - event-03055
+- id: bpay-00519
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 79
+  txn_date: '2025-12-24'
+  amount: '9752.80'
+  applications:
+  - document_id: bill-00300
+    amount: '9752.80'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00519
+  sim_payment_id: payment-00519
+  sim_obligation_id: obligation-00290
+  sim_event_ids:
+  - event-03059
+- id: bpay-00596
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 85
+  txn_date: '2025-12-30'
+  amount: '15.00'
+  applications:
+  - document_id: bill-utilities-00373
+    amount: '15.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00596
+  sim_payment_id: payment-00596
+  sim_obligation_id: obligation-00373
+  sim_event_ids:
+  - event-03424
+- id: bpay-00597
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 85
+  txn_date: '2025-12-30'
+  amount: '1616.73'
+  applications:
+  - document_id: bill-variable-services-00374
+    amount: '1616.73'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00597
+  sim_payment_id: payment-00597
+  sim_obligation_id: obligation-00374
+  sim_event_ids:
+  - event-03425
+- id: bpay-00583
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 87
+  txn_date: '2026-01-01'
+  amount: '9472.24'
+  applications:
+  - document_id: bill-00333
+    amount: '9472.24'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00583
+  sim_payment_id: payment-00583
+  sim_obligation_id: obligation-00329
+  sim_event_ids:
+  - event-03504
+- id: bpay-00590
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 87
+  txn_date: '2026-01-01'
+  amount: '180.00'
+  applications:
+  - document_id: bill-growth-00367
+    amount: '180.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00590
+  sim_payment_id: payment-00590
+  sim_obligation_id: obligation-00367
+  sim_event_ids:
+  - event-03505
+- id: bpay-00595
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 87
+  txn_date: '2026-01-01'
+  amount: '75.00'
+  applications:
+  - document_id: bill-utilities-00372
+    amount: '75.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00595
+  sim_payment_id: payment-00595
+  sim_obligation_id: obligation-00372
+  sim_event_ids:
+  - event-03507
+- id: bpay-00599
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 87
+  txn_date: '2026-01-01'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00376
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00599
+  sim_payment_id: payment-00599
+  sim_obligation_id: obligation-00376
+  sim_event_ids:
+  - event-03508
+- id: bpay-00677
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 92
+  txn_date: '2026-01-06'
+  amount: '90.00'
+  applications:
+  - document_id: bill-utilities-00427
+    amount: '90.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00677
+  sim_payment_id: payment-00677
+  sim_obligation_id: obligation-00427
+  sim_event_ids:
+  - event-03845
+- id: bpay-00678
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 92
+  txn_date: '2026-01-06'
+  amount: '18.00'
+  applications:
+  - document_id: bill-utilities-00428
+    amount: '18.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00678
+  sim_payment_id: payment-00678
+  sim_obligation_id: obligation-00428
+  sim_event_ids:
+  - event-03846
+- id: bpay-00679
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 92
+  txn_date: '2026-01-06'
+  amount: '1911.36'
+  applications:
+  - document_id: bill-variable-services-00429
+    amount: '1911.36'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00679
+  sim_payment_id: payment-00679
+  sim_obligation_id: obligation-00429
+  sim_event_ids:
+  - event-03847
+- id: bpay-00681
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 94
+  txn_date: '2026-01-08'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00431
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00681
+  sim_payment_id: payment-00681
+  sim_obligation_id: obligation-00431
+  sim_event_ids:
+  - event-03942
+- id: bpay-00717
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 96
+  txn_date: '2026-01-10'
+  amount: '10981.92'
+  applications:
+  - document_id: bill-00369
+    amount: '10981.92'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00717
+  sim_payment_id: payment-00717
+  sim_obligation_id: obligation-00402
+  sim_event_ids:
+  - event-04064
+- id: bpay-00752
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 99
+  txn_date: '2026-01-13'
+  amount: '2559.00'
+  applications:
+  - document_id: bill-00396
+    amount: '2559.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00752
+  sim_payment_id: payment-00752
+  sim_obligation_id: obligation-00420
+  sim_event_ids:
+  - event-04237
+- id: bpay-00767
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 99
+  txn_date: '2026-01-13'
+  amount: '90.00'
+  applications:
+  - document_id: bill-utilities-00477
+    amount: '90.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00767
+  sim_payment_id: payment-00767
+  sim_obligation_id: obligation-00477
+  sim_event_ids:
+  - event-04271
+- id: bpay-00768
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 99
+  txn_date: '2026-01-13'
+  amount: '18.00'
+  applications:
+  - document_id: bill-utilities-00478
+    amount: '18.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00768
+  sim_payment_id: payment-00768
+  sim_obligation_id: obligation-00478
+  sim_event_ids:
+  - event-04272
+- id: bpay-00771
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 100
+  txn_date: '2026-01-14'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00481
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00771
+  sim_payment_id: payment-00771
+  sim_obligation_id: obligation-00481
+  sim_event_ids:
+  - event-04306
+- id: bpay-00780
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 100
+  txn_date: '2026-01-14'
+  amount: '14023.32'
+  applications:
+  - document_id: bill-00399
+    amount: '14023.32'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00780
+  sim_payment_id: payment-00780
+  sim_obligation_id: obligation-00439
+  sim_event_ids:
+  - event-04312
+- id: bpay-00769
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 101
+  txn_date: '2026-01-15'
+  amount: '1826.03'
+  applications:
+  - document_id: bill-variable-services-00479
+    amount: '1826.03'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00769
+  sim_payment_id: payment-00769
+  sim_obligation_id: obligation-00479
+  sim_event_ids:
+  - event-04362
+- id: bpay-00840
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 106
+  txn_date: '2026-01-20'
+  amount: '9601.20'
+  applications:
+  - document_id: bill-00427
+    amount: '9601.20'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00840
+  sim_payment_id: payment-00840
+  sim_obligation_id: obligation-00471
+  sim_event_ids:
+  - event-04665
+- id: bpay-00856
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 107
+  txn_date: '2026-01-21'
+  amount: '90.00'
+  applications:
+  - document_id: bill-utilities-00530
+    amount: '90.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00856
+  sim_payment_id: payment-00856
+  sim_obligation_id: obligation-00530
+  sim_event_ids:
+  - event-04739
+- id: bpay-00857
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 108
+  txn_date: '2026-01-22'
+  amount: '18.00'
+  applications:
+  - document_id: bill-utilities-00531
+    amount: '18.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00857
+  sim_payment_id: payment-00857
+  sim_obligation_id: obligation-00531
+  sim_event_ids:
+  - event-04801
+- id: bpay-00858
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 108
+  txn_date: '2026-01-22'
+  amount: '2080.58'
+  applications:
+  - document_id: bill-variable-services-00532
+    amount: '2080.58'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00858
+  sim_payment_id: payment-00858
+  sim_obligation_id: obligation-00532
+  sim_event_ids:
+  - event-04802
+- id: bpay-00860
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 108
+  txn_date: '2026-01-22'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00534
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00860
+  sim_payment_id: payment-00860
+  sim_obligation_id: obligation-00534
+  sim_event_ids:
+  - event-04804
+- id: bpay-00946
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 113
+  txn_date: '2026-01-27'
+  amount: '76.75'
+  applications:
+  - document_id: bill-utilities-00582
+    amount: '76.75'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00946
+  sim_payment_id: payment-00946
+  sim_obligation_id: obligation-00582
+  sim_event_ids:
+  - event-05128
+- id: bpay-00950
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 113
+  txn_date: '2026-01-27'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00586
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00950
+  sim_payment_id: payment-00950
+  sim_obligation_id: obligation-00586
+  sim_event_ids:
+  - event-05129
+- id: bpay-00939
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 114
+  txn_date: '2026-01-28'
+  amount: '1727.86'
+  applications:
+  - document_id: bill-product-development-00575
+    amount: '1727.86'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00939
+  sim_payment_id: payment-00939
+  sim_obligation_id: obligation-00575
+  sim_event_ids:
+  - event-05171
+- id: bpay-00947
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 114
+  txn_date: '2026-01-28'
+  amount: '15.35'
+  applications:
+  - document_id: bill-utilities-00583
+    amount: '15.35'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00947
+  sim_payment_id: payment-00947
+  sim_obligation_id: obligation-00583
+  sim_event_ids:
+  - event-05173
+- id: bpay-00948
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 114
+  txn_date: '2026-01-28'
+  amount: '1794.83'
+  applications:
+  - document_id: bill-variable-services-00584
+    amount: '1794.83'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00948
+  sim_payment_id: payment-00948
+  sim_obligation_id: obligation-00584
+  sim_event_ids:
+  - event-05174
+- id: bpay-00940
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 115
+  txn_date: '2026-01-29'
+  amount: '360.00'
+  applications:
+  - document_id: bill-growth-00576
+    amount: '360.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-00940
+  sim_payment_id: payment-00940
+  sim_obligation_id: obligation-00576
+  sim_event_ids:
+  - event-05229
+- id: bpay-01013
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  amount: '6705.60'
+  applications:
+  - document_id: bill-00497
+    amount: '6705.60'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01013
+  sim_payment_id: payment-01013
+  sim_obligation_id: obligation-00574
+  sim_event_ids:
+  - event-05496
+- id: bpay-01034
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 120
+  txn_date: '2026-02-03'
+  amount: '12.68'
+  applications:
+  - document_id: bill-utilities-00627
+    amount: '12.68'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01034
+  sim_payment_id: payment-01034
+  sim_obligation_id: obligation-00627
+  sim_event_ids:
+  - event-05528
+- id: bpay-01035
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 121
+  txn_date: '2026-02-04'
+  amount: '1444.13'
+  applications:
+  - document_id: bill-variable-services-00628
+    amount: '1444.13'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01035
+  sim_payment_id: payment-01035
+  sim_obligation_id: obligation-00628
+  sim_event_ids:
+  - event-05561
+- id: bpay-01033
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 122
+  txn_date: '2026-02-05'
+  amount: '63.40'
+  applications:
+  - document_id: bill-utilities-00626
+    amount: '63.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01033
+  sim_payment_id: payment-01033
+  sim_obligation_id: obligation-00626
+  sim_event_ids:
+  - event-05605
+- id: bpay-01037
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 122
+  txn_date: '2026-02-05'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00630
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01037
+  sim_payment_id: payment-01037
+  sim_obligation_id: obligation-00630
+  sim_event_ids:
+  - event-05606
+- id: bpay-01053
+  vendor_id: vend-government
+  vendor_name: Copperfield Department of Revenue
+  txn_sim_day: 122
+  txn_date: '2026-02-05'
+  amount: '6640.89'
+  applications:
+  - document_id: bill-income-tax-00421
+    amount: '6640.89'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01053
+  sim_payment_id: payment-01053
+  sim_obligation_id: obligation-00421
+  sim_event_ids:
+  - event-05611
+- id: bpay-01080
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 125
+  txn_date: '2026-02-08'
+  amount: '5136.30'
+  applications:
+  - document_id: bill-00512
+    amount: '5136.30'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01080
+  sim_payment_id: payment-01080
+  sim_obligation_id: obligation-00618
+  sim_event_ids:
+  - event-05735
+- id: bpay-01109
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 127
+  txn_date: '2026-02-10'
+  amount: '63.00'
+  applications:
+  - document_id: bill-utilities-00669
+    amount: '63.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01109
+  sim_payment_id: payment-01109
+  sim_obligation_id: obligation-00669
+  sim_event_ids:
+  - event-05902
+- id: bpay-01113
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 127
+  txn_date: '2026-02-10'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00673
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01113
+  sim_payment_id: payment-01113
+  sim_obligation_id: obligation-00673
+  sim_event_ids:
+  - event-05903
+- id: bpay-01110
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 129
+  txn_date: '2026-02-12'
+  amount: '12.60'
+  applications:
+  - document_id: bill-utilities-00670
+    amount: '12.60'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01110
+  sim_payment_id: payment-01110
+  sim_obligation_id: obligation-00670
+  sim_event_ids:
+  - event-05971
+- id: bpay-01111
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 129
+  txn_date: '2026-02-12'
+  amount: '1461.91'
+  applications:
+  - document_id: bill-variable-services-00671
+    amount: '1461.91'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01111
+  sim_payment_id: payment-01111
+  sim_obligation_id: obligation-00671
+  sim_event_ids:
+  - event-05972
+- id: bpay-01118
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 129
+  txn_date: '2026-02-12'
+  amount: '5022.16'
+  applications:
+  - document_id: bill-00543
+    amount: '5022.16'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01118
+  sim_payment_id: payment-01118
+  sim_obligation_id: obligation-00640
+  sim_event_ids:
+  - event-05975
+- id: bpay-01152
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 132
+  txn_date: '2026-02-15'
+  amount: '4588.83'
+  applications:
+  - document_id: bill-00560
+    amount: '4588.83'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01152
+  sim_payment_id: payment-01152
+  sim_obligation_id: obligation-00659
+  sim_event_ids:
+  - event-06085
+- id: bpay-01178
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 134
+  txn_date: '2026-02-17'
+  amount: '50.75'
+  applications:
+  - document_id: bill-utilities-00706
+    amount: '50.75'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01178
+  sim_payment_id: payment-01178
+  sim_obligation_id: obligation-00706
+  sim_event_ids:
+  - event-06248
+- id: bpay-01179
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 135
+  txn_date: '2026-02-18'
+  amount: '10.15'
+  applications:
+  - document_id: bill-utilities-00707
+    amount: '10.15'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01179
+  sim_payment_id: payment-01179
+  sim_obligation_id: obligation-00707
+  sim_event_ids:
+  - event-06288
+- id: bpay-01182
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 135
+  txn_date: '2026-02-18'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00710
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01182
+  sim_payment_id: payment-01182
+  sim_obligation_id: obligation-00710
+  sim_event_ids:
+  - event-06290
+- id: bpay-01180
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 136
+  txn_date: '2026-02-19'
+  amount: '1140.96'
+  applications:
+  - document_id: bill-variable-services-00708
+    amount: '1140.96'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01180
+  sim_payment_id: payment-01180
+  sim_obligation_id: obligation-00708
+  sim_event_ids:
+  - event-06338
+- id: bpay-01219
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 137
+  txn_date: '2026-02-20'
+  amount: '4950.63'
+  applications:
+  - document_id: bill-00589
+    amount: '4950.63'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01219
+  sim_payment_id: payment-01219
+  sim_obligation_id: obligation-00696
+  sim_event_ids:
+  - event-06403
+- id: bpay-01229
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 138
+  txn_date: '2026-02-21'
+  amount: '5487.13'
+  applications:
+  - document_id: bill-00590
+    amount: '5487.13'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01229
+  sim_payment_id: payment-01229
+  sim_obligation_id: obligation-00698
+  sim_event_ids:
+  - event-06435
+- id: bpay-01258
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 142
+  txn_date: '2026-02-25'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00757
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01258
+  sim_payment_id: payment-01258
+  sim_obligation_id: obligation-00757
+  sim_event_ids:
+  - event-06667
+- id: bpay-01263
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 142
+  txn_date: '2026-02-25'
+  amount: '5624.08'
+  applications:
+  - document_id: bill-00616
+    amount: '5624.08'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01263
+  sim_payment_id: payment-01263
+  sim_obligation_id: obligation-00719
+  sim_event_ids:
+  - event-06669
+- id: bpay-01254
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 143
+  txn_date: '2026-02-26'
+  amount: '67.95'
+  applications:
+  - document_id: bill-utilities-00753
+    amount: '67.95'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01254
+  sim_payment_id: payment-01254
+  sim_obligation_id: obligation-00753
+  sim_event_ids:
+  - event-06710
+- id: bpay-01255
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 143
+  txn_date: '2026-02-26'
+  amount: '13.59'
+  applications:
+  - document_id: bill-utilities-00754
+    amount: '13.59'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01255
+  sim_payment_id: payment-01255
+  sim_obligation_id: obligation-00754
+  sim_event_ids:
+  - event-06711
+- id: bpay-01256
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 143
+  txn_date: '2026-02-26'
+  amount: '1613.11'
+  applications:
+  - document_id: bill-variable-services-00755
+    amount: '1613.11'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01256
+  sim_payment_id: payment-01256
+  sim_obligation_id: obligation-00755
+  sim_event_ids:
+  - event-06712
+- id: bpay-01330
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 148
+  txn_date: '2026-03-03'
+  amount: '1335.71'
+  applications:
+  - document_id: bill-variable-services-00796
+    amount: '1335.71'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01330
+  sim_payment_id: payment-01330
+  sim_obligation_id: obligation-00796
+  sim_event_ids:
+  - event-06980
+- id: bpay-01328
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 149
+  txn_date: '2026-03-04'
+  amount: '59.65'
+  applications:
+  - document_id: bill-utilities-00794
+    amount: '59.65'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01328
+  sim_payment_id: payment-01328
+  sim_obligation_id: obligation-00794
+  sim_event_ids:
+  - event-07005
+- id: bpay-01329
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 149
+  txn_date: '2026-03-04'
+  amount: '11.93'
+  applications:
+  - document_id: bill-utilities-00795
+    amount: '11.93'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01329
+  sim_payment_id: payment-01329
+  sim_obligation_id: obligation-00795
+  sim_event_ids:
+  - event-07006
+- id: bpay-01332
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00798
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01332
+  sim_payment_id: payment-01332
+  sim_obligation_id: obligation-00798
+  sim_event_ids:
+  - event-07051
+- id: bpay-01346
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 150
+  txn_date: '2026-03-05'
+  amount: '5523.65'
+  applications:
+  - document_id: bill-00654
+    amount: '5523.65'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01346
+  sim_payment_id: payment-01346
+  sim_obligation_id: obligation-00775
+  sim_event_ids:
+  - event-07057
+- id: bpay-01368
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 154
+  txn_date: '2026-03-09'
+  amount: '3967.74'
+  applications:
+  - document_id: bill-00653
+    amount: '3967.74'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01368
+  sim_payment_id: payment-01368
+  sim_obligation_id: obligation-00788
+  sim_event_ids:
+  - event-07230
+- id: bpay-01389
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 155
+  txn_date: '2026-03-10'
+  amount: '36.00'
+  applications:
+  - document_id: bill-utilities-00824
+    amount: '36.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01389
+  sim_payment_id: payment-01389
+  sim_obligation_id: obligation-00824
+  sim_event_ids:
+  - event-07329
+- id: bpay-01393
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 155
+  txn_date: '2026-03-10'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00828
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01393
+  sim_payment_id: payment-01393
+  sim_obligation_id: obligation-00828
+  sim_event_ids:
+  - event-07330
+- id: bpay-01390
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 156
+  txn_date: '2026-03-11'
+  amount: '7.20'
+  applications:
+  - document_id: bill-utilities-00825
+    amount: '7.20'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01390
+  sim_payment_id: payment-01390
+  sim_obligation_id: obligation-00825
+  sim_event_ids:
+  - event-07357
+- id: bpay-01391
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 156
+  txn_date: '2026-03-11'
+  amount: '873.76'
+  applications:
+  - document_id: bill-variable-services-00826
+    amount: '873.76'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01391
+  sim_payment_id: payment-01391
+  sim_obligation_id: obligation-00826
+  sim_event_ids:
+  - event-07358
+- id: bpay-01401
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 156
+  txn_date: '2026-03-11'
+  amount: '2048.00'
+  applications:
+  - document_id: bill-00676
+    amount: '2048.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01401
+  sim_payment_id: payment-01401
+  sim_obligation_id: obligation-00803
+  sim_event_ids:
+  - event-07361
+- id: bpay-01411
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  amount: '4710.40'
+  applications:
+  - document_id: bill-00680
+    amount: '4710.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01411
+  sim_payment_id: payment-01411
+  sim_obligation_id: obligation-00807
+  sim_event_ids:
+  - event-07492
+- id: bpay-01430
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 159
+  txn_date: '2026-03-14'
+  amount: '4311.45'
+  applications:
+  - document_id: bill-00704
+    amount: '4311.45'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01430
+  sim_payment_id: payment-01430
+  sim_obligation_id: obligation-00817
+  sim_event_ids:
+  - event-07503
+- id: bpay-01455
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 162
+  txn_date: '2026-03-17'
+  amount: '11.24'
+  applications:
+  - document_id: bill-utilities-00872
+    amount: '11.24'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01455
+  sim_payment_id: payment-01455
+  sim_obligation_id: obligation-00872
+  sim_event_ids:
+  - event-07701
+- id: bpay-01456
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 162
+  txn_date: '2026-03-17'
+  amount: '1457.52'
+  applications:
+  - document_id: bill-variable-services-00873
+    amount: '1457.52'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01456
+  sim_payment_id: payment-01456
+  sim_obligation_id: obligation-00873
+  sim_event_ids:
+  - event-07702
+- id: bpay-01454
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 163
+  txn_date: '2026-03-18'
+  amount: '56.20'
+  applications:
+  - document_id: bill-utilities-00871
+    amount: '56.20'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01454
+  sim_payment_id: payment-01454
+  sim_obligation_id: obligation-00871
+  sim_event_ids:
+  - event-07726
+- id: bpay-01458
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 164
+  txn_date: '2026-03-19'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00875
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01458
+  sim_payment_id: payment-01458
+  sim_obligation_id: obligation-00875
+  sim_event_ids:
+  - event-07771
+- id: bpay-01467
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 165
+  txn_date: '2026-03-20'
+  amount: '5776.00'
+  applications:
+  - document_id: bill-00719
+    amount: '5776.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01467
+  sim_payment_id: payment-01467
+  sim_obligation_id: obligation-00838
+  sim_event_ids:
+  - event-07819
+- id: bpay-01505
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 169
+  txn_date: '2026-03-24'
+  amount: '4457.88'
+  applications:
+  - document_id: bill-00744
+    amount: '4457.88'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01505
+  sim_payment_id: payment-01505
+  sim_obligation_id: obligation-00866
+  sim_event_ids:
+  - event-08046
+- id: bpay-01534
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 169
+  txn_date: '2026-03-24'
+  amount: '55.15'
+  applications:
+  - document_id: bill-utilities-00917
+    amount: '55.15'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01534
+  sim_payment_id: payment-01534
+  sim_obligation_id: obligation-00917
+  sim_event_ids:
+  - event-08082
+- id: bpay-01536
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 169
+  txn_date: '2026-03-24'
+  amount: '1451.75'
+  applications:
+  - document_id: bill-variable-services-00919
+    amount: '1451.75'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01536
+  sim_payment_id: payment-01536
+  sim_obligation_id: obligation-00919
+  sim_event_ids:
+  - event-08083
+- id: bpay-01538
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 169
+  txn_date: '2026-03-24'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00921
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01538
+  sim_payment_id: payment-01538
+  sim_obligation_id: obligation-00921
+  sim_event_ids:
+  - event-08085
+- id: bpay-01529
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 170
+  txn_date: '2026-03-25'
+  amount: '360.00'
+  applications:
+  - document_id: bill-growth-00912
+    amount: '360.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01529
+  sim_payment_id: payment-01529
+  sim_obligation_id: obligation-00912
+  sim_event_ids:
+  - event-08111
+- id: bpay-01528
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 171
+  txn_date: '2026-03-26'
+  amount: '1727.86'
+  applications:
+  - document_id: bill-product-development-00911
+    amount: '1727.86'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01528
+  sim_payment_id: payment-01528
+  sim_obligation_id: obligation-00911
+  sim_event_ids:
+  - event-08162
+- id: bpay-01535
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 171
+  txn_date: '2026-03-26'
+  amount: '11.03'
+  applications:
+  - document_id: bill-utilities-00918
+    amount: '11.03'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01535
+  sim_payment_id: payment-01535
+  sim_obligation_id: obligation-00918
+  sim_event_ids:
+  - event-08164
+- id: bpay-01587
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 175
+  txn_date: '2026-03-30'
+  amount: '3462.51'
+  applications:
+  - document_id: bill-00771
+    amount: '3462.51'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01587
+  sim_payment_id: payment-01587
+  sim_obligation_id: obligation-00909
+  sim_event_ids:
+  - event-08371
+- id: bpay-01588
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 176
+  txn_date: '2026-03-31'
+  amount: '4280.40'
+  applications:
+  - document_id: bill-00772
+    amount: '4280.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01588
+  sim_payment_id: payment-01588
+  sim_obligation_id: obligation-00910
+  sim_event_ids:
+  - event-08434
+- id: bpay-01616
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 176
+  txn_date: '2026-03-31'
+  amount: '49.25'
+  applications:
+  - document_id: bill-utilities-00962
+    amount: '49.25'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01616
+  sim_payment_id: payment-01616
+  sim_obligation_id: obligation-00962
+  sim_event_ids:
+  - event-08471
+- id: bpay-01617
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 176
+  txn_date: '2026-03-31'
+  amount: '9.85'
+  applications:
+  - document_id: bill-utilities-00963
+    amount: '9.85'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01617
+  sim_payment_id: payment-01617
+  sim_obligation_id: obligation-00963
+  sim_event_ids:
+  - event-08472
+- id: bpay-01620
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 176
+  txn_date: '2026-03-31'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-00966
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01620
+  sim_payment_id: payment-01620
+  sim_obligation_id: obligation-00966
+  sim_event_ids:
+  - event-08473
+- id: bpay-01618
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 178
+  txn_date: '2026-04-02'
+  amount: '1298.40'
+  applications:
+  - document_id: bill-variable-services-00964
+    amount: '1298.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01618
+  sim_payment_id: payment-01618
+  sim_obligation_id: obligation-00964
+  sim_event_ids:
+  - event-08548
+- id: bpay-01675
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 183
+  txn_date: '2026-04-07'
+  amount: '4833.72'
+  applications:
+  - document_id: bill-00815
+    amount: '4833.72'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01675
+  sim_payment_id: payment-01675
+  sim_obligation_id: obligation-00957
+  sim_event_ids:
+  - event-08827
+- id: bpay-01692
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 183
+  txn_date: '2026-04-07'
+  amount: '54.35'
+  applications:
+  - document_id: bill-utilities-01008
+    amount: '54.35'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01692
+  sim_payment_id: payment-01692
+  sim_obligation_id: obligation-01008
+  sim_event_ids:
+  - event-08863
+- id: bpay-01696
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 183
+  txn_date: '2026-04-07'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01012
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01696
+  sim_payment_id: payment-01696
+  sim_obligation_id: obligation-01012
+  sim_event_ids:
+  - event-08864
+- id: bpay-01703
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 184
+  txn_date: '2026-04-08'
+  amount: '2759.88'
+  applications:
+  - document_id: bill-00833
+    amount: '2759.88'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01703
+  sim_payment_id: payment-01703
+  sim_obligation_id: obligation-00976
+  sim_event_ids:
+  - event-08891
+- id: bpay-01693
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 185
+  txn_date: '2026-04-09'
+  amount: '10.87'
+  applications:
+  - document_id: bill-utilities-01009
+    amount: '10.87'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01693
+  sim_payment_id: payment-01693
+  sim_obligation_id: obligation-01009
+  sim_event_ids:
+  - event-08929
+- id: bpay-01694
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 185
+  txn_date: '2026-04-09'
+  amount: '1425.41'
+  applications:
+  - document_id: bill-variable-services-01010
+    amount: '1425.41'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01694
+  sim_payment_id: payment-01694
+  sim_obligation_id: obligation-01010
+  sim_event_ids:
+  - event-08930
+- id: bpay-01711
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 187
+  txn_date: '2026-04-11'
+  amount: '3182.50'
+  applications:
+  - document_id: bill-00826
+    amount: '3182.50'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01711
+  sim_payment_id: payment-01711
+  sim_obligation_id: obligation-00986
+  sim_event_ids:
+  - event-09016
+- id: bpay-01765
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 190
+  txn_date: '2026-04-14'
+  amount: '9.82'
+  applications:
+  - document_id: bill-utilities-01052
+    amount: '9.82'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01765
+  sim_payment_id: payment-01765
+  sim_obligation_id: obligation-01052
+  sim_event_ids:
+  - event-09237
+- id: bpay-01753
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 191
+  txn_date: '2026-04-15'
+  amount: '2953.56'
+  applications:
+  - document_id: bill-00861
+    amount: '2953.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01753
+  sim_payment_id: payment-01753
+  sim_obligation_id: obligation-01013
+  sim_event_ids:
+  - event-09263
+- id: bpay-01764
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 191
+  txn_date: '2026-04-15'
+  amount: '49.10'
+  applications:
+  - document_id: bill-utilities-01051
+    amount: '49.10'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01764
+  sim_payment_id: payment-01764
+  sim_obligation_id: obligation-01051
+  sim_event_ids:
+  - event-09266
+- id: bpay-01766
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 192
+  txn_date: '2026-04-16'
+  amount: '1339.77'
+  applications:
+  - document_id: bill-variable-services-01053
+    amount: '1339.77'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01766
+  sim_payment_id: payment-01766
+  sim_obligation_id: obligation-01053
+  sim_event_ids:
+  - event-09311
+- id: bpay-01768
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 192
+  txn_date: '2026-04-16'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01055
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01768
+  sim_payment_id: payment-01768
+  sim_obligation_id: obligation-01055
+  sim_event_ids:
+  - event-09312
+- id: bpay-01787
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 192
+  txn_date: '2026-04-16'
+  amount: '2584.00'
+  applications:
+  - document_id: bill-00866
+    amount: '2584.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01787
+  sim_payment_id: payment-01787
+  sim_obligation_id: obligation-01033
+  sim_event_ids:
+  - event-09321
+- id: bpay-01775
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 193
+  txn_date: '2026-04-17'
+  amount: '4637.22'
+  applications:
+  - document_id: bill-00867
+    amount: '4637.22'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01775
+  sim_payment_id: payment-01775
+  sim_obligation_id: obligation-01023
+  sim_event_ids:
+  - event-09353
+- id: bpay-01839
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 198
+  txn_date: '2026-04-22'
+  amount: '8.96'
+  applications:
+  - document_id: bill-utilities-01096
+    amount: '8.96'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01839
+  sim_payment_id: payment-01839
+  sim_obligation_id: obligation-01096
+  sim_event_ids:
+  - event-09638
+- id: bpay-01840
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 198
+  txn_date: '2026-04-22'
+  amount: '1162.66'
+  applications:
+  - document_id: bill-variable-services-01097
+    amount: '1162.66'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01840
+  sim_payment_id: payment-01840
+  sim_obligation_id: obligation-01097
+  sim_event_ids:
+  - event-09639
+- id: bpay-01838
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 199
+  txn_date: '2026-04-23'
+  amount: '44.80'
+  applications:
+  - document_id: bill-utilities-01095
+    amount: '44.80'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01838
+  sim_payment_id: payment-01838
+  sim_obligation_id: obligation-01095
+  sim_event_ids:
+  - event-09687
+- id: bpay-01842
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 199
+  txn_date: '2026-04-23'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01099
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01842
+  sim_payment_id: payment-01842
+  sim_obligation_id: obligation-01099
+  sim_event_ids:
+  - event-09688
+- id: bpay-01881
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 201
+  txn_date: '2026-04-25'
+  amount: '3116.00'
+  applications:
+  - document_id: bill-00904
+    amount: '3116.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01881
+  sim_payment_id: payment-01881
+  sim_obligation_id: obligation-01085
+  sim_event_ids:
+  - event-09783
+- id: bpay-01882
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 203
+  txn_date: '2026-04-27'
+  amount: '4506.90'
+  applications:
+  - document_id: bill-00905
+    amount: '4506.90'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01882
+  sim_payment_id: payment-01882
+  sim_obligation_id: obligation-01086
+  sim_event_ids:
+  - event-09889
+- id: bpay-01897
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 204
+  txn_date: '2026-04-28'
+  amount: '2575.40'
+  applications:
+  - document_id: bill-00918
+    amount: '2575.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01897
+  sim_payment_id: payment-01897
+  sim_obligation_id: obligation-01090
+  sim_event_ids:
+  - event-09951
+- id: bpay-01913
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 204
+  txn_date: '2026-04-28'
+  amount: '1342.03'
+  applications:
+  - document_id: bill-variable-services-01137
+    amount: '1342.03'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01913
+  sim_payment_id: payment-01913
+  sim_obligation_id: obligation-01137
+  sim_event_ids:
+  - event-09988
+- id: bpay-01911
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 205
+  txn_date: '2026-04-29'
+  amount: '50.35'
+  applications:
+  - document_id: bill-utilities-01135
+    amount: '50.35'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01911
+  sim_payment_id: payment-01911
+  sim_obligation_id: obligation-01135
+  sim_event_ids:
+  - event-10014
+- id: bpay-01912
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 205
+  txn_date: '2026-04-29'
+  amount: '10.07'
+  applications:
+  - document_id: bill-utilities-01136
+    amount: '10.07'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01912
+  sim_payment_id: payment-01912
+  sim_obligation_id: obligation-01136
+  sim_event_ids:
+  - event-10015
+- id: bpay-01915
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 205
+  txn_date: '2026-04-29'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01139
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01915
+  sim_payment_id: payment-01915
+  sim_obligation_id: obligation-01139
+  sim_event_ids:
+  - event-10016
+- id: bpay-01947
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 208
+  txn_date: '2026-05-02'
+  amount: '2614.52'
+  applications:
+  - document_id: bill-00950
+    amount: '2614.52'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01947
+  sim_payment_id: payment-01947
+  sim_obligation_id: obligation-01123
+  sim_event_ids:
+  - event-10156
+- id: bpay-01946
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 209
+  txn_date: '2026-05-03'
+  amount: '3695.50'
+  applications:
+  - document_id: bill-00939
+    amount: '3695.50'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01946
+  sim_payment_id: payment-01946
+  sim_obligation_id: obligation-01122
+  sim_event_ids:
+  - event-10193
+- id: bpay-01982
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 211
+  txn_date: '2026-05-05'
+  amount: '44.55'
+  applications:
+  - document_id: bill-utilities-01177
+    amount: '44.55'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01982
+  sim_payment_id: payment-01982
+  sim_obligation_id: obligation-01177
+  sim_event_ids:
+  - event-10356
+- id: bpay-01986
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 211
+  txn_date: '2026-05-05'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01181
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01986
+  sim_payment_id: payment-01986
+  sim_obligation_id: obligation-01181
+  sim_event_ids:
+  - event-10357
+- id: bpay-01983
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 212
+  txn_date: '2026-05-06'
+  amount: '8.91'
+  applications:
+  - document_id: bill-utilities-01178
+    amount: '8.91'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01983
+  sim_payment_id: payment-01983
+  sim_obligation_id: obligation-01178
+  sim_event_ids:
+  - event-10382
+- id: bpay-01984
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 213
+  txn_date: '2026-05-07'
+  amount: '1191.74'
+  applications:
+  - document_id: bill-variable-services-01179
+    amount: '1191.74'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01984
+  sim_payment_id: payment-01984
+  sim_obligation_id: obligation-01179
+  sim_event_ids:
+  - event-10428
+- id: bpay-01991
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 213
+  txn_date: '2026-05-07'
+  amount: '3534.00'
+  applications:
+  - document_id: bill-00972
+    amount: '3534.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-01991
+  sim_payment_id: payment-01991
+  sim_obligation_id: obligation-01147
+  sim_event_ids:
+  - event-10431
+- id: bpay-02005
+  vendor_id: vend-government
+  vendor_name: Copperfield Department of Revenue
+  txn_sim_day: 213
+  txn_date: '2026-05-07'
+  amount: '6308.88'
+  applications:
+  - document_id: bill-income-tax-01003
+    amount: '6308.88'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02005
+  sim_payment_id: payment-02005
+  sim_obligation_id: obligation-01003
+  sim_event_ids:
+  - event-10433
+- id: bpay-02009
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  amount: '1792.50'
+  applications:
+  - document_id: bill-00967
+    amount: '1792.50'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02009
+  sim_payment_id: payment-02009
+  sim_obligation_id: obligation-01159
+  sim_event_ids:
+  - event-10527
+- id: bpay-02017
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 215
+  txn_date: '2026-05-09'
+  amount: '3562.08'
+  applications:
+  - document_id: bill-00973
+    amount: '3562.08'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02017
+  sim_payment_id: payment-02017
+  sim_obligation_id: obligation-01165
+  sim_event_ids:
+  - event-10530
+- id: bpay-02045
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 218
+  txn_date: '2026-05-12'
+  amount: '2503.68'
+  applications:
+  - document_id: bill-00996
+    amount: '2503.68'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02045
+  sim_payment_id: payment-02045
+  sim_obligation_id: obligation-01182
+  sim_event_ids:
+  - event-10693
+- id: bpay-02052
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 218
+  txn_date: '2026-05-12'
+  amount: '38.90'
+  applications:
+  - document_id: bill-utilities-01216
+    amount: '38.90'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02052
+  sim_payment_id: payment-02052
+  sim_obligation_id: obligation-01216
+  sim_event_ids:
+  - event-10718
+- id: bpay-02056
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 219
+  txn_date: '2026-05-13'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01220
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02056
+  sim_payment_id: payment-02056
+  sim_obligation_id: obligation-01220
+  sim_event_ids:
+  - event-10745
+- id: bpay-02053
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 220
+  txn_date: '2026-05-14'
+  amount: '7.78'
+  applications:
+  - document_id: bill-utilities-01217
+    amount: '7.78'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02053
+  sim_payment_id: payment-02053
+  sim_obligation_id: obligation-01217
+  sim_event_ids:
+  - event-10806
+- id: bpay-02054
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 220
+  txn_date: '2026-05-14'
+  amount: '1009.83'
+  applications:
+  - document_id: bill-variable-services-01218
+    amount: '1009.83'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02054
+  sim_payment_id: payment-02054
+  sim_obligation_id: obligation-01218
+  sim_event_ids:
+  - event-10807
+- id: bpay-02108
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 224
+  txn_date: '2026-05-18'
+  amount: '2790.56'
+  applications:
+  - document_id: bill-01025
+    amount: '2790.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02108
+  sim_payment_id: payment-02108
+  sim_obligation_id: obligation-01211
+  sim_event_ids:
+  - event-11027
+- id: bpay-02128
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 225
+  txn_date: '2026-05-19'
+  amount: '9.60'
+  applications:
+  - document_id: bill-utilities-01264
+    amount: '9.60'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02128
+  sim_payment_id: payment-02128
+  sim_obligation_id: obligation-01264
+  sim_event_ids:
+  - event-11125
+- id: bpay-02131
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 225
+  txn_date: '2026-05-19'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01267
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02131
+  sim_payment_id: payment-02131
+  sim_obligation_id: obligation-01267
+  sim_event_ids:
+  - event-11126
+- id: bpay-02109
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  amount: '1332.85'
+  applications:
+  - document_id: bill-01026
+    amount: '1332.85'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02109
+  sim_payment_id: payment-02109
+  sim_obligation_id: obligation-01212
+  sim_event_ids:
+  - event-11155
+- id: bpay-02115
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  amount: '2767.50'
+  applications:
+  - document_id: bill-01038
+    amount: '2767.50'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02115
+  sim_payment_id: payment-02115
+  sim_obligation_id: obligation-01221
+  sim_event_ids:
+  - event-11156
+- id: bpay-02122
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  amount: '1727.86'
+  applications:
+  - document_id: bill-product-development-01258
+    amount: '1727.86'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02122
+  sim_payment_id: payment-02122
+  sim_obligation_id: obligation-01258
+  sim_event_ids:
+  - event-11159
+- id: bpay-02123
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  amount: '180.00'
+  applications:
+  - document_id: bill-growth-01259
+    amount: '180.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02123
+  sim_payment_id: payment-02123
+  sim_obligation_id: obligation-01259
+  sim_event_ids:
+  - event-11160
+- id: bpay-02127
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 226
+  txn_date: '2026-05-20'
+  amount: '48.00'
+  applications:
+  - document_id: bill-utilities-01263
+    amount: '48.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02127
+  sim_payment_id: payment-02127
+  sim_obligation_id: obligation-01263
+  sim_event_ids:
+  - event-11161
+- id: bpay-02129
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 227
+  txn_date: '2026-05-21'
+  amount: '1319.99'
+  applications:
+  - document_id: bill-variable-services-01265
+    amount: '1319.99'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02129
+  sim_payment_id: payment-02129
+  sim_obligation_id: obligation-01265
+  sim_event_ids:
+  - event-11211
+- id: bpay-02153
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 227
+  txn_date: '2026-05-21'
+  amount: '2039.84'
+  applications:
+  - document_id: bill-01054
+    amount: '2039.84'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02153
+  sim_payment_id: payment-02153
+  sim_obligation_id: obligation-01236
+  sim_event_ids:
+  - event-11220
+- id: bpay-02183
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 231
+  txn_date: '2026-05-25'
+  amount: '2984.52'
+  applications:
+  - document_id: bill-01071
+    amount: '2984.52'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02183
+  sim_payment_id: payment-02183
+  sim_obligation_id: obligation-01257
+  sim_event_ids:
+  - event-11415
+- id: bpay-02182
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 232
+  txn_date: '2026-05-26'
+  amount: '2738.40'
+  applications:
+  - document_id: bill-01070
+    amount: '2738.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02182
+  sim_payment_id: payment-02182
+  sim_obligation_id: obligation-01256
+  sim_event_ids:
+  - event-11479
+- id: bpay-02205
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 232
+  txn_date: '2026-05-26'
+  amount: '8.53'
+  applications:
+  - document_id: bill-utilities-01305
+    amount: '8.53'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02205
+  sim_payment_id: payment-02205
+  sim_obligation_id: obligation-01305
+  sim_event_ids:
+  - event-11516
+- id: bpay-02204
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 234
+  txn_date: '2026-05-28'
+  amount: '42.65'
+  applications:
+  - document_id: bill-utilities-01304
+    amount: '42.65'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02204
+  sim_payment_id: payment-02204
+  sim_obligation_id: obligation-01304
+  sim_event_ids:
+  - event-11584
+- id: bpay-02206
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 234
+  txn_date: '2026-05-28'
+  amount: '1295.08'
+  applications:
+  - document_id: bill-variable-services-01306
+    amount: '1295.08'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02206
+  sim_payment_id: payment-02206
+  sim_obligation_id: obligation-01306
+  sim_event_ids:
+  - event-11585
+- id: bpay-02208
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 234
+  txn_date: '2026-05-28'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01308
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02208
+  sim_payment_id: payment-02208
+  sim_obligation_id: obligation-01308
+  sim_event_ids:
+  - event-11586
+- id: bpay-02216
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 234
+  txn_date: '2026-05-28'
+  amount: '1854.40'
+  applications:
+  - document_id: bill-01087
+    amount: '1854.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02216
+  sim_payment_id: payment-02216
+  sim_obligation_id: obligation-01277
+  sim_event_ids:
+  - event-11590
+- id: bpay-02231
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 235
+  txn_date: '2026-05-29'
+  amount: '2712.15'
+  applications:
+  - document_id: bill-01081
+    amount: '2712.15'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02231
+  sim_payment_id: payment-02231
+  sim_obligation_id: obligation-01286
+  sim_event_ids:
+  - event-11630
+- id: bpay-02257
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 237
+  txn_date: '2026-05-31'
+  amount: '2874.32'
+  applications:
+  - document_id: bill-01106
+    amount: '2874.32'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02257
+  sim_payment_id: payment-02257
+  sim_obligation_id: obligation-01300
+  sim_event_ids:
+  - event-11716
+- id: bpay-02281
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 239
+  txn_date: '2026-06-02'
+  amount: '36.25'
+  applications:
+  - document_id: bill-utilities-01343
+    amount: '36.25'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02281
+  sim_payment_id: payment-02281
+  sim_obligation_id: obligation-01343
+  sim_event_ids:
+  - event-11882
+- id: bpay-02285
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 240
+  txn_date: '2026-06-03'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01347
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02285
+  sim_payment_id: payment-02285
+  sim_obligation_id: obligation-01347
+  sim_event_ids:
+  - event-11907
+- id: bpay-02282
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 241
+  txn_date: '2026-06-04'
+  amount: '7.25'
+  applications:
+  - document_id: bill-utilities-01344
+    amount: '7.25'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02282
+  sim_payment_id: payment-02282
+  sim_obligation_id: obligation-01344
+  sim_event_ids:
+  - event-11970
+- id: bpay-02283
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 241
+  txn_date: '2026-06-04'
+  amount: '965.74'
+  applications:
+  - document_id: bill-variable-services-01345
+    amount: '965.74'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02283
+  sim_payment_id: payment-02283
+  sim_obligation_id: obligation-01345
+  sim_event_ids:
+  - event-11971
+- id: bpay-02288
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 241
+  txn_date: '2026-06-04'
+  amount: '1976.76'
+  applications:
+  - document_id: bill-01122
+    amount: '1976.76'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02288
+  sim_payment_id: payment-02288
+  sim_obligation_id: obligation-01319
+  sim_event_ids:
+  - event-11973
+- id: bpay-02339
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 245
+  txn_date: '2026-06-08'
+  amount: '2014.74'
+  applications:
+  - document_id: bill-01148
+    amount: '2014.74'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02339
+  sim_payment_id: payment-02339
+  sim_obligation_id: obligation-01339
+  sim_event_ids:
+  - event-12166
+- id: bpay-02354
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 246
+  txn_date: '2026-06-09'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01392
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02354
+  sim_payment_id: payment-02354
+  sim_obligation_id: obligation-01392
+  sim_event_ids:
+  - event-12260
+- id: bpay-02350
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  amount: '42.25'
+  applications:
+  - document_id: bill-utilities-01388
+    amount: '42.25'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02350
+  sim_payment_id: payment-02350
+  sim_obligation_id: obligation-01388
+  sim_event_ids:
+  - event-12287
+- id: bpay-02358
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 247
+  txn_date: '2026-06-10'
+  amount: '2470.95'
+  applications:
+  - document_id: bill-01165
+    amount: '2470.95'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02358
+  sim_payment_id: payment-02358
+  sim_obligation_id: obligation-01356
+  sim_event_ids:
+  - event-12291
+- id: bpay-02343
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 248
+  txn_date: '2026-06-11'
+  amount: '3534.95'
+  applications:
+  - document_id: bill-01149
+    amount: '3534.95'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02343
+  sim_payment_id: payment-02343
+  sim_obligation_id: obligation-01348
+  sim_event_ids:
+  - event-12348
+- id: bpay-02351
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 248
+  txn_date: '2026-06-11'
+  amount: '8.45'
+  applications:
+  - document_id: bill-utilities-01389
+    amount: '8.45'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02351
+  sim_payment_id: payment-02351
+  sim_obligation_id: obligation-01389
+  sim_event_ids:
+  - event-12350
+- id: bpay-02352
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 248
+  txn_date: '2026-06-11'
+  amount: '1270.56'
+  applications:
+  - document_id: bill-variable-services-01390
+    amount: '1270.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02352
+  sim_payment_id: payment-02352
+  sim_obligation_id: obligation-01390
+  sim_event_ids:
+  - event-12351
+- id: bpay-02369
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 248
+  txn_date: '2026-06-11'
+  amount: '2275.48'
+  applications:
+  - document_id: bill-01158
+    amount: '2275.48'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02369
+  sim_payment_id: payment-02369
+  sim_obligation_id: obligation-01365
+  sim_event_ids:
+  - event-12355
+- id: bpay-02417
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 252
+  txn_date: '2026-06-15'
+  amount: '2455.04'
+  applications:
+  - document_id: bill-01182
+    amount: '2455.04'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02417
+  sim_payment_id: payment-02417
+  sim_obligation_id: obligation-01384
+  sim_event_ids:
+  - event-12577
+- id: bpay-02421
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 253
+  txn_date: '2026-06-16'
+  amount: '180.00'
+  applications:
+  - document_id: bill-growth-01433
+    amount: '180.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02421
+  sim_payment_id: payment-02421
+  sim_obligation_id: obligation-01433
+  sim_event_ids:
+  - event-12657
+- id: bpay-02425
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 254
+  txn_date: '2026-06-17'
+  amount: '50.30'
+  applications:
+  - document_id: bill-utilities-01437
+    amount: '50.30'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02425
+  sim_payment_id: payment-02425
+  sim_obligation_id: obligation-01437
+  sim_event_ids:
+  - event-12681
+- id: bpay-02426
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 254
+  txn_date: '2026-06-17'
+  amount: '10.06'
+  applications:
+  - document_id: bill-utilities-01438
+    amount: '10.06'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02426
+  sim_payment_id: payment-02426
+  sim_obligation_id: obligation-01438
+  sim_event_ids:
+  - event-12682
+- id: bpay-02429
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 254
+  txn_date: '2026-06-17'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01441
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02429
+  sim_payment_id: payment-02429
+  sim_obligation_id: obligation-01441
+  sim_event_ids:
+  - event-12683
+- id: bpay-02432
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 254
+  txn_date: '2026-06-17'
+  amount: '4036.56'
+  applications:
+  - document_id: bill-01198
+    amount: '4036.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02432
+  sim_payment_id: payment-02432
+  sim_obligation_id: obligation-01401
+  sim_event_ids:
+  - event-12685
+- id: bpay-02427
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 255
+  txn_date: '2026-06-18'
+  amount: '1479.58'
+  applications:
+  - document_id: bill-variable-services-01439
+    amount: '1479.58'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02427
+  sim_payment_id: payment-02427
+  sim_obligation_id: obligation-01439
+  sim_event_ids:
+  - event-12732
+- id: bpay-02433
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 256
+  txn_date: '2026-06-19'
+  amount: '2234.47'
+  applications:
+  - document_id: bill-01201
+    amount: '2234.47'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02433
+  sim_payment_id: payment-02433
+  sim_obligation_id: obligation-01402
+  sim_event_ids:
+  - event-12770
+- id: bpay-02487
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  amount: '2805.76'
+  applications:
+  - document_id: bill-01224
+    amount: '2805.76'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02487
+  sim_payment_id: payment-02487
+  sim_obligation_id: obligation-01432
+  sim_event_ids:
+  - event-13040
+- id: bpay-02496
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  amount: '6.79'
+  applications:
+  - document_id: bill-utilities-01475
+    amount: '6.79'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02496
+  sim_payment_id: payment-02496
+  sim_obligation_id: obligation-01475
+  sim_event_ids:
+  - event-13044
+- id: bpay-02497
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  amount: '950.79'
+  applications:
+  - document_id: bill-variable-services-01476
+    amount: '950.79'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02497
+  sim_payment_id: payment-02497
+  sim_obligation_id: obligation-01476
+  sim_event_ids:
+  - event-13045
+- id: bpay-02499
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 261
+  txn_date: '2026-06-24'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01478
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02499
+  sim_payment_id: payment-02499
+  sim_obligation_id: obligation-01478
+  sim_event_ids:
+  - event-13046
+- id: bpay-02495
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 262
+  txn_date: '2026-06-25'
+  amount: '33.95'
+  applications:
+  - document_id: bill-utilities-01474
+    amount: '33.95'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02495
+  sim_payment_id: payment-02495
+  sim_obligation_id: obligation-01474
+  sim_event_ids:
+  - event-13085
+- id: bpay-02505
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 262
+  txn_date: '2026-06-25'
+  amount: '3969.84'
+  applications:
+  - document_id: bill-01227
+    amount: '3969.84'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02505
+  sim_payment_id: payment-02505
+  sim_obligation_id: obligation-01450
+  sim_event_ids:
+  - event-13088
+- id: bpay-02536
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 264
+  txn_date: '2026-06-27'
+  amount: '1554.95'
+  applications:
+  - document_id: bill-01242
+    amount: '1554.95'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02536
+  sim_payment_id: payment-02536
+  sim_obligation_id: obligation-01464
+  sim_event_ids:
+  - event-13187
+- id: bpay-02557
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 267
+  txn_date: '2026-06-30'
+  amount: '1639.20'
+  applications:
+  - document_id: bill-01262
+    amount: '1639.20'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02557
+  sim_payment_id: payment-02557
+  sim_obligation_id: obligation-01479
+  sim_event_ids:
+  - event-13374
+- id: bpay-02565
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 267
+  txn_date: '2026-06-30'
+  amount: '6.46'
+  applications:
+  - document_id: bill-utilities-01512
+    amount: '6.46'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02565
+  sim_payment_id: payment-02565
+  sim_obligation_id: obligation-01512
+  sim_event_ids:
+  - event-13402
+- id: bpay-02566
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 267
+  txn_date: '2026-06-30'
+  amount: '912.99'
+  applications:
+  - document_id: bill-variable-services-01513
+    amount: '912.99'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02566
+  sim_payment_id: payment-02566
+  sim_obligation_id: obligation-01513
+  sim_event_ids:
+  - event-13403
+- id: bpay-02568
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 267
+  txn_date: '2026-06-30'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01515
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02568
+  sim_payment_id: payment-02568
+  sim_obligation_id: obligation-01515
+  sim_event_ids:
+  - event-13404
+- id: bpay-02564
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  amount: '32.30'
+  applications:
+  - document_id: bill-utilities-01511
+    amount: '32.30'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02564
+  sim_payment_id: payment-02564
+  sim_obligation_id: obligation-01511
+  sim_event_ids:
+  - event-13468
+- id: bpay-02594
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 269
+  txn_date: '2026-07-02'
+  amount: '2246.80'
+  applications:
+  - document_id: bill-01273
+    amount: '2246.80'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02594
+  sim_payment_id: payment-02594
+  sim_obligation_id: obligation-01495
+  sim_event_ids:
+  - event-13477
+- id: bpay-02601
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 272
+  txn_date: '2026-07-05'
+  amount: '1924.85'
+  applications:
+  - document_id: bill-01272
+    amount: '1924.85'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02601
+  sim_payment_id: payment-02601
+  sim_obligation_id: obligation-01500
+  sim_event_ids:
+  - event-13589
+- id: bpay-02635
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 274
+  txn_date: '2026-07-07'
+  amount: '6.69'
+  applications:
+  - document_id: bill-utilities-01552
+    amount: '6.69'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02635
+  sim_payment_id: payment-02635
+  sim_obligation_id: obligation-01552
+  sim_event_ids:
+  - event-13770
+- id: bpay-02634
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 276
+  txn_date: '2026-07-09'
+  amount: '33.45'
+  applications:
+  - document_id: bill-utilities-01551
+    amount: '33.45'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02634
+  sim_payment_id: payment-02634
+  sim_obligation_id: obligation-01551
+  sim_event_ids:
+  - event-13854
+- id: bpay-02636
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 276
+  txn_date: '2026-07-09'
+  amount: '1060.93'
+  applications:
+  - document_id: bill-variable-services-01553
+    amount: '1060.93'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02636
+  sim_payment_id: payment-02636
+  sim_obligation_id: obligation-01553
+  sim_event_ids:
+  - event-13855
+- id: bpay-02638
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 276
+  txn_date: '2026-07-09'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01555
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02638
+  sim_payment_id: payment-02638
+  sim_obligation_id: obligation-01555
+  sim_event_ids:
+  - event-13857
+- id: bpay-02646
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 277
+  txn_date: '2026-07-10'
+  amount: '1793.33'
+  applications:
+  - document_id: bill-01303
+    amount: '1793.33'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02646
+  sim_payment_id: payment-02646
+  sim_obligation_id: obligation-01526
+  sim_event_ids:
+  - event-13895
+- id: bpay-02661
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 277
+  txn_date: '2026-07-10'
+  amount: '3091.36'
+  applications:
+  - document_id: bill-01304
+    amount: '3091.36'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02661
+  sim_payment_id: payment-02661
+  sim_obligation_id: obligation-01535
+  sim_event_ids:
+  - event-13900
+- id: bpay-02672
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 278
+  txn_date: '2026-07-11'
+  amount: '1734.82'
+  applications:
+  - document_id: bill-01309
+    amount: '1734.82'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02672
+  sim_payment_id: payment-02672
+  sim_obligation_id: obligation-01541
+  sim_event_ids:
+  - event-13943
+- id: bpay-02671
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 279
+  txn_date: '2026-07-12'
+  amount: '2663.28'
+  applications:
+  - document_id: bill-01308
+    amount: '2663.28'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02671
+  sim_payment_id: payment-02671
+  sim_obligation_id: obligation-01540
+  sim_event_ids:
+  - event-13973
+- id: bpay-02712
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 281
+  txn_date: '2026-07-14'
+  amount: '1089.52'
+  applications:
+  - document_id: bill-variable-services-01599
+    amount: '1089.52'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02712
+  sim_payment_id: payment-02712
+  sim_obligation_id: obligation-01599
+  sim_event_ids:
+  - event-14155
+- id: bpay-02706
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 282
+  txn_date: '2026-07-15'
+  amount: '180.00'
+  applications:
+  - document_id: bill-growth-01593
+    amount: '180.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02706
+  sim_payment_id: payment-02706
+  sim_obligation_id: obligation-01593
+  sim_event_ids:
+  - event-14182
+- id: bpay-02714
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 282
+  txn_date: '2026-07-15'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01601
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02714
+  sim_payment_id: payment-02714
+  sim_obligation_id: obligation-01601
+  sim_event_ids:
+  - event-14184
+- id: bpay-02705
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 283
+  txn_date: '2026-07-16'
+  amount: '1727.86'
+  applications:
+  - document_id: bill-product-development-01592
+    amount: '1727.86'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02705
+  sim_payment_id: payment-02705
+  sim_obligation_id: obligation-01592
+  sim_event_ids:
+  - event-14239
+- id: bpay-02710
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 283
+  txn_date: '2026-07-16'
+  amount: '36.55'
+  applications:
+  - document_id: bill-utilities-01597
+    amount: '36.55'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02710
+  sim_payment_id: payment-02710
+  sim_obligation_id: obligation-01597
+  sim_event_ids:
+  - event-14241
+- id: bpay-02711
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 283
+  txn_date: '2026-07-16'
+  amount: '7.31'
+  applications:
+  - document_id: bill-utilities-01598
+    amount: '7.31'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02711
+  sim_payment_id: payment-02711
+  sim_obligation_id: obligation-01598
+  sim_event_ids:
+  - event-14242
+- id: bpay-02746
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 284
+  txn_date: '2026-07-17'
+  amount: '1261.60'
+  applications:
+  - document_id: bill-01357
+    amount: '1261.60'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02746
+  sim_payment_id: payment-02746
+  sim_obligation_id: obligation-01585
+  sim_event_ids:
+  - event-14297
+- id: bpay-02744
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 286
+  txn_date: '2026-07-19'
+  amount: '1711.50'
+  applications:
+  - document_id: bill-01346
+    amount: '1711.50'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02744
+  sim_payment_id: payment-02744
+  sim_obligation_id: obligation-01583
+  sim_event_ids:
+  - event-14365
+- id: bpay-02745
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 286
+  txn_date: '2026-07-19'
+  amount: '1968.40'
+  applications:
+  - document_id: bill-01347
+    amount: '1968.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02745
+  sim_payment_id: payment-02745
+  sim_obligation_id: obligation-01584
+  sim_event_ids:
+  - event-14366
+- id: bpay-02789
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 288
+  txn_date: '2026-07-21'
+  amount: '38.40'
+  applications:
+  - document_id: bill-utilities-01642
+    amount: '38.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02789
+  sim_payment_id: payment-02789
+  sim_obligation_id: obligation-01642
+  sim_event_ids:
+  - event-14540
+- id: bpay-02790
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 288
+  txn_date: '2026-07-21'
+  amount: '7.68'
+  applications:
+  - document_id: bill-utilities-01643
+    amount: '7.68'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02790
+  sim_payment_id: payment-02790
+  sim_obligation_id: obligation-01643
+  sim_event_ids:
+  - event-14541
+- id: bpay-02791
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 288
+  txn_date: '2026-07-21'
+  amount: '1218.40'
+  applications:
+  - document_id: bill-variable-services-01644
+    amount: '1218.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02791
+  sim_payment_id: payment-02791
+  sim_obligation_id: obligation-01644
+  sim_event_ids:
+  - event-14542
+- id: bpay-02793
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 288
+  txn_date: '2026-07-21'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01646
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02793
+  sim_payment_id: payment-02793
+  sim_obligation_id: obligation-01646
+  sim_event_ids:
+  - event-14544
+- id: bpay-02780
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 290
+  txn_date: '2026-07-23'
+  amount: '2122.47'
+  applications:
+  - document_id: bill-01378
+    amount: '2122.47'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02780
+  sim_payment_id: payment-02780
+  sim_obligation_id: obligation-01602
+  sim_event_ids:
+  - event-14624
+- id: bpay-02819
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 291
+  txn_date: '2026-07-24'
+  amount: '1354.56'
+  applications:
+  - document_id: bill-01384
+    amount: '1354.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02819
+  sim_payment_id: payment-02819
+  sim_obligation_id: obligation-01627
+  sim_event_ids:
+  - event-14682
+- id: bpay-02820
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  amount: '1991.23'
+  applications:
+  - document_id: bill-01385
+    amount: '1991.23'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02820
+  sim_payment_id: payment-02820
+  sim_obligation_id: obligation-01628
+  sim_event_ids:
+  - event-14734
+- id: bpay-02829
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 292
+  txn_date: '2026-07-25'
+  amount: '1869.98'
+  applications:
+  - document_id: bill-01388
+    amount: '1869.98'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02829
+  sim_payment_id: payment-02829
+  sim_obligation_id: obligation-01634
+  sim_event_ids:
+  - event-14738
+- id: bpay-02870
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 295
+  txn_date: '2026-07-28'
+  amount: '1012.75'
+  applications:
+  - document_id: bill-variable-services-01690
+    amount: '1012.75'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02870
+  sim_payment_id: payment-02870
+  sim_obligation_id: obligation-01690
+  sim_event_ids:
+  - event-14948
+- id: bpay-02868
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 296
+  txn_date: '2026-07-29'
+  amount: '33.25'
+  applications:
+  - document_id: bill-utilities-01688
+    amount: '33.25'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02868
+  sim_payment_id: payment-02868
+  sim_obligation_id: obligation-01688
+  sim_event_ids:
+  - event-14981
+- id: bpay-02869
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 296
+  txn_date: '2026-07-29'
+  amount: '6.65'
+  applications:
+  - document_id: bill-utilities-01689
+    amount: '6.65'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02869
+  sim_payment_id: payment-02869
+  sim_obligation_id: obligation-01689
+  sim_event_ids:
+  - event-14982
+- id: bpay-02872
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 296
+  txn_date: '2026-07-29'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01692
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02872
+  sim_payment_id: payment-02872
+  sim_obligation_id: obligation-01692
+  sim_event_ids:
+  - event-14983
+- id: bpay-02880
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 296
+  txn_date: '2026-07-29'
+  amount: '2014.25'
+  applications:
+  - document_id: bill-01417
+    amount: '2014.25'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02880
+  sim_payment_id: payment-02880
+  sim_obligation_id: obligation-01661
+  sim_event_ids:
+  - event-14985
+- id: bpay-02857
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 297
+  txn_date: '2026-07-30'
+  amount: '2141.82'
+  applications:
+  - document_id: bill-01411
+    amount: '2141.82'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02857
+  sim_payment_id: payment-02857
+  sim_obligation_id: obligation-01647
+  sim_event_ids:
+  - event-15026
+- id: bpay-02924
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 300
+  txn_date: '2026-08-02'
+  amount: '1605.89'
+  applications:
+  - document_id: bill-01444
+    amount: '1605.89'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02924
+  sim_payment_id: payment-02924
+  sim_obligation_id: obligation-01684
+  sim_event_ids:
+  - event-15174
+- id: bpay-02910
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 301
+  txn_date: '2026-08-03'
+  amount: '2362.08'
+  applications:
+  - document_id: bill-01436
+    amount: '2362.08'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02910
+  sim_payment_id: payment-02910
+  sim_obligation_id: obligation-01676
+  sim_event_ids:
+  - event-15248
+- id: bpay-02943
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 302
+  txn_date: '2026-08-04'
+  amount: '38.20'
+  applications:
+  - document_id: bill-utilities-01734
+    amount: '38.20'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02943
+  sim_payment_id: payment-02943
+  sim_obligation_id: obligation-01734
+  sim_event_ids:
+  - event-15343
+- id: bpay-02944
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 302
+  txn_date: '2026-08-04'
+  amount: '7.64'
+  applications:
+  - document_id: bill-utilities-01735
+    amount: '7.64'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02944
+  sim_payment_id: payment-02944
+  sim_obligation_id: obligation-01735
+  sim_event_ids:
+  - event-15344
+- id: bpay-02936
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 303
+  txn_date: '2026-08-05'
+  amount: '1261.60'
+  applications:
+  - document_id: bill-01449
+    amount: '1261.60'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02936
+  sim_payment_id: payment-02936
+  sim_obligation_id: obligation-01693
+  sim_event_ids:
+  - event-15377
+- id: bpay-02947
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 303
+  txn_date: '2026-08-05'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01738
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02947
+  sim_payment_id: payment-02947
+  sim_obligation_id: obligation-01738
+  sim_event_ids:
+  - event-15380
+- id: bpay-02945
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 304
+  txn_date: '2026-08-06'
+  amount: '1238.42'
+  applications:
+  - document_id: bill-variable-services-01736
+    amount: '1238.42'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02945
+  sim_payment_id: payment-02945
+  sim_obligation_id: obligation-01736
+  sim_event_ids:
+  - event-15423
+- id: bpay-02968
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 305
+  txn_date: '2026-08-07'
+  amount: '1760.40'
+  applications:
+  - document_id: bill-01458
+    amount: '1760.40'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02968
+  sim_payment_id: payment-02968
+  sim_obligation_id: obligation-01710
+  sim_event_ids:
+  - event-15482
+- id: bpay-02965
+  vendor_id: vend-government
+  vendor_name: Copperfield Department of Revenue
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  amount: '4957.71'
+  applications:
+  - document_id: bill-income-tax-01547
+    amount: '4957.71'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02965
+  sim_payment_id: payment-02965
+  sim_obligation_id: obligation-01547
+  sim_event_ids:
+  - event-15529
+- id: bpay-02995
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 306
+  txn_date: '2026-08-08'
+  amount: '1954.34'
+  applications:
+  - document_id: bill-01479
+    amount: '1954.34'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02995
+  sim_payment_id: payment-02995
+  sim_obligation_id: obligation-01725
+  sim_event_ids:
+  - event-15537
+- id: bpay-02976
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 307
+  txn_date: '2026-08-09'
+  amount: '2122.47'
+  applications:
+  - document_id: bill-01464
+    amount: '2122.47'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-02976
+  sim_payment_id: payment-02976
+  sim_obligation_id: obligation-01718
+  sim_event_ids:
+  - event-15560
+- id: bpay-03008
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 309
+  txn_date: '2026-08-11'
+  amount: '1922.17'
+  applications:
+  - document_id: bill-01478
+    amount: '1922.17'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03008
+  sim_payment_id: payment-03008
+  sim_obligation_id: obligation-01730
+  sim_event_ids:
+  - event-15708
+- id: bpay-03023
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 309
+  txn_date: '2026-08-11'
+  amount: '1297.36'
+  applications:
+  - document_id: bill-variable-services-01782
+    amount: '1297.36'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03023
+  sim_payment_id: payment-03023
+  sim_obligation_id: obligation-01782
+  sim_event_ids:
+  - event-15734
+- id: bpay-03022
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 310
+  txn_date: '2026-08-12'
+  amount: '8.02'
+  applications:
+  - document_id: bill-utilities-01781
+    amount: '8.02'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03022
+  sim_payment_id: payment-03022
+  sim_obligation_id: obligation-01781
+  sim_event_ids:
+  - event-15756
+- id: bpay-03025
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 310
+  txn_date: '2026-08-12'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01784
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03025
+  sim_payment_id: payment-03025
+  sim_obligation_id: obligation-01784
+  sim_event_ids:
+  - event-15758
+- id: bpay-03021
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 311
+  txn_date: '2026-08-13'
+  amount: '40.10'
+  applications:
+  - document_id: bill-utilities-01780
+    amount: '40.10'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03021
+  sim_payment_id: payment-03021
+  sim_obligation_id: obligation-01780
+  sim_event_ids:
+  - event-15806
+- id: bpay-03050
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  amount: '1209.25'
+  applications:
+  - document_id: bill-01497
+    amount: '1209.25'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03050
+  sim_payment_id: payment-03050
+  sim_obligation_id: obligation-01756
+  sim_event_ids:
+  - event-15895
+- id: bpay-03055
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 313
+  txn_date: '2026-08-15'
+  amount: '2973.52'
+  applications:
+  - document_id: bill-01504
+    amount: '2973.52'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03055
+  sim_payment_id: payment-03055
+  sim_obligation_id: obligation-01759
+  sim_event_ids:
+  - event-15899
+- id: bpay-03073
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  amount: '2323.11'
+  applications:
+  - document_id: bill-01507
+    amount: '2323.11'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03073
+  sim_payment_id: payment-03073
+  sim_obligation_id: obligation-01774
+  sim_event_ids:
+  - event-16014
+- id: bpay-03074
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  amount: '1342.44'
+  applications:
+  - document_id: bill-01525
+    amount: '1342.44'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03074
+  sim_payment_id: payment-03074
+  sim_obligation_id: obligation-01775
+  sim_event_ids:
+  - event-16015
+- id: bpay-03081
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 315
+  txn_date: '2026-08-17'
+  amount: '1768.00'
+  applications:
+  - document_id: bill-01516
+    amount: '1768.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03081
+  sim_payment_id: payment-03081
+  sim_obligation_id: obligation-01776
+  sim_event_ids:
+  - event-16020
+- id: bpay-03095
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 316
+  txn_date: '2026-08-18'
+  amount: '6.01'
+  applications:
+  - document_id: bill-utilities-01814
+    amount: '6.01'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03095
+  sim_payment_id: payment-03095
+  sim_obligation_id: obligation-01814
+  sim_event_ids:
+  - event-16098
+- id: bpay-03096
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 317
+  txn_date: '2026-08-19'
+  amount: '947.86'
+  applications:
+  - document_id: bill-variable-services-01815
+    amount: '947.86'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03096
+  sim_payment_id: payment-03096
+  sim_obligation_id: obligation-01815
+  sim_event_ids:
+  - event-16126
+- id: bpay-03094
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 318
+  txn_date: '2026-08-20'
+  amount: '30.05'
+  applications:
+  - document_id: bill-utilities-01813
+    amount: '30.05'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03094
+  sim_payment_id: payment-03094
+  sim_obligation_id: obligation-01813
+  sim_event_ids:
+  - event-16177
+- id: bpay-03098
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 318
+  txn_date: '2026-08-20'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01817
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03098
+  sim_payment_id: payment-03098
+  sim_obligation_id: obligation-01817
+  sim_event_ids:
+  - event-16178
+- id: bpay-03119
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 318
+  txn_date: '2026-08-20'
+  amount: '2069.88'
+  applications:
+  - document_id: bill-01542
+    amount: '2069.88'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03119
+  sim_payment_id: payment-03119
+  sim_obligation_id: obligation-01798
+  sim_event_ids:
+  - event-16187
+- id: bpay-03149
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 323
+  txn_date: '2026-08-25'
+  amount: '2066.35'
+  applications:
+  - document_id: bill-01556
+    amount: '2066.35'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03149
+  sim_payment_id: payment-03149
+  sim_obligation_id: obligation-01810
+  sim_event_ids:
+  - event-16436
+- id: bpay-03160
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 324
+  txn_date: '2026-08-26'
+  amount: '35.35'
+  applications:
+  - document_id: bill-utilities-01855
+    amount: '35.35'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03160
+  sim_payment_id: payment-03160
+  sim_obligation_id: obligation-01855
+  sim_event_ids:
+  - event-16496
+- id: bpay-03172
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 324
+  txn_date: '2026-08-26'
+  amount: '1536.00'
+  applications:
+  - document_id: bill-01570
+    amount: '1536.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03172
+  sim_payment_id: payment-03172
+  sim_obligation_id: obligation-01826
+  sim_event_ids:
+  - event-16501
+- id: bpay-03152
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  amount: '2961.69'
+  applications:
+  - document_id: bill-01564
+    amount: '2961.69'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03152
+  sim_payment_id: payment-03152
+  sim_obligation_id: obligation-01818
+  sim_event_ids:
+  - event-16558
+- id: bpay-03161
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  amount: '7.07'
+  applications:
+  - document_id: bill-utilities-01856
+    amount: '7.07'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03161
+  sim_payment_id: payment-03161
+  sim_obligation_id: obligation-01856
+  sim_event_ids:
+  - event-16563
+- id: bpay-03162
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  amount: '1079.46'
+  applications:
+  - document_id: bill-variable-services-01857
+    amount: '1079.46'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03162
+  sim_payment_id: payment-03162
+  sim_obligation_id: obligation-01857
+  sim_event_ids:
+  - event-16564
+- id: bpay-03164
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01859
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03164
+  sim_payment_id: payment-03164
+  sim_obligation_id: obligation-01859
+  sim_event_ids:
+  - event-16565
+- id: bpay-03171
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  amount: '1515.33'
+  applications:
+  - document_id: bill-01563
+    amount: '1515.33'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03171
+  sim_payment_id: payment-03171
+  sim_obligation_id: obligation-01825
+  sim_event_ids:
+  - event-16567
+- id: bpay-03186
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 325
+  txn_date: '2026-08-27'
+  amount: '3993.60'
+  applications:
+  - document_id: bill-01576
+    amount: '3993.60'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03186
+  sim_payment_id: payment-03186
+  sim_obligation_id: obligation-01832
+  sim_event_ids:
+  - event-16571
+- id: bpay-03195
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 326
+  txn_date: '2026-08-28'
+  amount: '2414.28'
+  applications:
+  - document_id: bill-01585
+    amount: '2414.28'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03195
+  sim_payment_id: payment-03195
+  sim_obligation_id: obligation-01843
+  sim_event_ids:
+  - event-16620
+- id: bpay-03194
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 327
+  txn_date: '2026-08-29'
+  amount: '1043.41'
+  applications:
+  - document_id: bill-01584
+    amount: '1043.41'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03194
+  sim_payment_id: payment-03194
+  sim_obligation_id: obligation-01842
+  sim_event_ids:
+  - event-16667
+- id: bpay-03219
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 329
+  txn_date: '2026-08-31'
+  amount: '2011.10'
+  applications:
+  - document_id: bill-01597
+    amount: '2011.10'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03219
+  sim_payment_id: payment-03219
+  sim_obligation_id: obligation-01851
+  sim_event_ids:
+  - event-16778
+- id: bpay-03233
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 330
+  txn_date: '2026-09-01'
+  amount: '45.00'
+  applications:
+  - document_id: bill-utilities-01899
+    amount: '45.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03233
+  sim_payment_id: payment-03233
+  sim_obligation_id: obligation-01899
+  sim_event_ids:
+  - event-16875
+- id: bpay-03235
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 330
+  txn_date: '2026-09-01'
+  amount: '1503.68'
+  applications:
+  - document_id: bill-variable-services-01901
+    amount: '1503.68'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03235
+  sim_payment_id: payment-03235
+  sim_obligation_id: obligation-01901
+  sim_event_ids:
+  - event-16876
+- id: bpay-03220
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 331
+  txn_date: '2026-09-02'
+  amount: '1202.34'
+  applications:
+  - document_id: bill-01606
+    amount: '1202.34'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03220
+  sim_payment_id: payment-03220
+  sim_obligation_id: obligation-01852
+  sim_event_ids:
+  - event-16900
+- id: bpay-03234
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 332
+  txn_date: '2026-09-03'
+  amount: '9.00'
+  applications:
+  - document_id: bill-utilities-01900
+    amount: '9.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03234
+  sim_payment_id: payment-03234
+  sim_obligation_id: obligation-01900
+  sim_event_ids:
+  - event-16954
+- id: bpay-03237
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 332
+  txn_date: '2026-09-03'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01903
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03237
+  sim_payment_id: payment-03237
+  sim_obligation_id: obligation-01903
+  sim_event_ids:
+  - event-16956
+- id: bpay-03285
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 335
+  txn_date: '2026-09-06'
+  amount: '2576.34'
+  applications:
+  - document_id: bill-01640
+    amount: '2576.34'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03285
+  sim_payment_id: payment-03285
+  sim_obligation_id: obligation-01896
+  sim_event_ids:
+  - event-17094
+- id: bpay-03275
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 336
+  txn_date: '2026-09-07'
+  amount: '4055.04'
+  applications:
+  - document_id: bill-01632
+    amount: '4055.04'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03275
+  sim_payment_id: payment-03275
+  sim_obligation_id: obligation-01889
+  sim_event_ids:
+  - event-17180
+- id: bpay-03305
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 337
+  txn_date: '2026-09-08'
+  amount: '360.00'
+  applications:
+  - document_id: bill-growth-01941
+    amount: '360.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03305
+  sim_payment_id: payment-03305
+  sim_obligation_id: obligation-01941
+  sim_event_ids:
+  - event-17286
+- id: bpay-03309
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 337
+  txn_date: '2026-09-08'
+  amount: '8.07'
+  applications:
+  - document_id: bill-utilities-01945
+    amount: '8.07'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03309
+  sim_payment_id: payment-03309
+  sim_obligation_id: obligation-01945
+  sim_event_ids:
+  - event-17288
+- id: bpay-03299
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 338
+  txn_date: '2026-09-09'
+  amount: '1402.73'
+  applications:
+  - document_id: bill-01650
+    amount: '1402.73'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03299
+  sim_payment_id: payment-03299
+  sim_obligation_id: obligation-01904
+  sim_event_ids:
+  - event-17317
+- id: bpay-03304
+  vendor_id: vend-operating-vendor
+  vendor_name: Ashford Foundry Stationers Company
+  txn_sim_day: 338
+  txn_date: '2026-09-09'
+  amount: '1727.86'
+  applications:
+  - document_id: bill-product-development-01940
+    amount: '1727.86'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03304
+  sim_payment_id: payment-03304
+  sim_obligation_id: obligation-01940
+  sim_event_ids:
+  - event-17318
+- id: bpay-03308
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 338
+  txn_date: '2026-09-09'
+  amount: '40.35'
+  applications:
+  - document_id: bill-utilities-01944
+    amount: '40.35'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03308
+  sim_payment_id: payment-03308
+  sim_obligation_id: obligation-01944
+  sim_event_ids:
+  - event-17320
+- id: bpay-03312
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 338
+  txn_date: '2026-09-09'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01948
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03312
+  sim_payment_id: payment-03312
+  sim_obligation_id: obligation-01948
+  sim_event_ids:
+  - event-17321
+- id: bpay-03310
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 339
+  txn_date: '2026-09-10'
+  amount: '1212.61'
+  applications:
+  - document_id: bill-variable-services-01946
+    amount: '1212.61'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03310
+  sim_payment_id: payment-03310
+  sim_obligation_id: obligation-01946
+  sim_event_ids:
+  - event-17374
+- id: bpay-03320
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 339
+  txn_date: '2026-09-10'
+  amount: '1494.99'
+  applications:
+  - document_id: bill-01651
+    amount: '1494.99'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03320
+  sim_payment_id: payment-03320
+  sim_obligation_id: obligation-01911
+  sim_event_ids:
+  - event-17377
+- id: bpay-03336
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 340
+  txn_date: '2026-09-11'
+  amount: '1773.20'
+  applications:
+  - document_id: bill-01659
+    amount: '1773.20'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03336
+  sim_payment_id: payment-03336
+  sim_obligation_id: obligation-01920
+  sim_event_ids:
+  - event-17431
+- id: bpay-03344
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 340
+  txn_date: '2026-09-11'
+  amount: '1677.96'
+  applications:
+  - document_id: bill-01667
+    amount: '1677.96'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03344
+  sim_payment_id: payment-03344
+  sim_obligation_id: obligation-01926
+  sim_event_ids:
+  - event-17433
+- id: bpay-03353
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 343
+  txn_date: '2026-09-14'
+  amount: '2091.18'
+  applications:
+  - document_id: bill-01673
+    amount: '2091.18'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03353
+  sim_payment_id: payment-03353
+  sim_obligation_id: obligation-01934
+  sim_event_ids:
+  - event-17591
+- id: bpay-03384
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 345
+  txn_date: '2026-09-16'
+  amount: '48.10'
+  applications:
+  - document_id: bill-utilities-01991
+    amount: '48.10'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03384
+  sim_payment_id: payment-03384
+  sim_obligation_id: obligation-01991
+  sim_event_ids:
+  - event-17719
+- id: bpay-03385
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 345
+  txn_date: '2026-09-16'
+  amount: '9.62'
+  applications:
+  - document_id: bill-utilities-01992
+    amount: '9.62'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03385
+  sim_payment_id: payment-03385
+  sim_obligation_id: obligation-01992
+  sim_event_ids:
+  - event-17720
+- id: bpay-03386
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 345
+  txn_date: '2026-09-16'
+  amount: '1611.09'
+  applications:
+  - document_id: bill-variable-services-01993
+    amount: '1611.09'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03386
+  sim_payment_id: payment-03386
+  sim_obligation_id: obligation-01993
+  sim_event_ids:
+  - event-17721
+- id: bpay-03388
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 345
+  txn_date: '2026-09-16'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-01995
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03388
+  sim_payment_id: payment-03388
+  sim_obligation_id: obligation-01995
+  sim_event_ids:
+  - event-17722
+- id: bpay-03419
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  amount: '2118.78'
+  applications:
+  - document_id: bill-01691
+    amount: '2118.78'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03419
+  sim_payment_id: payment-03419
+  sim_obligation_id: obligation-01974
+  sim_event_ids:
+  - event-17878
+- id: bpay-03431
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 348
+  txn_date: '2026-09-19'
+  amount: '3633.12'
+  applications:
+  - document_id: bill-01700
+    amount: '3633.12'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03431
+  sim_payment_id: payment-03431
+  sim_obligation_id: obligation-01981
+  sim_event_ids:
+  - event-17882
+- id: bpay-03430
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 350
+  txn_date: '2026-09-21'
+  amount: '1063.84'
+  applications:
+  - document_id: bill-01699
+    amount: '1063.84'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03430
+  sim_payment_id: payment-03430
+  sim_obligation_id: obligation-01980
+  sim_event_ids:
+  - event-17994
+- id: bpay-03443
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 351
+  txn_date: '2026-09-22'
+  amount: '1688.75'
+  applications:
+  - document_id: bill-01717
+    amount: '1688.75'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03443
+  sim_payment_id: payment-03443
+  sim_obligation_id: obligation-01986
+  sim_event_ids:
+  - event-18051
+- id: bpay-03460
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 351
+  txn_date: '2026-09-22'
+  amount: '40.05'
+  applications:
+  - document_id: bill-utilities-02034
+    amount: '40.05'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03460
+  sim_payment_id: payment-03460
+  sim_obligation_id: obligation-02034
+  sim_event_ids:
+  - event-18095
+- id: bpay-03461
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 351
+  txn_date: '2026-09-22'
+  amount: '8.01'
+  applications:
+  - document_id: bill-utilities-02035
+    amount: '8.01'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03461
+  sim_payment_id: payment-03461
+  sim_obligation_id: obligation-02035
+  sim_event_ids:
+  - event-18096
+- id: bpay-03448
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 352
+  txn_date: '2026-09-23'
+  amount: '1700.52'
+  applications:
+  - document_id: bill-01712
+    amount: '1700.52'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03448
+  sim_payment_id: payment-03448
+  sim_obligation_id: obligation-01987
+  sim_event_ids:
+  - event-18120
+- id: bpay-03462
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 352
+  txn_date: '2026-09-23'
+  amount: '1298.02'
+  applications:
+  - document_id: bill-variable-services-02036
+    amount: '1298.02'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03462
+  sim_payment_id: payment-03462
+  sim_obligation_id: obligation-02036
+  sim_event_ids:
+  - event-18124
+- id: bpay-03464
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 353
+  txn_date: '2026-09-24'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-02038
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03464
+  sim_payment_id: payment-03464
+  sim_obligation_id: obligation-02038
+  sim_event_ids:
+  - event-18172
+- id: bpay-03486
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 353
+  txn_date: '2026-09-24'
+  amount: '1639.68'
+  applications:
+  - document_id: bill-01727
+    amount: '1639.68'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03486
+  sim_payment_id: payment-03486
+  sim_obligation_id: obligation-02012
+  sim_event_ids:
+  - event-18181
+- id: bpay-03509
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  amount: '3382.56'
+  applications:
+  - document_id: bill-01744
+    amount: '3382.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03509
+  sim_payment_id: payment-03509
+  sim_obligation_id: obligation-02024
+  sim_event_ids:
+  - event-18374
+- id: bpay-03510
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  amount: '2580.93'
+  applications:
+  - document_id: bill-01750
+    amount: '2580.93'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03510
+  sim_payment_id: payment-03510
+  sim_obligation_id: obligation-02025
+  sim_event_ids:
+  - event-18375
+- id: bpay-03521
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 357
+  txn_date: '2026-09-28'
+  amount: '1734.99'
+  applications:
+  - document_id: bill-01755
+    amount: '1734.99'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03521
+  sim_payment_id: payment-03521
+  sim_obligation_id: obligation-02030
+  sim_event_ids:
+  - event-18381
+- id: bpay-03534
+  vendor_id: vend-electricity
+  vendor_name: Havenwood Municipal Utilities
+  txn_sim_day: 358
+  txn_date: '2026-09-29'
+  amount: '37.95'
+  applications:
+  - document_id: bill-utilities-02073
+    amount: '37.95'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03534
+  sim_payment_id: payment-03534
+  sim_obligation_id: obligation-02073
+  sim_event_ids:
+  - event-18484
+- id: bpay-03535
+  vendor_id: vend-water
+  vendor_name: Jasper Mill Municipal Utilities
+  txn_sim_day: 358
+  txn_date: '2026-09-29'
+  amount: '7.59'
+  applications:
+  - document_id: bill-utilities-02074
+    amount: '7.59'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03535
+  sim_payment_id: payment-03535
+  sim_obligation_id: obligation-02074
+  sim_event_ids:
+  - event-18485
+- id: bpay-03527
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 359
+  txn_date: '2026-09-30'
+  amount: '2107.56'
+  applications:
+  - document_id: bill-01756
+    amount: '2107.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03527
+  sim_payment_id: payment-03527
+  sim_obligation_id: obligation-02039
+  sim_event_ids:
+  - event-18520
+- id: bpay-03536
+  vendor_id: vend-logistics-vendor
+  vendor_name: Whitlock & Daughters Nursery
+  txn_sim_day: 359
+  txn_date: '2026-09-30'
+  amount: '1239.56'
+  applications:
+  - document_id: bill-variable-services-02075
+    amount: '1239.56'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03536
+  sim_payment_id: payment-03536
+  sim_obligation_id: obligation-02075
+  sim_event_ids:
+  - event-18524
+- id: bpay-03538
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 359
+  txn_date: '2026-09-30'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-02077
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03538
+  sim_payment_id: payment-03538
+  sim_obligation_id: obligation-02077
+  sim_event_ids:
+  - event-18525
+- id: bpay-03547
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 360
+  txn_date: '2026-10-01'
+  amount: '1473.76'
+  applications:
+  - document_id: bill-01773
+    amount: '1473.76'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03547
+  sim_payment_id: payment-03547
+  sim_obligation_id: obligation-02047
+  sim_event_ids:
+  - event-18582
+- id: bpay-03546
+  vendor_id: vend-supplier
+  vendor_name: Ironclad Larkspur Outfitters
+  txn_sim_day: 361
+  txn_date: '2026-10-02'
+  amount: '1478.96'
+  applications:
+  - document_id: bill-01766
+    amount: '1478.96'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03546
+  sim_payment_id: payment-03546
+  sim_obligation_id: obligation-02046
+  sim_event_ids:
+  - event-18640
+- id: bpay-03617
+  vendor_id: vend-landlord
+  vendor_name: Granite Bay Commercial Properties
+  txn_sim_day: 365
+  txn_date: '2026-10-06'
+  amount: '500.00'
+  applications:
+  - document_id: bill-operating-02130
+    amount: '500.00'
+  payment_account_id: acct-checking
+  memo: Payment sent against vendor bill.
+  provenance_note: sim:a0bb0d826496e79a:bpay-03617
+  sim_payment_id: payment-03617
+  sim_obligation_id: obligation-02130
+  sim_event_ids:
+  - event-18925

@@ -1,0 +1,21 @@
+- id: company-main
+  legal_name: Hearthloaf Bakeries LLC
+  trade_name: Hearthloaf Bakeries
+  industry_naics: '311812'
+  industry_title: Commercial Bakeries
+  email: accounts@hearthloafbakeries.example
+  phone: (555) 588-3550
+  website: https://www.hearthloafbakeries.example
+  address:
+    line1: 9088 Ledgeway Drive
+    city: Kalamazoo
+    state: MI
+    postal_code: '49006'
+    country: United States
+    line2: null
+  fiscal_year_start_month: 1
+  opening_sim_day: 0
+  opening_date: '2025-10-06'
+  sim_actor_id: business
+  sim_event_ids:
+  - event-00001

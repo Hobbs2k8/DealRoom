@@ -1,0 +1,66 @@
+- id: item-00001
+  name: Hamburger Bun Flat, 8 ct
+  sku: HBF-08-122
+  description: Seeded hamburger buns, eight per pack, flat of twelve packs.
+  item_type: non_inventory
+  unit_price_amount: '13.50'
+  unit_cost_amount: '6.83'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-inventory
+  sim_product_id: product-1
+  sim_event_ids: []
+- id: item-00002
+  name: Croissant Tray, 24 ct
+  sku: CRT-24-327
+  description: All-butter croissants, twenty-four per pastry tray.
+  item_type: non_inventory
+  unit_price_amount: '16.20'
+  unit_cost_amount: '8.53'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-inventory
+  sim_product_id: product-2
+  sim_event_ids: []
+- id: item-00003
+  name: Pan Loaf Bread Case, White
+  sku: PLB-WH-767
+  description: Sliced white pan loaves, baked daily, case of twelve.
+  item_type: non_inventory
+  unit_price_amount: '18.90'
+  unit_cost_amount: '10.24'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-inventory
+  sim_product_id: product-3
+  sim_event_ids: []
+- id: item-00004
+  name: Hot Dog Bun Flat, 8 ct
+  sku: HDF-08-591
+  description: Side-split hot dog buns, eight per pack, flat of twelve packs.
+  item_type: non_inventory
+  unit_price_amount: '21.60'
+  unit_cost_amount: '11.95'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-inventory
+  sim_product_id: product-4
+  sim_event_ids: []
+- id: item-00005
+  name: Cake Round, 10 in Vanilla
+  sku: CRV-10-618
+  description: Ten-inch iced vanilla cake round for retail bakery cases.
+  item_type: non_inventory
+  unit_price_amount: '24.30'
+  unit_cost_amount: '13.66'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-inventory
+  sim_product_id: product-5
+  sim_event_ids: []
+- id: item-00006
+  name: Artisan Boule Case
+  sku: ABC-08-626
+  description: Rustic sourdough boules, eight per baker's case.
+  item_type: non_inventory
+  unit_price_amount: '27.00'
+  unit_cost_amount: '15.36'
+  income_account_id: acct-product-income
+  purchase_account_id: acct-inventory
+  sim_product_id: product-6
+  sim_event_ids: []

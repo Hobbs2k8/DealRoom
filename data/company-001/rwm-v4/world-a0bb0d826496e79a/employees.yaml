@@ -1,0 +1,114 @@
+- id: emp-employee-1
+  display_name: Viktor Duvall
+  given_name: Viktor
+  family_name: Duvall
+  email: viktor.duvall@hearthloafbakeries.example
+  phone: (555) 097-1643
+  job_title: Order Picker
+  hired_sim_day: 0
+  hired_date: '2025-10-06'
+  released_sim_day: null
+  released_date: null
+  released_sim_event_id: null
+  weekly_wage_amount: '750.00'
+  sim_actor_id: employee-1
+  sim_event_ids: []
+- id: emp-employee-2
+  display_name: Rosalind Karlsen
+  given_name: Rosalind
+  family_name: Karlsen
+  email: rosalind.karlsen@hearthloafbakeries.example
+  phone: (555) 314-2590
+  job_title: Fulfillment Associate
+  hired_sim_day: 28
+  hired_date: '2025-11-03'
+  released_sim_day: null
+  released_date: null
+  released_sim_event_id: null
+  weekly_wage_amount: '750.00'
+  sim_actor_id: employee-2
+  sim_event_ids:
+  - event-00592
+- id: emp-employee-3
+  display_name: Uma Yeboah
+  given_name: Uma
+  family_name: Yeboah
+  email: uma.yeboah@hearthloafbakeries.example
+  phone: (555) 889-1428
+  job_title: Inventory Clerk
+  hired_sim_day: 28
+  hired_date: '2025-11-03'
+  released_sim_day: null
+  released_date: null
+  released_sim_event_id: null
+  weekly_wage_amount: '750.00'
+  sim_actor_id: employee-3
+  sim_event_ids:
+  - event-00593
+- id: emp-employee-4
+  display_name: Ana Paredes
+  given_name: Ana
+  family_name: Paredes
+  email: ana.paredes@hearthloafbakeries.example
+  phone: (555) 448-1037
+  job_title: Shipping Lead
+  hired_sim_day: 56
+  hired_date: '2025-12-01'
+  released_sim_day: 308
+  released_date: '2026-08-10'
+  released_sim_event_id: event-15576
+  weekly_wage_amount: '750.00'
+  sim_actor_id: employee-4
+  sim_event_ids:
+  - event-01747
+  - event-15576
+- id: emp-employee-5
+  display_name: Joaquin Bittencourt
+  given_name: Joaquin
+  family_name: Bittencourt
+  email: joaquin.bittencourt@hearthloafbakeries.example
+  phone: (555) 952-3585
+  job_title: Dock Supervisor
+  hired_sim_day: 56
+  hired_date: '2025-12-01'
+  released_sim_day: 196
+  released_date: '2026-04-20'
+  released_sim_event_id: event-09446
+  weekly_wage_amount: '750.00'
+  sim_actor_id: employee-5
+  sim_event_ids:
+  - event-01748
+  - event-09446
+- id: emp-employee-6
+  display_name: Yara Jemison
+  given_name: Yara
+  family_name: Jemison
+  email: yara.jemison@hearthloafbakeries.example
+  phone: (555) 037-8284
+  job_title: Order Picker
+  hired_sim_day: 84
+  hired_date: '2025-12-29'
+  released_sim_day: 140
+  released_date: '2026-02-23'
+  released_sim_event_id: event-06472
+  weekly_wage_amount: '750.00'
+  sim_actor_id: employee-6
+  sim_event_ids:
+  - event-03255
+  - event-06472
+- id: emp-employee-7
+  display_name: Clarisse Imamura
+  given_name: Clarisse
+  family_name: Imamura
+  email: clarisse.imamura@hearthloafbakeries.example
+  phone: (555) 088-6774
+  job_title: Shipping Lead
+  hired_sim_day: 336
+  hired_date: '2026-09-07'
+  released_sim_day: null
+  released_date: null
+  released_sim_event_id: null
+  weekly_wage_amount: '750.00'
+  sim_actor_id: employee-7
+  sim_event_ids:
+  - event-17106

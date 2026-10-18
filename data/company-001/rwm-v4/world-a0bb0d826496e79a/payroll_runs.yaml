@@ -1,0 +1,2544 @@
+- id: payrun-wagepay-00001
+  sim_day: 8
+  date: '2025-10-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00001
+  sim_event_ids:
+  - event-00153
+- id: payrun-wagepay-00014
+  sim_day: 17
+  date: '2025-10-23'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00014
+  sim_event_ids:
+  - event-00344
+- id: payrun-wagepay-00037
+  sim_day: 24
+  date: '2025-10-30'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00037
+  sim_event_ids:
+  - event-00522
+- id: payrun-wagepay-00064
+  sim_day: 31
+  date: '2025-11-06'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00064
+  sim_event_ids:
+  - event-00750
+- id: payrun-wagepay-00100
+  sim_day: 36
+  date: '2025-11-11'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00100
+  sim_event_ids:
+  - event-00970
+- id: payrun-wagepay-00099
+  sim_day: 37
+  date: '2025-11-12'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00099
+  sim_event_ids:
+  - event-01000
+- id: payrun-wagepay-00104
+  sim_day: 38
+  date: '2025-11-13'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00104
+  sim_event_ids:
+  - event-01038
+- id: payrun-wagepay-00161
+  sim_day: 43
+  date: '2025-11-18'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00161
+  sim_event_ids:
+  - event-01270
+- id: payrun-wagepay-00156
+  sim_day: 44
+  date: '2025-11-19'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00156
+  sim_event_ids:
+  - event-01287
+- id: payrun-wagepay-00157
+  sim_day: 44
+  date: '2025-11-19'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00157
+  sim_event_ids:
+  - event-01288
+- id: payrun-wagepay-00212
+  sim_day: 52
+  date: '2025-11-27'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00212
+  sim_event_ids:
+  - event-01628
+- id: payrun-wagepay-00213
+  sim_day: 52
+  date: '2025-11-27'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00213
+  sim_event_ids:
+  - event-01629
+- id: payrun-wagepay-00217
+  sim_day: 52
+  date: '2025-11-27'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00217
+  sim_event_ids:
+  - event-01632
+- id: payrun-wagepay-00273
+  sim_day: 58
+  date: '2025-12-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00273
+  sim_event_ids:
+  - event-01924
+- id: payrun-wagepay-00278
+  sim_day: 58
+  date: '2025-12-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00278
+  sim_event_ids:
+  - event-01926
+- id: payrun-wagepay-00274
+  sim_day: 59
+  date: '2025-12-04'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00274
+  sim_event_ids:
+  - event-01971
+- id: payrun-wagepay-00344
+  sim_day: 65
+  date: '2025-12-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00344
+  sim_event_ids:
+  - event-02280
+- id: payrun-wagepay-00345
+  sim_day: 65
+  date: '2025-12-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00345
+  sim_event_ids:
+  - event-02281
+- id: payrun-wagepay-00346
+  sim_day: 65
+  date: '2025-12-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00346
+  sim_event_ids:
+  - event-02282
+- id: payrun-wagepay-00347
+  sim_day: 65
+  date: '2025-12-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00347
+  sim_event_ids:
+  - event-02283
+- id: payrun-wagepay-00351
+  sim_day: 66
+  date: '2025-12-11'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00351
+  sim_event_ids:
+  - event-02341
+- id: payrun-wagepay-00424
+  sim_day: 71
+  date: '2025-12-16'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00424
+  sim_event_ids:
+  - event-02626
+- id: payrun-wagepay-00426
+  sim_day: 71
+  date: '2025-12-16'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00426
+  sim_event_ids:
+  - event-02627
+- id: payrun-wagepay-00431
+  sim_day: 71
+  date: '2025-12-16'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00431
+  sim_event_ids:
+  - event-02628
+- id: payrun-wagepay-00425
+  sim_day: 72
+  date: '2025-12-17'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00425
+  sim_event_ids:
+  - event-02658
+- id: payrun-wagepay-00427
+  sim_day: 72
+  date: '2025-12-17'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00427
+  sim_event_ids:
+  - event-02659
+- id: payrun-wagepay-00504
+  sim_day: 78
+  date: '2025-12-23'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00504
+  sim_event_ids:
+  - event-03019
+- id: payrun-wagepay-00505
+  sim_day: 78
+  date: '2025-12-23'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00505
+  sim_event_ids:
+  - event-03020
+- id: payrun-wagepay-00511
+  sim_day: 78
+  date: '2025-12-23'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00511
+  sim_event_ids:
+  - event-03021
+- id: payrun-wagepay-00506
+  sim_day: 79
+  date: '2025-12-24'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00506
+  sim_event_ids:
+  - event-03051
+- id: payrun-wagepay-00507
+  sim_day: 79
+  date: '2025-12-24'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00507
+  sim_event_ids:
+  - event-03052
+- id: payrun-wagepay-00592
+  sim_day: 85
+  date: '2025-12-30'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00592
+  sim_event_ids:
+  - event-03423
+- id: payrun-wagepay-00591
+  sim_day: 86
+  date: '2025-12-31'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00591
+  sim_event_ids:
+  - event-03454
+- id: payrun-wagepay-00594
+  sim_day: 86
+  date: '2025-12-31'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00594
+  sim_event_ids:
+  - event-03455
+- id: payrun-wagepay-00598
+  sim_day: 86
+  date: '2025-12-31'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00598
+  sim_event_ids:
+  - event-03456
+- id: payrun-wagepay-00593
+  sim_day: 87
+  date: '2026-01-01'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00593
+  sim_event_ids:
+  - event-03506
+- id: payrun-wagepay-00674
+  sim_day: 92
+  date: '2026-01-06'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00674
+  sim_event_ids:
+  - event-03842
+- id: payrun-wagepay-00675
+  sim_day: 92
+  date: '2026-01-06'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00675
+  sim_event_ids:
+  - event-03843
+- id: payrun-wagepay-00676
+  sim_day: 92
+  date: '2026-01-06'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00676
+  sim_event_ids:
+  - event-03844
+- id: payrun-wagepay-00672
+  sim_day: 94
+  date: '2026-01-08'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-6
+    employee_name: Yara Jemison
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00672
+  sim_event_ids:
+  - event-03939
+- id: payrun-wagepay-00673
+  sim_day: 94
+  date: '2026-01-08'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00673
+  sim_event_ids:
+  - event-03940
+- id: payrun-wagepay-00680
+  sim_day: 94
+  date: '2026-01-08'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00680
+  sim_event_ids:
+  - event-03941
+- id: payrun-wagepay-00765
+  sim_day: 99
+  date: '2026-01-13'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00765
+  sim_event_ids:
+  - event-04270
+- id: payrun-wagepay-00763
+  sim_day: 100
+  date: '2026-01-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00763
+  sim_event_ids:
+  - event-04303
+- id: payrun-wagepay-00764
+  sim_day: 100
+  date: '2026-01-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00764
+  sim_event_ids:
+  - event-04304
+- id: payrun-wagepay-00766
+  sim_day: 100
+  date: '2026-01-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00766
+  sim_event_ids:
+  - event-04305
+- id: payrun-wagepay-00762
+  sim_day: 101
+  date: '2026-01-15'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-6
+    employee_name: Yara Jemison
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00762
+  sim_event_ids:
+  - event-04361
+- id: payrun-wagepay-00770
+  sim_day: 101
+  date: '2026-01-15'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00770
+  sim_event_ids:
+  - event-04363
+- id: payrun-wagepay-00854
+  sim_day: 106
+  date: '2026-01-20'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00854
+  sim_event_ids:
+  - event-04694
+- id: payrun-wagepay-00855
+  sim_day: 106
+  date: '2026-01-20'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00855
+  sim_event_ids:
+  - event-04695
+- id: payrun-wagepay-00851
+  sim_day: 107
+  date: '2026-01-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-6
+    employee_name: Yara Jemison
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00851
+  sim_event_ids:
+  - event-04737
+- id: payrun-wagepay-00853
+  sim_day: 107
+  date: '2026-01-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00853
+  sim_event_ids:
+  - event-04738
+- id: payrun-wagepay-00852
+  sim_day: 108
+  date: '2026-01-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00852
+  sim_event_ids:
+  - event-04800
+- id: payrun-wagepay-00859
+  sim_day: 108
+  date: '2026-01-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00859
+  sim_event_ids:
+  - event-04803
+- id: payrun-wagepay-00941
+  sim_day: 113
+  date: '2026-01-27'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-6
+    employee_name: Yara Jemison
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00941
+  sim_event_ids:
+  - event-05125
+- id: payrun-wagepay-00942
+  sim_day: 113
+  date: '2026-01-27'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00942
+  sim_event_ids:
+  - event-05126
+- id: payrun-wagepay-00943
+  sim_day: 113
+  date: '2026-01-27'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00943
+  sim_event_ids:
+  - event-05127
+- id: payrun-wagepay-00944
+  sim_day: 114
+  date: '2026-01-28'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00944
+  sim_event_ids:
+  - event-05172
+- id: payrun-wagepay-00949
+  sim_day: 114
+  date: '2026-01-28'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00949
+  sim_event_ids:
+  - event-05175
+- id: payrun-wagepay-00945
+  sim_day: 115
+  date: '2026-01-29'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-00945
+  sim_event_ids:
+  - event-05230
+- id: payrun-wagepay-01030
+  sim_day: 120
+  date: '2026-02-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01030
+  sim_event_ids:
+  - event-05526
+- id: payrun-wagepay-01032
+  sim_day: 120
+  date: '2026-02-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01032
+  sim_event_ids:
+  - event-05527
+- id: payrun-wagepay-01036
+  sim_day: 120
+  date: '2026-02-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01036
+  sim_event_ids:
+  - event-05529
+- id: payrun-wagepay-01031
+  sim_day: 121
+  date: '2026-02-04'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01031
+  sim_event_ids:
+  - event-05560
+- id: payrun-wagepay-01028
+  sim_day: 122
+  date: '2026-02-05'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-6
+    employee_name: Yara Jemison
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01028
+  sim_event_ids:
+  - event-05603
+- id: payrun-wagepay-01029
+  sim_day: 122
+  date: '2026-02-05'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01029
+  sim_event_ids:
+  - event-05604
+- id: payrun-wagepay-01105
+  sim_day: 127
+  date: '2026-02-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01105
+  sim_event_ids:
+  - event-05898
+- id: payrun-wagepay-01106
+  sim_day: 127
+  date: '2026-02-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01106
+  sim_event_ids:
+  - event-05899
+- id: payrun-wagepay-01107
+  sim_day: 127
+  date: '2026-02-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01107
+  sim_event_ids:
+  - event-05900
+- id: payrun-wagepay-01108
+  sim_day: 127
+  date: '2026-02-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01108
+  sim_event_ids:
+  - event-05901
+- id: payrun-wagepay-01104
+  sim_day: 128
+  date: '2026-02-11'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-6
+    employee_name: Yara Jemison
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01104
+  sim_event_ids:
+  - event-05926
+- id: payrun-wagepay-01112
+  sim_day: 129
+  date: '2026-02-12'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01112
+  sim_event_ids:
+  - event-05973
+- id: payrun-wagepay-01174
+  sim_day: 134
+  date: '2026-02-17'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01174
+  sim_event_ids:
+  - event-06247
+- id: payrun-wagepay-01175
+  sim_day: 135
+  date: '2026-02-18'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01175
+  sim_event_ids:
+  - event-06285
+- id: payrun-wagepay-01176
+  sim_day: 135
+  date: '2026-02-18'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01176
+  sim_event_ids:
+  - event-06286
+- id: payrun-wagepay-01177
+  sim_day: 135
+  date: '2026-02-18'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01177
+  sim_event_ids:
+  - event-06287
+- id: payrun-wagepay-01181
+  sim_day: 135
+  date: '2026-02-18'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01181
+  sim_event_ids:
+  - event-06289
+- id: payrun-wagepay-01173
+  sim_day: 136
+  date: '2026-02-19'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-6
+    employee_name: Yara Jemison
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01173
+  sim_event_ids:
+  - event-06337
+- id: payrun-wagepay-01249
+  sim_day: 142
+  date: '2026-02-25'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-6
+    employee_name: Yara Jemison
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01249
+  sim_event_ids:
+  - event-06665
+- id: payrun-wagepay-01250
+  sim_day: 142
+  date: '2026-02-25'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01250
+  sim_event_ids:
+  - event-06666
+- id: payrun-wagepay-01251
+  sim_day: 143
+  date: '2026-02-26'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01251
+  sim_event_ids:
+  - event-06707
+- id: payrun-wagepay-01252
+  sim_day: 143
+  date: '2026-02-26'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01252
+  sim_event_ids:
+  - event-06708
+- id: payrun-wagepay-01253
+  sim_day: 143
+  date: '2026-02-26'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01253
+  sim_event_ids:
+  - event-06709
+- id: payrun-wagepay-01257
+  sim_day: 143
+  date: '2026-02-26'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01257
+  sim_event_ids:
+  - event-06713
+- id: payrun-wagepay-01324
+  sim_day: 148
+  date: '2026-03-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01324
+  sim_event_ids:
+  - event-06979
+- id: payrun-wagepay-01331
+  sim_day: 148
+  date: '2026-03-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01331
+  sim_event_ids:
+  - event-06981
+- id: payrun-wagepay-01327
+  sim_day: 149
+  date: '2026-03-04'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01327
+  sim_event_ids:
+  - event-07004
+- id: payrun-wagepay-01325
+  sim_day: 150
+  date: '2026-03-05'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01325
+  sim_event_ids:
+  - event-07049
+- id: payrun-wagepay-01326
+  sim_day: 150
+  date: '2026-03-05'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01326
+  sim_event_ids:
+  - event-07050
+- id: payrun-wagepay-01385
+  sim_day: 156
+  date: '2026-03-11'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01385
+  sim_event_ids:
+  - event-07355
+- id: payrun-wagepay-01386
+  sim_day: 156
+  date: '2026-03-11'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01386
+  sim_event_ids:
+  - event-07356
+- id: payrun-wagepay-01387
+  sim_day: 157
+  date: '2026-03-12'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01387
+  sim_event_ids:
+  - event-07402
+- id: payrun-wagepay-01388
+  sim_day: 157
+  date: '2026-03-12'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01388
+  sim_event_ids:
+  - event-07403
+- id: payrun-wagepay-01392
+  sim_day: 157
+  date: '2026-03-12'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01392
+  sim_event_ids:
+  - event-07404
+- id: payrun-wagepay-01450
+  sim_day: 162
+  date: '2026-03-17'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01450
+  sim_event_ids:
+  - event-07698
+- id: payrun-wagepay-01451
+  sim_day: 162
+  date: '2026-03-17'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01451
+  sim_event_ids:
+  - event-07699
+- id: payrun-wagepay-01452
+  sim_day: 162
+  date: '2026-03-17'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01452
+  sim_event_ids:
+  - event-07700
+- id: payrun-wagepay-01457
+  sim_day: 162
+  date: '2026-03-17'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01457
+  sim_event_ids:
+  - event-07703
+- id: payrun-wagepay-01453
+  sim_day: 164
+  date: '2026-03-19'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01453
+  sim_event_ids:
+  - event-07770
+- id: payrun-wagepay-01530
+  sim_day: 169
+  date: '2026-03-24'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01530
+  sim_event_ids:
+  - event-08081
+- id: payrun-wagepay-01537
+  sim_day: 169
+  date: '2026-03-24'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01537
+  sim_event_ids:
+  - event-08084
+- id: payrun-wagepay-01531
+  sim_day: 170
+  date: '2026-03-25'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01531
+  sim_event_ids:
+  - event-08112
+- id: payrun-wagepay-01532
+  sim_day: 170
+  date: '2026-03-25'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01532
+  sim_event_ids:
+  - event-08113
+- id: payrun-wagepay-01533
+  sim_day: 171
+  date: '2026-03-26'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01533
+  sim_event_ids:
+  - event-08163
+- id: payrun-wagepay-01612
+  sim_day: 176
+  date: '2026-03-31'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01612
+  sim_event_ids:
+  - event-08469
+- id: payrun-wagepay-01615
+  sim_day: 176
+  date: '2026-03-31'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01615
+  sim_event_ids:
+  - event-08470
+- id: payrun-wagepay-01613
+  sim_day: 177
+  date: '2026-04-01'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01613
+  sim_event_ids:
+  - event-08502
+- id: payrun-wagepay-01614
+  sim_day: 177
+  date: '2026-04-01'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01614
+  sim_event_ids:
+  - event-08503
+- id: payrun-wagepay-01619
+  sim_day: 178
+  date: '2026-04-02'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01619
+  sim_event_ids:
+  - event-08549
+- id: payrun-wagepay-01691
+  sim_day: 183
+  date: '2026-04-07'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01691
+  sim_event_ids:
+  - event-08862
+- id: payrun-wagepay-01688
+  sim_day: 185
+  date: '2026-04-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01688
+  sim_event_ids:
+  - event-08926
+- id: payrun-wagepay-01689
+  sim_day: 185
+  date: '2026-04-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01689
+  sim_event_ids:
+  - event-08927
+- id: payrun-wagepay-01690
+  sim_day: 185
+  date: '2026-04-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01690
+  sim_event_ids:
+  - event-08928
+- id: payrun-wagepay-01695
+  sim_day: 185
+  date: '2026-04-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01695
+  sim_event_ids:
+  - event-08931
+- id: payrun-wagepay-01760
+  sim_day: 190
+  date: '2026-04-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01760
+  sim_event_ids:
+  - event-09235
+- id: payrun-wagepay-01762
+  sim_day: 190
+  date: '2026-04-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01762
+  sim_event_ids:
+  - event-09236
+- id: payrun-wagepay-01767
+  sim_day: 190
+  date: '2026-04-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01767
+  sim_event_ids:
+  - event-09238
+- id: payrun-wagepay-01763
+  sim_day: 191
+  date: '2026-04-15'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01763
+  sim_event_ids:
+  - event-09265
+- id: payrun-wagepay-01761
+  sim_day: 192
+  date: '2026-04-16'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01761
+  sim_event_ids:
+  - event-09310
+- id: payrun-wagepay-01834
+  sim_day: 197
+  date: '2026-04-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01834
+  sim_event_ids:
+  - event-09608
+- id: payrun-wagepay-01836
+  sim_day: 197
+  date: '2026-04-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01836
+  sim_event_ids:
+  - event-09609
+- id: payrun-wagepay-01835
+  sim_day: 198
+  date: '2026-04-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-5
+    employee_name: Joaquin Bittencourt
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01835
+  sim_event_ids:
+  - event-09636
+- id: payrun-wagepay-01837
+  sim_day: 198
+  date: '2026-04-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01837
+  sim_event_ids:
+  - event-09637
+- id: payrun-wagepay-01841
+  sim_day: 198
+  date: '2026-04-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01841
+  sim_event_ids:
+  - event-09640
+- id: payrun-wagepay-01909
+  sim_day: 204
+  date: '2026-04-28'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01909
+  sim_event_ids:
+  - event-09986
+- id: payrun-wagepay-01910
+  sim_day: 204
+  date: '2026-04-28'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01910
+  sim_event_ids:
+  - event-09987
+- id: payrun-wagepay-01914
+  sim_day: 204
+  date: '2026-04-28'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01914
+  sim_event_ids:
+  - event-09989
+- id: payrun-wagepay-01908
+  sim_day: 206
+  date: '2026-04-30'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01908
+  sim_event_ids:
+  - event-10069
+- id: payrun-wagepay-01979
+  sim_day: 211
+  date: '2026-05-05'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01979
+  sim_event_ids:
+  - event-10354
+- id: payrun-wagepay-01980
+  sim_day: 211
+  date: '2026-05-05'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01980
+  sim_event_ids:
+  - event-10355
+- id: payrun-wagepay-01981
+  sim_day: 212
+  date: '2026-05-06'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01981
+  sim_event_ids:
+  - event-10381
+- id: payrun-wagepay-01985
+  sim_day: 213
+  date: '2026-05-07'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-01985
+  sim_event_ids:
+  - event-10429
+- id: payrun-wagepay-02055
+  sim_day: 218
+  date: '2026-05-12'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02055
+  sim_event_ids:
+  - event-10719
+- id: payrun-wagepay-02050
+  sim_day: 219
+  date: '2026-05-13'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02050
+  sim_event_ids:
+  - event-10744
+- id: payrun-wagepay-02049
+  sim_day: 220
+  date: '2026-05-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02049
+  sim_event_ids:
+  - event-10804
+- id: payrun-wagepay-02051
+  sim_day: 220
+  date: '2026-05-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02051
+  sim_event_ids:
+  - event-10805
+- id: payrun-wagepay-02124
+  sim_day: 227
+  date: '2026-05-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02124
+  sim_event_ids:
+  - event-11208
+- id: payrun-wagepay-02125
+  sim_day: 227
+  date: '2026-05-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02125
+  sim_event_ids:
+  - event-11209
+- id: payrun-wagepay-02126
+  sim_day: 227
+  date: '2026-05-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02126
+  sim_event_ids:
+  - event-11210
+- id: payrun-wagepay-02130
+  sim_day: 227
+  date: '2026-05-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02130
+  sim_event_ids:
+  - event-11212
+- id: payrun-wagepay-02203
+  sim_day: 232
+  date: '2026-05-26'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02203
+  sim_event_ids:
+  - event-11515
+- id: payrun-wagepay-02207
+  sim_day: 232
+  date: '2026-05-26'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02207
+  sim_event_ids:
+  - event-11517
+- id: payrun-wagepay-02201
+  sim_day: 233
+  date: '2026-05-27'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02201
+  sim_event_ids:
+  - event-11536
+- id: payrun-wagepay-02202
+  sim_day: 234
+  date: '2026-05-28'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02202
+  sim_event_ids:
+  - event-11583
+- id: payrun-wagepay-02278
+  sim_day: 240
+  date: '2026-06-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02278
+  sim_event_ids:
+  - event-11905
+- id: payrun-wagepay-02279
+  sim_day: 240
+  date: '2026-06-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02279
+  sim_event_ids:
+  - event-11906
+- id: payrun-wagepay-02280
+  sim_day: 241
+  date: '2026-06-04'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02280
+  sim_event_ids:
+  - event-11969
+- id: payrun-wagepay-02284
+  sim_day: 241
+  date: '2026-06-04'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02284
+  sim_event_ids:
+  - event-11972
+- id: payrun-wagepay-02348
+  sim_day: 246
+  date: '2026-06-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02348
+  sim_event_ids:
+  - event-12258
+- id: payrun-wagepay-02353
+  sim_day: 246
+  date: '2026-06-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02353
+  sim_event_ids:
+  - event-12259
+- id: payrun-wagepay-02349
+  sim_day: 247
+  date: '2026-06-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02349
+  sim_event_ids:
+  - event-12286
+- id: payrun-wagepay-02347
+  sim_day: 248
+  date: '2026-06-11'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02347
+  sim_event_ids:
+  - event-12349
+- id: payrun-wagepay-02428
+  sim_day: 253
+  date: '2026-06-16'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02428
+  sim_event_ids:
+  - event-12658
+- id: payrun-wagepay-02423
+  sim_day: 254
+  date: '2026-06-17'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02423
+  sim_event_ids:
+  - event-12680
+- id: payrun-wagepay-02422
+  sim_day: 255
+  date: '2026-06-18'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02422
+  sim_event_ids:
+  - event-12730
+- id: payrun-wagepay-02424
+  sim_day: 255
+  date: '2026-06-18'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02424
+  sim_event_ids:
+  - event-12731
+- id: payrun-wagepay-02494
+  sim_day: 260
+  date: '2026-06-23'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02494
+  sim_event_ids:
+  - event-13020
+- id: payrun-wagepay-02498
+  sim_day: 260
+  date: '2026-06-23'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02498
+  sim_event_ids:
+  - event-13021
+- id: payrun-wagepay-02492
+  sim_day: 261
+  date: '2026-06-24'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02492
+  sim_event_ids:
+  - event-13043
+- id: payrun-wagepay-02493
+  sim_day: 262
+  date: '2026-06-25'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02493
+  sim_event_ids:
+  - event-13084
+- id: payrun-wagepay-02561
+  sim_day: 268
+  date: '2026-07-01'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02561
+  sim_event_ids:
+  - event-13430
+- id: payrun-wagepay-02563
+  sim_day: 268
+  date: '2026-07-01'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02563
+  sim_event_ids:
+  - event-13431
+- id: payrun-wagepay-02567
+  sim_day: 268
+  date: '2026-07-01'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02567
+  sim_event_ids:
+  - event-13432
+- id: payrun-wagepay-02562
+  sim_day: 269
+  date: '2026-07-02'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02562
+  sim_event_ids:
+  - event-13467
+- id: payrun-wagepay-02631
+  sim_day: 274
+  date: '2026-07-07'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02631
+  sim_event_ids:
+  - event-13768
+- id: payrun-wagepay-02633
+  sim_day: 274
+  date: '2026-07-07'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02633
+  sim_event_ids:
+  - event-13769
+- id: payrun-wagepay-02632
+  sim_day: 276
+  date: '2026-07-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02632
+  sim_event_ids:
+  - event-13853
+- id: payrun-wagepay-02637
+  sim_day: 276
+  date: '2026-07-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02637
+  sim_event_ids:
+  - event-13856
+- id: payrun-wagepay-02707
+  sim_day: 281
+  date: '2026-07-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02707
+  sim_event_ids:
+  - event-14154
+- id: payrun-wagepay-02713
+  sim_day: 281
+  date: '2026-07-14'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02713
+  sim_event_ids:
+  - event-14156
+- id: payrun-wagepay-02709
+  sim_day: 282
+  date: '2026-07-15'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02709
+  sim_event_ids:
+  - event-14183
+- id: payrun-wagepay-02708
+  sim_day: 283
+  date: '2026-07-16'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02708
+  sim_event_ids:
+  - event-14240
+- id: payrun-wagepay-02792
+  sim_day: 288
+  date: '2026-07-21'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02792
+  sim_event_ids:
+  - event-14543
+- id: payrun-wagepay-02787
+  sim_day: 289
+  date: '2026-07-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02787
+  sim_event_ids:
+  - event-14573
+- id: payrun-wagepay-02786
+  sim_day: 290
+  date: '2026-07-23'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02786
+  sim_event_ids:
+  - event-14626
+- id: payrun-wagepay-02788
+  sim_day: 290
+  date: '2026-07-23'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02788
+  sim_event_ids:
+  - event-14627
+- id: payrun-wagepay-02867
+  sim_day: 295
+  date: '2026-07-28'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02867
+  sim_event_ids:
+  - event-14947
+- id: payrun-wagepay-02871
+  sim_day: 295
+  date: '2026-07-28'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02871
+  sim_event_ids:
+  - event-14949
+- id: payrun-wagepay-02865
+  sim_day: 296
+  date: '2026-07-29'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02865
+  sim_event_ids:
+  - event-14980
+- id: payrun-wagepay-02866
+  sim_day: 297
+  date: '2026-07-30'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02866
+  sim_event_ids:
+  - event-15032
+- id: payrun-wagepay-02940
+  sim_day: 302
+  date: '2026-08-04'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02940
+  sim_event_ids:
+  - event-15342
+- id: payrun-wagepay-02946
+  sim_day: 302
+  date: '2026-08-04'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02946
+  sim_event_ids:
+  - event-15345
+- id: payrun-wagepay-02942
+  sim_day: 303
+  date: '2026-08-05'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02942
+  sim_event_ids:
+  - event-15379
+- id: payrun-wagepay-02941
+  sim_day: 304
+  date: '2026-08-06'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-02941
+  sim_event_ids:
+  - event-15422
+- id: payrun-wagepay-03024
+  sim_day: 310
+  date: '2026-08-12'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03024
+  sim_event_ids:
+  - event-15757
+- id: payrun-wagepay-03018
+  sim_day: 311
+  date: '2026-08-13'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-4
+    employee_name: Ana Paredes
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03018
+  sim_event_ids:
+  - event-15803
+- id: payrun-wagepay-03019
+  sim_day: 311
+  date: '2026-08-13'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03019
+  sim_event_ids:
+  - event-15804
+- id: payrun-wagepay-03020
+  sim_day: 311
+  date: '2026-08-13'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03020
+  sim_event_ids:
+  - event-15805
+- id: payrun-wagepay-03092
+  sim_day: 316
+  date: '2026-08-18'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03092
+  sim_event_ids:
+  - event-16097
+- id: payrun-wagepay-03093
+  sim_day: 317
+  date: '2026-08-19'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03093
+  sim_event_ids:
+  - event-16125
+- id: payrun-wagepay-03097
+  sim_day: 317
+  date: '2026-08-19'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03097
+  sim_event_ids:
+  - event-16127
+- id: payrun-wagepay-03158
+  sim_day: 323
+  date: '2026-08-25'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03158
+  sim_event_ids:
+  - event-16462
+- id: payrun-wagepay-03159
+  sim_day: 323
+  date: '2026-08-25'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03159
+  sim_event_ids:
+  - event-16463
+- id: payrun-wagepay-03163
+  sim_day: 323
+  date: '2026-08-25'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03163
+  sim_event_ids:
+  - event-16464
+- id: payrun-wagepay-03231
+  sim_day: 332
+  date: '2026-09-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03231
+  sim_event_ids:
+  - event-16952
+- id: payrun-wagepay-03232
+  sim_day: 332
+  date: '2026-09-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03232
+  sim_event_ids:
+  - event-16953
+- id: payrun-wagepay-03236
+  sim_day: 332
+  date: '2026-09-03'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03236
+  sim_event_ids:
+  - event-16955
+- id: payrun-wagepay-03307
+  sim_day: 337
+  date: '2026-09-08'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03307
+  sim_event_ids:
+  - event-17287
+- id: payrun-wagepay-03306
+  sim_day: 338
+  date: '2026-09-09'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03306
+  sim_event_ids:
+  - event-17319
+- id: payrun-wagepay-03311
+  sim_day: 339
+  date: '2026-09-10'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03311
+  sim_event_ids:
+  - event-17375
+- id: payrun-wagepay-03381
+  sim_day: 344
+  date: '2026-09-15'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-7
+    employee_name: Clarisse Imamura
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03381
+  sim_event_ids:
+  - event-17687
+- id: payrun-wagepay-03383
+  sim_day: 344
+  date: '2026-09-15'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03383
+  sim_event_ids:
+  - event-17688
+- id: payrun-wagepay-03387
+  sim_day: 344
+  date: '2026-09-15'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03387
+  sim_event_ids:
+  - event-17689
+- id: payrun-wagepay-03382
+  sim_day: 345
+  date: '2026-09-16'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03382
+  sim_event_ids:
+  - event-17718
+- id: payrun-wagepay-03457
+  sim_day: 351
+  date: '2026-09-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-7
+    employee_name: Clarisse Imamura
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03457
+  sim_event_ids:
+  - event-18092
+- id: payrun-wagepay-03458
+  sim_day: 351
+  date: '2026-09-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03458
+  sim_event_ids:
+  - event-18093
+- id: payrun-wagepay-03459
+  sim_day: 351
+  date: '2026-09-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03459
+  sim_event_ids:
+  - event-18094
+- id: payrun-wagepay-03463
+  sim_day: 351
+  date: '2026-09-22'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03463
+  sim_event_ids:
+  - event-18097
+- id: payrun-wagepay-03537
+  sim_day: 358
+  date: '2026-09-29'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-1
+    employee_name: Viktor Duvall
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03537
+  sim_event_ids:
+  - event-18486
+- id: payrun-wagepay-03531
+  sim_day: 359
+  date: '2026-09-30'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-7
+    employee_name: Clarisse Imamura
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03531
+  sim_event_ids:
+  - event-18522
+- id: payrun-wagepay-03533
+  sim_day: 359
+  date: '2026-09-30'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-3
+    employee_name: Uma Yeboah
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03533
+  sim_event_ids:
+  - event-18523
+- id: payrun-wagepay-03532
+  sim_day: 360
+  date: '2026-10-01'
+  total_amount: '750.00'
+  gross_only: true
+  lines:
+  - employee_id: emp-employee-2
+    employee_name: Rosalind Karlsen
+    gross_amount: '750.00'
+  source_journal_entry_id: je-wagepay-03532
+  sim_event_ids:
+  - event-18579

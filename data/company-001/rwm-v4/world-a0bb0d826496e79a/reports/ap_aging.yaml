@@ -1,0 +1,105 @@
+report: Accounts Payable Aging
+company: Hearthloaf Bakeries
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-a0bb0d826496e79a
+buckets:
+  current: '20932.95'
+  1-30: '6066.30'
+  31-60: '0.00'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '26999.25'
+rows:
+- document_id: bill-01798
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-04'
+  days_past_due: 2
+  bucket: 1-30
+  balance: '1923.76'
+- document_id: bill-01807
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '1912.96'
+- document_id: bill-growth-02122
+  party: Ashford Foundry Stationers Company
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '360.00'
+- document_id: bill-utilities-02126
+  party: Havenwood Municipal Utilities
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '54.30'
+- document_id: bill-utilities-02127
+  party: Jasper Mill Municipal Utilities
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '10.86'
+- document_id: bill-variable-services-02128
+  party: Whitlock & Daughters Nursery
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '1804.42'
+- document_id: bill-01799
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '1877.89'
+- document_id: bill-01808
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '3163.32'
+- document_id: bill-permit-02141
+  party: Copperfield Department of Revenue
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '500.00'
+- document_id: bill-01817
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1493.70'
+- document_id: bill-01818
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1857.04'
+- document_id: bill-01830
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-11'
+  days_past_due: 0
+  bucket: current
+  balance: '1507.32'
+- document_id: bill-01849
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '1813.88'
+- document_id: bill-01856
+  party: Ironclad Larkspur Outfitters
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '2070.50'
+- document_id: bill-income-tax-02121
+  party: Copperfield Department of Revenue
+  due_date: '2026-11-04'
+  days_past_due: 0
+  bucket: current
+  balance: '6649.30'

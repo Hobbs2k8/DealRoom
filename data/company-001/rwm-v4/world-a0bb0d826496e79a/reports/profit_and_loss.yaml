@@ -1,0 +1,425 @@
+report: Profit and Loss
+company: Hearthloaf Bakeries
+period: through day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-a0bb0d826496e79a
+full_period:
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '809717.76'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '425151.31'
+  - section: Operating expenses
+    line: Wages
+    amount: '162000.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '107465.54'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '24556.78'
+  net_profit: '90544.13'
+monthly:
+- month_end_sim_day: 25
+  month_end_date: '2025-10-31'
+  full_calendar_month: false
+  days_covered: 26
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '12001.50'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '6071.87'
+  - section: Operating expenses
+    line: Wages
+    amount: '2250.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '2180.76'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '1498.87'
+- month_end_sim_day: 55
+  month_end_date: '2025-11-30'
+  full_calendar_month: true
+  days_covered: 30
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '48035.06'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '24663.13'
+  - section: Operating expenses
+    line: Wages
+    amount: '7500.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '6450.25'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '9421.68'
+- month_end_sim_day: 86
+  month_end_date: '2025-12-31'
+  full_calendar_month: true
+  days_covered: 31
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '92099.12'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '46566.99'
+  - section: Operating expenses
+    line: Wages
+    amount: '17250.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '12384.59'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '15897.54'
+- month_end_sim_day: 117
+  month_end_date: '2026-01-31'
+  full_calendar_month: true
+  days_covered: 31
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '99048.17'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '50803.01'
+  - section: Operating expenses
+    line: Wages
+    amount: '18000.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '12116.76'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '6640.89'
+  net_profit: '11487.51'
+- month_end_sim_day: 145
+  month_end_date: '2026-02-28'
+  full_calendar_month: true
+  days_covered: 28
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '69396.33'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '35832.06'
+  - section: Operating expenses
+    line: Wages
+    amount: '18000.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '7954.23'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '7610.04'
+- month_end_sim_day: 176
+  month_end_date: '2026-03-31'
+  full_calendar_month: true
+  days_covered: 31
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '71909.86'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '37229.25'
+  - section: Operating expenses
+    line: Wages
+    amount: '18750.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '11312.50'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '4618.11'
+- month_end_sim_day: 206
+  month_end_date: '2026-04-30'
+  full_calendar_month: true
+  days_covered: 30
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '69744.70'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '36470.60'
+  - section: Operating expenses
+    line: Wages
+    amount: '14250.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '7508.19'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '6308.88'
+  net_profit: '5207.03'
+- month_end_sim_day: 237
+  month_end_date: '2026-05-31'
+  full_calendar_month: true
+  days_covered: 31
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '60017.16'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '31785.85'
+  - section: Operating expenses
+    line: Wages
+    amount: '12000.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '8933.42'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '7297.89'
+- month_end_sim_day: 267
+  month_end_date: '2026-06-30'
+  full_calendar_month: true
+  days_covered: 30
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '66820.40'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '35954.60'
+  - section: Operating expenses
+    line: Wages
+    amount: '15000.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '8493.72'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '7372.08'
+- month_end_sim_day: 298
+  month_end_date: '2026-07-31'
+  full_calendar_month: true
+  days_covered: 31
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '61104.34'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '32857.44'
+  - section: Operating expenses
+    line: Wages
+    amount: '12000.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '8459.44'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '4957.71'
+  net_profit: '2829.75'
+- month_end_sim_day: 329
+  month_end_date: '2026-08-31'
+  full_calendar_month: true
+  days_covered: 31
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '63759.09'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '34877.31'
+  - section: Operating expenses
+    line: Wages
+    amount: '12750.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '8793.22'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '7338.56'
+- month_end_sim_day: 359
+  month_end_date: '2026-09-30'
+  full_calendar_month: true
+  days_covered: 30
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '78659.87'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '42739.67'
+  - section: Operating expenses
+    line: Wages
+    amount: '11250.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '9648.88'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '0.00'
+  net_profit: '15021.32'
+- month_end_sim_day: 365
+  month_end_date: '2026-10-06'
+  full_calendar_month: false
+  days_covered: 6
+  lines:
+  - section: Income
+    line: Revenue
+    amount: '17122.16'
+  - section: Cost of sales
+    line: Cost of goods and job costs
+    amount: '9299.53'
+  - section: Operating expenses
+    line: Wages
+    amount: '3000.00'
+  - section: Operating expenses
+    line: Operating expenses
+    amount: '3229.58'
+  - section: Operating expenses
+    line: Depreciation
+    amount: '0.00'
+  - section: Operating expenses
+    line: Bad debts
+    amount: '0.00'
+  - section: Other
+    line: Interest
+    amount: '0.00'
+  - section: Other
+    line: Income tax
+    amount: '6649.30'
+  net_profit: '-5056.25'

@@ -1,0 +1,435 @@
+report: Accounts Receivable Aging
+company: Hearthloaf Bakeries
+period: as of day 365
+period_start_date: '2025-10-06'
+period_end_date: '2026-10-06'
+currency: USD
+generated_from: world-a0bb0d826496e79a
+buckets:
+  current: '21030.50'
+  1-30: '4322.27'
+  31-60: '776.10'
+  61-90: '0.00'
+  90+: '0.00'
+total_outstanding: '26128.87'
+rows:
+- document_id: inv-01524
+  party: Gallagher Apothecary Company
+  due_date: '2026-08-14'
+  days_past_due: 53
+  bucket: 31-60
+  balance: '776.10'
+- document_id: inv-01676
+  party: Lowry & Daughters Stationers
+  due_date: '2026-09-11'
+  days_past_due: 25
+  bucket: 1-30
+  balance: '161.49'
+- document_id: inv-01677
+  party: Mbeki & Sons Warehousing
+  due_date: '2026-09-11'
+  days_past_due: 25
+  bucket: 1-30
+  balance: '202.89'
+- document_id: inv-01735
+  party: Dovetail Florals Group
+  due_date: '2026-09-22'
+  days_past_due: 14
+  bucket: 1-30
+  balance: '92.28'
+- document_id: inv-01753
+  party: Larkspur Provisions Holdings
+  due_date: '2026-09-25'
+  days_past_due: 11
+  bucket: 1-30
+  balance: '168.43'
+- document_id: inv-01759
+  party: Okonkwo & Daughters Warehousing
+  due_date: '2026-09-28'
+  days_past_due: 8
+  bucket: 1-30
+  balance: '95.83'
+- document_id: inv-01762
+  party: Yarrow Field Florals & Co.
+  due_date: '2026-09-28'
+  days_past_due: 8
+  bucket: 1-30
+  balance: '223.48'
+- document_id: inv-01763
+  party: Redwood Lanternwood Mercantile
+  due_date: '2026-09-29'
+  days_past_due: 7
+  bucket: 1-30
+  balance: '18.55'
+- document_id: inv-01764
+  party: Abernathy Supply Co.
+  due_date: '2026-09-29'
+  days_past_due: 7
+  bucket: 1-30
+  balance: '56.40'
+- document_id: inv-01768
+  party: Pinecrest Outfitters Partners
+  due_date: '2026-09-29'
+  days_past_due: 7
+  bucket: 1-30
+  balance: '46.09'
+- document_id: inv-01770
+  party: Dovetail Florals Group
+  due_date: '2026-09-29'
+  days_past_due: 7
+  bucket: 1-30
+  balance: '195.68'
+- document_id: inv-01772
+  party: Mbeki & Sons Warehousing
+  due_date: '2026-09-29'
+  days_past_due: 7
+  bucket: 1-30
+  balance: '69.41'
+- document_id: inv-01775
+  party: Juniper Warehousing Partners
+  due_date: '2026-09-29'
+  days_past_due: 7
+  bucket: 1-30
+  balance: '63.29'
+- document_id: inv-01785
+  party: Eriksen Florals Company
+  due_date: '2026-10-01'
+  days_past_due: 5
+  bucket: 1-30
+  balance: '107.49'
+- document_id: inv-01786
+  party: Lowry & Daughters Stationers
+  due_date: '2026-10-01'
+  days_past_due: 5
+  bucket: 1-30
+  balance: '274.99'
+- document_id: inv-01787
+  party: Mbeki & Sons Warehousing
+  due_date: '2026-10-02'
+  days_past_due: 4
+  bucket: 1-30
+  balance: '154.92'
+- document_id: inv-01788
+  party: Larkspur Provisions Holdings
+  due_date: '2026-10-02'
+  days_past_due: 4
+  bucket: 1-30
+  balance: '904.05'
+- document_id: inv-01789
+  party: Pioneer Oakhurst Supply
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '101.86'
+- document_id: inv-01790
+  party: Ubeda Confections Inc.
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '47.02'
+- document_id: inv-01791
+  party: Copperfield Warehousing & Co.
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '271.63'
+- document_id: inv-01792
+  party: Thackeray & Sons Hardware
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '113.94'
+- document_id: inv-01793
+  party: Dunmore Dovetail Apothecary Holdings
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '224.66'
+- document_id: inv-01794
+  party: Okonkwo & Daughters Warehousing
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '281.00'
+- document_id: inv-01795
+  party: Ashford Confections
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '87.80'
+- document_id: inv-01796
+  party: Wayfarer Juniper Flats Roasters
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '96.68'
+- document_id: inv-01797
+  party: Union Cedar Park Quilting
+  due_date: '2026-10-05'
+  days_past_due: 1
+  bucket: 1-30
+  balance: '262.41'
+- document_id: inv-01800
+  party: Abernathy Supply Co.
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '275.60'
+- document_id: inv-01801
+  party: Juniper Flats Evergreen Florals Group
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '196.22'
+- document_id: inv-01802
+  party: Thackeray & Sons Printworks
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '570.77'
+- document_id: inv-01803
+  party: Havenwood Fulfillment
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '50.58'
+- document_id: inv-01804
+  party: Verdant Outfitters LLC
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '146.41'
+- document_id: inv-01805
+  party: Gallagher Apothecary Company
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '138.98'
+- document_id: inv-01806
+  party: Lantern Joinery Inc.
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '148.24'
+- document_id: inv-01809
+  party: Juniper Warehousing Partners
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '574.43'
+- document_id: inv-01810
+  party: Xiong Removals Group
+  due_date: '2026-10-06'
+  days_past_due: 0
+  bucket: current
+  balance: '137.69'
+- document_id: inv-01811
+  party: Larkspur Provisions Holdings
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '1185.31'
+- document_id: inv-01812
+  party: Yarrow Field Florals & Co.
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '1125.04'
+- document_id: inv-01813
+  party: Redwood Lanternwood Mercantile
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '935.68'
+- document_id: inv-01814
+  party: Riverbend Juniper Trading & Co.
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '386.69'
+- document_id: inv-01815
+  party: Eriksen Florals Company
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '125.37'
+- document_id: inv-01816
+  party: Mbeki & Sons Warehousing
+  due_date: '2026-10-07'
+  days_past_due: 0
+  bucket: current
+  balance: '296.48'
+- document_id: inv-01819
+  party: Underwood Grocers
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '93.40'
+- document_id: inv-01820
+  party: Dovetail Florals Group
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1417.77'
+- document_id: inv-01821
+  party: Lowry & Daughters Stationers
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '1426.39'
+- document_id: inv-01822
+  party: Verdant Outfitters LLC
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '85.43'
+- document_id: inv-01823
+  party: Gallagher Apothecary Company
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '365.30'
+- document_id: inv-01824
+  party: Pinecrest Outfitters Partners
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '352.07'
+- document_id: inv-01825
+  party: Meridian Millbrook Movers
+  due_date: '2026-10-08'
+  days_past_due: 0
+  bucket: current
+  balance: '77.83'
+- document_id: inv-01826
+  party: Ashford Confections
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '104.58'
+- document_id: inv-01827
+  party: Wayfarer Juniper Flats Roasters
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '105.68'
+- document_id: inv-01828
+  party: Thackeray & Sons Printworks
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '157.65'
+- document_id: inv-01829
+  party: Lantern Joinery Inc.
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '330.24'
+- document_id: inv-01831
+  party: Union Thornbury Stationers
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '502.25'
+- document_id: inv-01833
+  party: Havenwood Fulfillment
+  due_date: '2026-10-09'
+  days_past_due: 0
+  bucket: current
+  balance: '486.85'
+- document_id: inv-01835
+  party: Pioneer Oakhurst Supply
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '306.15'
+- document_id: inv-01836
+  party: Ubeda Confections Inc.
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '233.20'
+- document_id: inv-01837
+  party: Dunmore Dovetail Apothecary Holdings
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '681.10'
+- document_id: inv-01838
+  party: Okonkwo & Daughters Warehousing
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '530.00'
+- document_id: inv-01839
+  party: Juniper Warehousing Partners
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '486.50'
+- document_id: inv-01840
+  party: Xiong Removals Group
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '518.10'
+- document_id: inv-01841
+  party: Verdant Outfitters LLC
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '89.86'
+- document_id: inv-01842
+  party: Copperfield Warehousing & Co.
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '996.40'
+- document_id: inv-01843
+  party: Thackeray & Sons Hardware
+  due_date: '2026-10-12'
+  days_past_due: 0
+  bucket: current
+  balance: '381.60'
+- document_id: inv-01844
+  party: Abernathy Supply Co.
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '904.05'
+- document_id: inv-01845
+  party: Juniper Flats Evergreen Florals Group
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '341.53'
+- document_id: inv-01846
+  party: Mbeki & Sons Warehousing
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '570.31'
+- document_id: inv-01847
+  party: Gallagher Apothecary Company
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '1295.25'
+- document_id: inv-01852
+  party: Riverbend Juniper Trading & Co.
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '1177.50'
+- document_id: inv-01853
+  party: Eriksen Florals Company
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '389.20'
+- document_id: inv-01855
+  party: Lantern Joinery Inc.
+  due_date: '2026-10-13'
+  days_past_due: 0
+  bucket: current
+  balance: '330.82'

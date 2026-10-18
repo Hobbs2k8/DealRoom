@@ -1,0 +1,147 @@
+- id: vend-electricity
+  display_name: Havenwood Municipal Utilities
+  company_name: Havenwood Municipal Utilities
+  contact_given_name: Uma
+  contact_family_name: Ashworth
+  email: uma.ashworth@havenwoodmunicipalutilit.example
+  phone: (555) 093-9921
+  address:
+    line1: 4304 Loading Dock Road
+    city: Mobile
+    state: AL
+    postal_code: '36680'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: utility
+  joined_sim_day: 14
+  joined_date: '2025-10-20'
+  sim_actor_id: electricity
+  sim_event_ids: []
+- id: vend-government
+  display_name: Copperfield Department of Revenue
+  company_name: Copperfield Department of Revenue
+  contact_given_name: Gideon
+  contact_family_name: Halvorsen
+  email: gideon.halvorsen@copperfielddepartmentofr.example
+  phone: (555) 530-3821
+  address:
+    line1: 9368 Edgeboard Street
+    city: Davenport
+    state: IA
+    postal_code: '52875'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: government
+  joined_sim_day: 91
+  joined_date: '2026-01-05'
+  sim_actor_id: government
+  sim_event_ids: []
+- id: vend-landlord
+  display_name: Granite Bay Commercial Properties
+  company_name: Granite Bay Commercial Properties
+  contact_given_name: Bruno
+  contact_family_name: Kettleborough
+  email: bruno.kettleborough@granitebaycommercialprop.example
+  phone: (555) 766-4572
+  address:
+    line1: 8271 Reelwright Road
+    city: Lincoln
+    state: NE
+    postal_code: '68505'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: premises
+  joined_sim_day: 7
+  joined_date: '2025-10-13'
+  sim_actor_id: landlord
+  sim_event_ids: []
+- id: vend-logistics-vendor
+  display_name: Whitlock & Daughters Nursery
+  company_name: Whitlock & Daughters Nursery
+  contact_given_name: Noor
+  contact_family_name: Mwangi
+  email: noor.mwangi@whitlockdaughtersnursery.example
+  phone: (555) 161-4993
+  address:
+    line1: 5190 Cordage Avenue
+    city: Manchester
+    state: NH
+    postal_code: 03184
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 14
+  joined_date: '2025-10-20'
+  sim_actor_id: logistics-vendor
+  sim_event_ids: []
+- id: vend-operating-vendor
+  display_name: Ashford Foundry Stationers Company
+  company_name: Ashford Foundry Stationers Company
+  contact_given_name: Halle
+  contact_family_name: Bittencourt
+  email: halle.bittencourt@ashfordfoundrystationers.example
+  phone: (555) 632-0653
+  address:
+    line1: 5122 Mandrel Street
+    city: Peoria
+    state: IL
+    postal_code: '61630'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: operating
+  joined_sim_day: 28
+  joined_date: '2025-11-03'
+  sim_actor_id: operating-vendor
+  sim_event_ids: []
+- id: vend-supplier
+  display_name: Ironclad Larkspur Outfitters
+  company_name: Ironclad Larkspur Outfitters
+  contact_given_name: Soren
+  contact_family_name: Hjelm
+  email: soren.hjelm@ironcladlarkspuroutfitte.example
+  phone: (555) 131-5771
+  address:
+    line1: 7327 Jointer Road
+    city: Providence
+    state: RI
+    postal_code: 02990
+    country: United States
+    line2: null
+  payment_terms: Net 7
+  payment_terms_days: 7
+  supply_role: product
+  joined_sim_day: 4
+  joined_date: '2025-10-10'
+  sim_actor_id: supplier
+  sim_event_ids: []
+- id: vend-water
+  display_name: Jasper Mill Municipal Utilities
+  company_name: Jasper Mill Municipal Utilities
+  contact_given_name: Bruno
+  contact_family_name: Kettleborough
+  email: bruno.kettleborough@jaspermillmunicipalutili.example
+  phone: (555) 813-9220
+  address:
+    line1: 481 Edgeboard Street
+    city: Boise
+    state: ID
+    postal_code: '83724'
+    country: United States
+    line2: null
+  payment_terms: Due on receipt
+  payment_terms_days: 0
+  supply_role: utility
+  joined_sim_day: 14
+  joined_date: '2025-10-20'
+  sim_actor_id: water
+  sim_event_ids: []
