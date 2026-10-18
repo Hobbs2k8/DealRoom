@@ -1,6 +1,6 @@
 """Runs one full negotiation in the terminal: scout -> buyer vs. rule-based supplier.
 
-Uses HeuristicPredictor (no API keys needed). Example:
+Uses JevPredictor when TYPESAFE_API_KEY is set, else HeuristicPredictor. Example:
     python -m scripts.run_terminal_negotiation --personality bluffer --mode aggressive --seed 7
 """
 import argparse
@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dotenv import load_dotenv
 
 from core.negotiator import BuyerNegotiator
-from core.predictor import HeuristicPredictor
+from core.predictor import make_predictor
 from core.scout import best_opportunity, cash_context
 from supplier.policy import PERSONALITIES, SupplierPolicy, make_secret, write_secret
 
@@ -26,6 +26,8 @@ def parse_args():
     p.add_argument("--mode", choices=("passive", "balanced", "aggressive"), default="balanced")
     p.add_argument("--cash-floor", type=float, default=float(os.environ.get("CASH_FLOOR", 20000)))
     p.add_argument("--seed", type=int)
+    p.add_argument("--predictor", choices=("auto", "heuristic", "jev"), default="auto",
+                   help="auto = Jev if TYPESAFE_API_KEY is set, else heuristic")
     return p.parse_args()
 
 
@@ -50,7 +52,9 @@ def main():
     secret = make_secret(v.price_now, args.personality, args.season, seed=args.seed)
     write_secret(secret)
     supplier = SupplierPolicy(secret)
-    buyer = BuyerNegotiator(opp, cash, HeuristicPredictor(), mode=args.mode, seed=args.seed)
+    predictor = make_predictor(args.predictor)
+    print(f"Predictor: {type(predictor).__name__}")
+    buyer = BuyerNegotiator(opp, cash, predictor, mode=args.mode, seed=args.seed)
 
     print(f"\n== NEGOTIATION (mode={args.mode}) ==")
     opening = supplier.opening(buyer.quantity)
@@ -61,7 +65,8 @@ def main():
         move = buyer.next_offer()
         o = move["offer"]
         b = buyer.belief.summary()
-        print(f"\nRound {buyer.round}  belief floor ${b['low']:.2f}-${b['high']:.2f} "
+        src = f"  [{buyer.last_predictor}]" if buyer.last_predictor else ""
+        print(f"\nRound {buyer.round}{src}  belief floor ${b['low']:.2f}-${b['high']:.2f} "
               f"(best guess ${b['best_guess']:.2f})")
         for alt in buyer.last_considered[:3]:
             print(f"    considered ${alt['price']:.2f} pay {alt['pay_in_days']:>2}d  "

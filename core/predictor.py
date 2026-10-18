@@ -3,10 +3,14 @@
 SupplierPredictor.predict(state, candidates) returns one dict per candidate:
 {"accept": p, "counter": p, "walk": p}. Implementations:
 - HeuristicPredictor: statistics only, needs no API key (this file).
-- JevPredictor: TypeSafe Jev (System One). Added in build step 5.
+- JevPredictor: TypeSafe Jev (System One), see core/jev.py.
+
+make_predictor() picks Jev when TYPESAFE_API_KEY is set, else the heuristic.
 """
+import logging
 import math
-from dataclasses import dataclass
+import os
+from dataclasses import dataclass, field
 
 from core.belief import terms_factor
 from core.offers import Offer
@@ -19,6 +23,8 @@ class PredictState:
     list_price: float
     round: int
     max_rounds: int       # buyer's guess of supplier patience
+    depth: int = 0        # 0 = the real next move; >0 = inside a simulated playout
+    context: dict = field(default_factory=dict)   # negotiation history, for Jev
 
 
 class SupplierPredictor:
@@ -46,3 +52,15 @@ class HeuristicPredictor(SupplierPredictor):
         walk = min(0.9, insult * 3 + (0.15 if s.round >= s.max_rounds else 0.0))
         walk = min(walk, 1 - accept)
         return {"accept": accept, "counter": max(0.0, 1 - accept - walk), "walk": walk}
+
+
+def make_predictor(kind: str = "auto") -> SupplierPredictor:
+    """'auto' uses Jev when TYPESAFE_API_KEY is set; 'heuristic' or 'jev' force one."""
+    if kind == "heuristic" or (kind == "auto" and not os.environ.get("TYPESAFE_API_KEY")):
+        return HeuristicPredictor()
+    try:
+        from core.jev import JevPredictor
+        return JevPredictor()
+    except Exception as e:   # missing package or bad config: never block the demo
+        logging.getLogger("dealroom.predictor").warning("Jev unavailable (%s); using heuristic", e)
+        return HeuristicPredictor()

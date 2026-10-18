@@ -4,4 +4,4 @@ PyYAML==6.0.3
 python-dotenv==1.2.4
 certifi==2026.7.22
 anthropic==1.15.0
-# Step 5 (JevPredictor): typesafe-sdk is on PyPI (latest 0.7.5); API not yet confirmed
+typesafe-sdk==0.7.5

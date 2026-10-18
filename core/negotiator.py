@@ -34,6 +34,7 @@ class BuyerNegotiator:
         self.last_offer: Offer | None = None
         self.history: list[dict] = []
         self.last_considered: list[dict] = []
+        self.last_predictor = ""
         self.status = "open"          # open | agreed | failed
         self.final: dict | None = None
 
@@ -77,9 +78,12 @@ class BuyerNegotiator:
                 last_offer=self.last_offer.price if self.last_offer else None,
                 list_price=self.list_price, quantity=self.quantity, round=self.round,
                 max_rounds=self.max_rounds, cash=self.cash, mode=self.mode,
+                context={"item": self.item, "quantity": self.quantity, "list_price": self.list_price,
+                         "history": self.history[-8:]},
             ), self.predictor, seed=None if self.seed is None else self.seed + self.round)
             best = result["best"]
             self.last_considered = result["considered"]
+            self.last_predictor = result["predictor"]
         self.last_offer = best
         reason = self._leverage() if self.round == 1 else "We're close; this works for us."
         msg = writer.offer_message(best.price, best.quantity, best.pay_in_days, self.item, reason)
@@ -102,6 +106,7 @@ class BuyerNegotiator:
             "quantity": self.quantity, "list_price": self.list_price, "mode": self.mode,
             "round": self.round, "status": self.status, "offers": self.history,
             "belief": self.belief.summary(), "top_moves": self.last_considered,
+            "predictor": self.last_predictor,
             "final_deal": self.final,
         }
 

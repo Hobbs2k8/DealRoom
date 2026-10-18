@@ -37,6 +37,7 @@ class SearchInput:
     max_rounds: int            # buyer's guess of supplier patience
     cash: dict                 # see score.deal_value
     mode: str = "balanced"
+    context: dict | None = None  # negotiation history for predictors that read it (Jev)
 
 
 def candidate_moves(inp: SearchInput) -> list[Offer]:
@@ -65,7 +66,7 @@ def _rollout(inp: SearchInput, pred: SupplierPredictor, offer: Offer, probs: dic
         # Leaf: assume we can take the supplier's ask.
         return deal_value(new_ask, offer.quantity, offer.pay_in_days, inp.list_price, inp.cash)
     nxt = Offer(round((offer.price + new_ask) / 2, 2), offer.quantity, offer.pay_in_days)
-    state = PredictState(floor_std, new_ask, inp.list_price, rnd + 1, inp.max_rounds)
+    state = PredictState(floor_std, new_ask, inp.list_price, rnd + 1, inp.max_rounds, depth=depth)
     nxt_probs = pred.predict(state, [nxt])[0]
     return _rollout(inp, pred, nxt, nxt_probs, floor_std, new_ask, rnd + 1, depth + 1, rng)
 
@@ -83,7 +84,8 @@ def choose_move(inp: SearchInput, pred: SupplierPredictor, seed: int | None = No
         if time.monotonic() - start > TIME_LIMIT_S:
             timed_out = True
             break
-        state = PredictState(floor_std, inp.ask, inp.list_price, inp.round, inp.max_rounds)
+        state = PredictState(floor_std, inp.ask, inp.list_price, inp.round, inp.max_rounds,
+                             depth=0, context=inp.context or {})
         probs = pred.predict(state, cands)           # one batched call per sampled supplier
         for c, p in zip(cands, probs):
             totals[c] += _rollout(inp, pred, c, p, floor_std, inp.ask, inp.round, 1, rng)
@@ -97,4 +99,5 @@ def choose_move(inp: SearchInput, pred: SupplierPredictor, seed: int | None = No
         for c in ranked
     ]
     return {"best": ranked[0], "considered": considered[:5], "timed_out": timed_out,
-            "elapsed_s": round(time.monotonic() - start, 3), "samples": n}
+            "elapsed_s": round(time.monotonic() - start, 3), "samples": n,
+            "predictor": getattr(pred, "last_source", type(pred).__name__)}

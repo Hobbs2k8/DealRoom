@@ -14,7 +14,7 @@ from agents.config import require_seed
 from agents.messages import Accept, NegotiationStart, Offer, Reject
 from core import demo_state, writer
 from core.negotiator import BuyerNegotiator
-from core.predictor import HeuristicPredictor
+from core.predictor import make_predictor
 from core.scout import best_opportunity, cash_context
 
 COMPANY_ID = os.environ.get("COMPANY_ID", "company-001")
@@ -79,7 +79,7 @@ class BuyerController:
         if not self.opportunity:
             self.opportunity = best_opportunity(COMPANY_ID)
         cash = {**cash_context(COMPANY_ID), "cash_floor": CASH_FLOOR}
-        self.negotiation = BuyerNegotiator(self.opportunity, cash, HeuristicPredictor(), mode=self.mode)
+        self.negotiation = BuyerNegotiator(self.opportunity, cash, make_predictor(), mode=self.mode)
         n = self.negotiation
         await ctx.send(self.supplier_address,
                        NegotiationStart(item=n.item, quantity=n.quantity, list_price=n.list_price))

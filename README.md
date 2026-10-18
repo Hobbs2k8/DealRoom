@@ -4,7 +4,7 @@ A negotiating purchasing agent for small businesses. LA Hacks AI Hackathon 2026:
 
 A **buyer agent** reads a small business's QuickBooks accounts-payable data, finds a bill worth negotiating (price creep, a reliable payment history, a bill due near payroll), asks the owner in ASI:One whether to negotiate, haggles with a **supplier agent**, and asks the owner to approve the final deal. Nothing is agreed without owner approval.
 
-> Status: step 4 of 5. The buyer speaks Fetch's Agent Chat Protocol over an Agentverse mailbox, so the owner can drive it from ASI:One. Jev comes next.
+> Status: all 5 build steps done. The buyer chats over ACP in ASI:One, negotiates with the supplier agent in one Bureau, and uses TypeSafe Jev to predict supplier replies when `TYPESAFE_API_KEY` is set.
 
 ## Setup
 
@@ -71,7 +71,8 @@ Options: `--personality stubborn|desperate|bluffer|walker`, `--season busy|norma
 | `core/scout.py` | Per-vendor stats (spend, on-time rate, price change, open bills near payroll), best opportunity, cash context |
 | `core/offers.py` | `Offer(price, quantity, pay_in_days)` |
 | `core/belief.py` | Weighted samples of the supplier's floor; shrinks after each reply |
-| `core/predictor.py` | `SupplierPredictor` interface, `HeuristicPredictor` (JevPredictor in step 5) |
+| `core/predictor.py` | `SupplierPredictor` interface, `HeuristicPredictor`, `make_predictor()` (Jev if the key is set) |
+| `core/jev.py` | `JevPredictor`: TypeSafe Jev via `typesafe-sdk` 0.7.5, batched and concurrent, heuristic fallback |
 | `core/search.py` | 8 candidate moves x 40 sampled suppliers x 3-round playouts, 2 s limit |
 | `core/score.py` | Dollars saved, minus a huge penalty for breaking the cash floor |
 | `core/negotiator.py` | Buyer session loop; writes `demo_state.json` every round |
@@ -86,6 +87,15 @@ Options: `--personality stubborn|desperate|bluffer|walker`, `--season busy|norma
 | `agents/buyer_readme.md` | Agentverse profile text so ASI:One can discover the buyer |
 | `scripts/chat_smoke_test.py` | Local chat test with a fake owner agent |
 | `run.py` | Bureau with both agents |
+
+## Jev (TypeSafe System One)
+
+Set `TYPESAFE_API_KEY` in `.env` and both `run.py` and the terminal script switch to `JevPredictor` automatically; `--predictor heuristic|jev` forces one in the terminal script.
+
+- Each turn, the 8 candidate moves are sent as Choice questions (`accept` / `counter` / `walk`) in 2 batches of 4. The batches run concurrently with asyncio.
+- Jev reads the negotiation history, not the sampled floor. Its probabilities are blended 50/50 (`JEV_WEIGHT`) with the heuristic for each sampled supplier. Deeper playout steps use the heuristic, so a turn costs one round of API calls.
+- Calls time out after 1.2 s, inside the search's 2 s budget. A timeout or error falls back to the heuristic for that turn; a rejected key turns Jev off for the rest of the run. Both are logged, and `demo_state.json` records which predictor was used (`predictor`).
+- The 2026-10 build was tested with mocked Jev responses and a bad key only, not with a real key. Check the real probabilities before relying on them in the demo.
 
 ## Data notes (company-001)
 
