@@ -12,7 +12,9 @@ from uagents import Bureau, Context
 
 from agents.buyer import buyer, controller
 from agents.chat import chat_proto
-from agents.supplier import supplier
+from agents.supplier import suppliers
+from supplier import controls
+from supplier.profiles import PROFILES
 
 PORT = int(os.environ.get("BUREAU_PORT", "8000"))
 
@@ -24,7 +26,8 @@ def main():
     args = parser.parse_args()
 
     buyer.include(chat_proto, publish_manifest=True)
-    controller.supplier_address = supplier.address
+    controls.reset()   # start every demo with full supplier capacity
+    controller.suppliers = [{"id": a.address, "name": PROFILES[pid].name} for pid, a in suppliers.items()]
     controller.mode = args.mode
 
     if args.auto:
@@ -34,13 +37,14 @@ def main():
             await controller.negotiate(ctx)
 
     print(f"buyer    {buyer.address}")
-    print(f"supplier {supplier.address}")
+    for pid, a in suppliers.items():
+        print(f"supplier {pid:<10} {a.address}")
     inspector = (f"https://agentverse.ai/inspect/?uri={quote(f'http://127.0.0.1:{PORT}', safe='')}"
                  f"&address={buyer.address}")
     print("\nConnect the buyer to Agentverse (one time): open this link, click Connect, choose Mailbox:")
     print(f"  {inspector}")
     print("Then find 'dealroom-buyer' in ASI:One (or chat from its Agentverse page).\n")
-    bureau = Bureau(agents=[buyer, supplier], port=PORT,
+    bureau = Bureau(agents=[buyer, *suppliers.values()], port=PORT,
                     endpoint=f"http://127.0.0.1:{PORT}/submit")
     bureau.run()
 

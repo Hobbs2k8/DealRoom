@@ -43,10 +43,12 @@ def _claude(prompt: str) -> str | None:
 
 
 def offer_message(price: float, quantity: int, pay_in_days: int, item: str, reason: str,
-                  unit: str = "unit") -> str:
+                  unit: str = "unit", deliver_in_days: int | None = None) -> str:
     """Buyer -> supplier message for an offer."""
     from core.offers import describe_order
     pay = "paid immediately" if pay_in_days == 0 else f"paid in {pay_in_days} days"
+    if deliver_in_days is not None:
+        pay += f", delivered by day {deliver_in_days}"
     order = describe_order(quantity, item, unit, price)
     template = f"We'd like {order}, {pay}. {reason}"
     text = _claude(f"Write the buyer's offer to the supplier. Offer: {order}, {pay}. "

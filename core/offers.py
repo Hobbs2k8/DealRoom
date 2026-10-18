@@ -10,6 +10,7 @@ class Offer:
     price: float        # per unit, dollars
     quantity: int
     pay_in_days: int    # 0 = pay now (prepay), 45 = net 45
+    deliver_in_days: int | None = None   # requested delivery day; None = supplier's choice
 
     def total(self) -> float:
         return round(self.price * self.quantity, 2)

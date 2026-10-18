@@ -2,8 +2,13 @@
 
 Every ChatMessage is acknowledged with a ChatAcknowledgement. Replies go back as
 ChatMessage/TextContent. Commands are plain text:
-  scan | negotiate | passive / balanced / aggressive | approve | decline | status | help
+  scan | negotiate | passive / balanced / aggressive | status | compare | audit |
+  floor <dollars> | approve [supplier] | decline | help
+Judge-only demo control (simulation, not something the buyer can do in real life):
+  judge disrupt <supplier> <capacity> | judge restore <supplier>
 """
+import re
+
 from datetime import datetime, timezone
 from uuid import uuid4
 
@@ -17,16 +22,20 @@ from uagents_core.contrib.protocols.chat import (
     chat_protocol_spec,
 )
 
-from agents.buyer import MODES, controller
+from agents.buyer import MODES, controller, format_ranking
+from supplier import controls          # judge control only; the buyer never reads supplier state
+from supplier.profiles import PROFILES
 
 chat_proto = Protocol(spec=chat_protocol_spec)
 
 HELP = (
     "I'm your DealRoom buyer. I read your QuickBooks payables, find a bill worth negotiating, "
-    "and haggle with the supplier for you. Nothing is agreed without your approval.\n"
-    "Commands: 'scan' (find an opportunity), 'negotiate' (start), "
-    "'passive' / 'balanced' / 'aggressive' (how hard to push), "
-    "'approve' / 'decline' (final deal), 'status'."
+    "get quotes from several supplier agents (all simulated in this demo) and negotiate with each. "
+    "Nothing is bought without your approval.\n"
+    "Commands: 'scan', 'negotiate', 'passive' / 'balanced' / 'aggressive', 'status', 'compare', "
+    "'audit', 'floor 25000' (cash floor), 'approve' (the recommended deal) or 'approve <supplier>', "
+    "'decline'.\nJudge controls: 'judge disrupt prairie 100' (a supplier loses capacity), "
+    "'judge restore prairie'. Suppliers: " + ", ".join(PROFILES) + "."
 )
 
 _owner = {"address": None}   # the last ASI:One user who talked to us
@@ -50,30 +59,42 @@ async def send_to_owner(ctx: Context, text: str) -> None:
 controller.notify_owner = send_to_owner
 
 
-def _status() -> str:
-    n = controller.negotiation
-    if not n:
-        return f"No negotiation yet. Mode: {controller.mode}. Say 'scan' to start."
-    b = n.belief.summary()
-    line = (f"{n.opp.vendor.name}: round {n.round}, status {n.status}. "
-            f"Their ask ${n.ask:.2f}; my guess of their floor ${b['low']:.2f}-${b['high']:.2f}.")
-    if n.final:
-        approved = {None: "waiting for your approval", True: "approved", False: "declined"}
-        line += f" Deal at ${n.final['price']:.2f} ({approved[n.final['owner_approved']]})."
-    return line
+async def judge_command(ctx: Context, t: str) -> None:
+    """Demo-only world events, applied to the supplier side. The buyer learns only from replies."""
+    m = re.match(r"judge\s+(disrupt|restore)\s+(\w+)(?:\s+(\d+))?", t)
+    if not m or m.group(2) not in PROFILES:
+        await send_to_owner(ctx, "Judge controls: 'judge disrupt <supplier> <capacity>' or "
+                                 f"'judge restore <supplier>'. Suppliers: {', '.join(PROFILES)}.")
+        return
+    action, sid, cap = m.group(1), m.group(2), m.group(3)
+    if action == "disrupt":
+        controls.set_capacity(sid, int(cap or 0))
+        await send_to_owner(ctx, f"[judge] {sid} now has capacity {int(cap or 0)}. Its agent will react on "
+                                 f"its next reply, or withdraw an accepted deal it can no longer fill.")
+    else:
+        controls.set_capacity(sid, None)
+        await send_to_owner(ctx, f"[judge] {sid} capacity restored.")
 
 
 async def handle_command(ctx: Context, text: str) -> None:
     """Map the owner's plain-text message to a controller action."""
     t = text.lower().strip()
     words = set(t.replace(",", " ").replace(".", " ").split())
+    if t.startswith("judge"):
+        await judge_command(ctx, t)
+        return
+    floor = re.match(r"(?:cash\s+)?floor\s+\$?([\d,]+)", t)
+    if floor:
+        await controller.set_floor(ctx, float(floor.group(1).replace(",", "")))
+        return
     if words & set(MODES):
         mode = next(m for m in MODES if m in words)
         await send_to_owner(ctx, controller.set_mode(mode))
         if not ({"negotiate", "start"} & words):
             return
     if {"approve", "approved"} & words or t in ("yes", "y"):
-        await controller.decide(ctx, True)
+        hint = re.sub(r"^(approve|approved)\s*", "", t).strip()
+        await controller.decide(ctx, True, hint)
     elif {"decline", "declined"} & words or t in ("no", "n"):
         await controller.decide(ctx, False)
     elif {"negotiate", "start", "haggle"} & words:
@@ -81,7 +102,11 @@ async def handle_command(ctx: Context, text: str) -> None:
     elif {"scan", "find", "opportunity", "opportunities", "bills"} & words:
         await controller.scan(ctx)
     elif "status" in words:
-        await send_to_owner(ctx, _status())
+        await send_to_owner(ctx, controller.status_text())
+    elif {"compare", "offers", "ranking"} & words:
+        await send_to_owner(ctx, format_ranking(controller.market) if controller.market else "No offers yet.")
+    elif {"audit", "trail", "why"} & words:
+        await send_to_owner(ctx, controller.audit_text())
     else:
         await send_to_owner(ctx, HELP)
 

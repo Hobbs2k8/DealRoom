@@ -1,7 +1,8 @@
-"""Local check of the buyer's chat protocol without ASI:One.
+"""Local check of the whole marketplace through the buyer's chat protocol, without ASI:One.
 
-A fake owner agent runs in the same Bureau as the buyer and supplier and sends
-plain-text ChatMessages: help, scan, aggressive + negotiate, status, approve.
+A fake owner agent runs in the same Bureau as the buyer and the three simulated
+supplier agents and sends plain-text ChatMessages: hello, scan, negotiate,
+compare, a judge disruption (Prairie loses capacity), approve, audit.
     python -m scripts.chat_smoke_test
 """
 import os
@@ -15,9 +16,12 @@ from uagents_core.contrib.protocols.chat import ChatAcknowledgement, ChatMessage
 
 from agents.buyer import buyer, controller
 from agents.chat import chat_proto, text_message
-from agents.supplier import supplier
+from agents.supplier import suppliers
+from supplier import controls
+from supplier.profiles import PROFILES
 
-SCRIPT = [(2, "hello"), (3, "scan"), (5, "aggressive, negotiate"), (14, "status"), (16, "approve")]
+SCRIPT = [(2, "hello"), (3, "scan"), (5, "negotiate"), (30, "compare"),
+          (32, "judge disrupt prairie 100"), (38, "approve"), (41, "audit")]
 
 owner = Agent(name="fake-owner", seed="dealroom fake owner for local chat smoke test")
 owner_proto = Protocol(spec=chat_protocol_spec)
@@ -51,10 +55,12 @@ async def run_script(ctx: Context):
         await ctx.send(buyer.address, text_message(text))
     await asyncio.sleep(2)
     print(f"\nAcknowledgements received: {len(acks)} of {len(SCRIPT)}", flush=True)
+    controls.reset()
     os._exit(0)
 
 
 if __name__ == "__main__":
     buyer.include(chat_proto, publish_manifest=False)
-    controller.supplier_address = supplier.address
-    Bureau(agents=[buyer, supplier, owner], port=8001, endpoint="http://127.0.0.1:8001/submit").run()
+    controls.reset()
+    controller.suppliers = [{"id": a.address, "name": PROFILES[pid].name} for pid, a in suppliers.items()]
+    Bureau(agents=[buyer, *suppliers.values(), owner], port=8001, endpoint="http://127.0.0.1:8001/submit").run()

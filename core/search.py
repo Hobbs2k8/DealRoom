@@ -38,6 +38,9 @@ class SearchInput:
     cash: dict                 # see score.deal_value
     mode: str = "balanced"
     context: dict | None = None  # negotiation history for predictors that read it (Jev)
+    pay_options: tuple = (PAY_NOW, PAY_LATER)   # payment timings this supplier still accepts
+    baseline_price: float | None = None         # savings are measured against this (default list_price)
+    deliver_in_days: int | None = None          # delivery day to put on every candidate
 
 
 def candidate_moves(inp: SearchInput) -> list[Offer]:
@@ -48,7 +51,7 @@ def candidate_moves(inp: SearchInput) -> list[Offer]:
     # Never go backwards; when raising, move by at least 0.25% of list (not a single cent).
     floor_price = (inp.last_offer or 0) + max(0.01, round(inp.list_price * 0.0025, 2))
     prices = sorted({round(min(inp.ask, max(floor_price, p * shift)), 2) for p in levels})
-    return [Offer(p, inp.quantity, pay) for p in prices for pay in (PAY_NOW, PAY_LATER)]
+    return [Offer(p, inp.quantity, pay, inp.deliver_in_days) for p in prices for pay in inp.pay_options]
 
 
 def _rollout(inp: SearchInput, pred: SupplierPredictor, offer: Offer, probs: dict,
@@ -57,7 +60,7 @@ def _rollout(inp: SearchInput, pred: SupplierPredictor, offer: Offer, probs: dic
     walk_cost = MODES[inp.mode]["walk_cost_frac"] * inp.list_price * inp.quantity
     r = rng.random()
     if r < probs["accept"]:
-        return deal_value(offer.price, offer.quantity, offer.pay_in_days, inp.list_price, inp.cash)
+        return deal_value(offer.price, offer.quantity, offer.pay_in_days, inp.baseline_price or inp.list_price, inp.cash)
     if r < probs["accept"] + probs["walk"]:
         return -walk_cost
     # Supplier counters: concede part of the way toward its (terms-adjusted) floor.
@@ -65,8 +68,8 @@ def _rollout(inp: SearchInput, pred: SupplierPredictor, offer: Offer, probs: dic
     new_ask = round(ask - rng.choice(CONCESSION_RATES) * max(0.0, ask - floor), 2)
     if depth >= DEPTH:
         # Leaf: assume we can take the supplier's ask.
-        return deal_value(new_ask, offer.quantity, offer.pay_in_days, inp.list_price, inp.cash)
-    nxt = Offer(round((offer.price + new_ask) / 2, 2), offer.quantity, offer.pay_in_days)
+        return deal_value(new_ask, offer.quantity, offer.pay_in_days, inp.baseline_price or inp.list_price, inp.cash)
+    nxt = Offer(round((offer.price + new_ask) / 2, 2), offer.quantity, offer.pay_in_days, offer.deliver_in_days)
     state = PredictState(floor_std, new_ask, inp.list_price, rnd + 1, inp.max_rounds, depth=depth)
     nxt_probs = pred.predict(state, [nxt])[0]
     return _rollout(inp, pred, nxt, nxt_probs, floor_std, new_ask, rnd + 1, depth + 1, rng)
@@ -95,7 +98,7 @@ def choose_move(inp: SearchInput, pred: SupplierPredictor, seed: int | None = No
     n = max(n, 1)
     ranked = sorted(cands, key=lambda c: -totals[c])
     considered = [
-        {"price": c.price, "pay_in_days": c.pay_in_days,
+        {"price": c.price, "pay_in_days": c.pay_in_days, "deliver_in_days": c.deliver_in_days,
          "expected_value": round(totals[c] / n, 2), "p_accept": round(accepts[c] / n, 2)}
         for c in ranked
     ]
