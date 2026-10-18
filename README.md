@@ -4,7 +4,7 @@ A negotiating purchasing agent for small businesses. LA Hacks AI Hackathon 2026:
 
 A **buyer agent** reads a small business's QuickBooks accounts-payable data, finds a bill worth negotiating (price creep, a reliable payment history, a bill due near payroll), asks the owner in ASI:One whether to negotiate, haggles with a **supplier agent**, and asks the owner to approve the final deal. Nothing is agreed without owner approval.
 
-> Status: step 3 of 5. Buyer and supplier run as uAgents in one Bureau and negotiate agent to agent. ASI:One chat (ACP) and Jev come next.
+> Status: step 4 of 5. The buyer speaks Fetch's Agent Chat Protocol over an Agentverse mailbox, so the owner can drive it from ASI:One. Jev comes next.
 
 ## Setup
 
@@ -27,15 +27,31 @@ Python 3.13 works with uagents 0.26.1.
 
 Each company lives at `data/company-XXX/rwm-v4/world-<id>/`, with one YAML file per entity type; field reference is in `SCHEMA.md` next to the YAML. Agents must never read a `hidden/` folder; the participant download does not include one, and `.gitignore` blocks it.
 
-## Run the agents (step 3)
+## Run the agents and chat from ASI:One
 
 ```bash
-python run.py --auto                       # buyer scans and negotiates on startup
+python run.py
+```
+
+On startup `run.py` prints an Agentverse inspector link for the buyer. **One time per seed:** open it while `run.py` is running, sign in, click **Connect**, and choose **Mailbox**. After that the buyer (`dealroom-buyer`) is reachable from ASI:One and from its Agentverse page. Until then the log says `Agent mailbox not found`, which is expected.
+
+Chat commands (plain text): `scan`, `negotiate`, `passive` / `balanced` / `aggressive`, `status`, `approve`, `decline`. The buyer acknowledges every message, posts a short update each round, and asks for approval when the supplier accepts.
+
+Test the chat locally without ASI:One (a fake owner agent sends the commands):
+
+```bash
+python -m scripts.chat_smoke_test
+```
+
+Other ways to run:
+
+```bash
+python run.py --auto                       # buyer scans and negotiates on startup (logs only)
 python run.py --auto --mode aggressive
 SUPPLIER_PERSONALITY=walker SUPPLIER_RNG_SEED=11 python run.py --auto
 ```
 
-Both agents run in one Bureau on port 8000 (`BUREAU_PORT`). Without `--auto` they start and wait; the owner chat arrives in step 4. Supplier settings are optional env vars: `SUPPLIER_PERSONALITY`, `SUPPLIER_SEASON`, `SUPPLIER_RNG_SEED`. The "not enough funds to register on Almanac contract" warnings are expected: the agents register through the Almanac API instead, which is free.
+Both agents run in one Bureau on port 8000 (`BUREAU_PORT`). Supplier settings are optional env vars: `SUPPLIER_PERSONALITY`, `SUPPLIER_SEASON`, `SUPPLIER_RNG_SEED`. The "not enough funds to register on Almanac contract" warnings are expected: the agents register through the Almanac API instead, which is free.
 
 ## Run a negotiation in the terminal (no API keys needed)
 
@@ -66,6 +82,9 @@ Options: `--personality stubborn|desperate|bluffer|walker`, `--season busy|norma
 | `agents/config.py` | Loads `.env` (seeds) and CA certificates |
 | `agents/buyer.py` | Buyer uAgent; `BuyerController` handles scan / negotiate / mode / approve / decline |
 | `agents/supplier.py` | Supplier uAgent around `supplier/policy.py` |
+| `agents/chat.py` | ACP chat protocol: acknowledges every message, parses owner commands, sends updates |
+| `agents/buyer_readme.md` | Agentverse profile text so ASI:One can discover the buyer |
+| `scripts/chat_smoke_test.py` | Local chat test with a fake owner agent |
 | `run.py` | Bureau with both agents |
 
 ## Data notes (company-001)

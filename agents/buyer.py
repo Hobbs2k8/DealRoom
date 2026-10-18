@@ -24,8 +24,13 @@ MODES = ("passive", "balanced", "aggressive")
 buyer = Agent(
     name="dealroom-buyer",
     seed=require_seed("BUYER_SEED"),
-    description="DealRoom buyer agent: reads a small business's QuickBooks payables, "
-                "negotiates better supplier terms, and asks the owner to approve every deal.",
+    mailbox=True,   # reachable from ASI:One through Agentverse
+    description="DealRoom: a negotiating purchasing agent for small businesses. Reads QuickBooks "
+                "accounts payable, finds supplier bills worth renegotiating (price creep, reliable "
+                "payment history, bills due near payroll), haggles with the supplier's agent on price "
+                "and payment terms, and asks the owner to approve every deal.",
+    readme_path=os.path.join(os.path.dirname(__file__), "buyer_readme.md"),
+    publish_agent_details=True,
 )
 
 
@@ -121,6 +126,10 @@ class BuyerController:
         b = n.belief.summary()
         ctx.logger.info(f"Round {n.round}: offer ${o.price:.2f} pay {o.pay_in_days}d "
                         f"(floor guess ${b['low']:.2f}-${b['high']:.2f})")
+        pay = "pay now" if o.pay_in_days == 0 else f"pay in {o.pay_in_days} days"
+        await self.notify_owner(ctx, f"Round {n.round}: they asked ${reply['price']:.2f}. "
+                                     f"I'm offering ${o.price:.2f}, {pay}. "
+                                     f"(My guess of their floor: ${b['low']:.2f}-${b['high']:.2f}.)")
         await ctx.send(self.supplier_address, Offer(price=o.price, quantity=o.quantity,
                                                     pay_in_days=o.pay_in_days, message=move["message"]))
 
