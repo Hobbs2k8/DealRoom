@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-paper: #f6f3ee;
+  --color-card: #fffdf9;
+  --color-ink: #1a1915;
+  --color-muted: #6b6760;
+  --color-faint: #a29d94;
+  --color-line: #e5e0d6;
+  --color-ok: #1f7a4d;
+  --color-ok-soft: #e3f1e8;
+  --color-bad: #c2410c;
+  --color-bad-soft: #fbe9df;
+  --color-floor: #b7791f;
+  --color-floor-soft: #fbf1dc;
+  --color-honey: #e0a458;
+}
+
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+input[type='range'] {
+  appearance: none;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--color-line);
+  outline: none;
+}
+input[type='range']::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--color-ink);
+  border: 3px solid var(--color-card);
+  box-shadow: 0 0 0 1px var(--color-ink);
+  cursor: pointer;
+}
+input[type='range']::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--color-ink);
+  border: 3px solid var(--color-card);
+  cursor: pointer;
+}
