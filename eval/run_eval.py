@@ -4,7 +4,8 @@ For every company in data/ that the scout finds an opportunity for, we negotiate
 many seeded suppliers and compare buyers on the SAME suppliers:
 
   split    rule-based: open at 85% of the ask, split the difference each round (net 45)
-  llm      an LLM picks every offer from the negotiation history (needs ANTHROPIC_API_KEY)
+  llm      Claude picks every offer from the negotiation history (needs ANTHROPIC_API_KEY)
+  asi      ASI:One (Fetch.ai LLM) picks every offer the same way (needs ASI_ONE_API_KEY)
   search   our buyer: belief over the floor + look-ahead search, heuristic predictor
   jev      our buyer with the Jev predictor (needs TYPESAFE_API_KEY)
 
@@ -15,7 +16,7 @@ Supplier types:
 Run (full data: ./scripts/fetch_data.sh first):
   python -m eval.run_eval                         # split + search, all companies, 10 seeds per type
   python -m eval.run_eval --seeds 30 --buyers split search
-  python -m eval.run_eval --buyers split search llm --llm-limit 40
+  python -m eval.run_eval --buyers split search asi --llm-limit 40 --companies company-001
   python -m eval.run_eval --buyers split search jev --companies company-001
 
 Writes eval/results.csv (one row per negotiation) and eval/summary.md (tables for the pitch).
@@ -118,10 +119,14 @@ class LLMBuyer:
     """An LLM chooses each offer from the history. Same information our buyer gets."""
     name = "llm"
 
-    def __init__(self, opp, cash, model=None, **_):
-        import anthropic
-        self.client = anthropic.Anthropic(timeout=30, max_retries=1)
+    def __init__(self, opp, cash, model=None, provider="claude", **_):
+        self.provider = provider
+        self.name = "asi" if provider == "asi" else "llm"
+        if provider == "claude":
+            import anthropic
+            self.client = anthropic.Anthropic(timeout=30, max_retries=1)
         self.model = model or os.environ.get("CLAUDE_MODEL", "claude-opus-5-5")
+        self.failures = 0
         v = opp.vendor
         self.setup = (f"You are a purchasing agent for {opp.company}. You are negotiating with "
                       f"{v.name} for {v.typical_qty} x {v.top_item}. Current price ${v.price_now:.2f} "
@@ -138,11 +143,22 @@ class LLMBuyer:
         self.history.append(f"Supplier: ${ask:.2f} per unit ({last_reply.get('message', '')})")
         prompt = (self.setup + "\n\nHistory:\n" + "\n".join(self.history) +
                   '\n\nReply with ONLY JSON: {"price": <per-unit price>, "pay_in_days": 0 or 45}')
-        resp = self.client.messages.create(model=self.model, max_tokens=200,
-                                           messages=[{"role": "user", "content": prompt}])
-        self.tokens_in += resp.usage.input_tokens
-        self.tokens_out += resp.usage.output_tokens
-        text = "".join(b.text for b in resp.content if b.type == "text")
+        if self.provider == "asi":
+            from core import asi
+            out = asi.chat([{"role": "user", "content": prompt}], max_tokens=200, timeout=30)
+            if out is None:
+                self.failures += 1
+                text = ""
+            else:
+                self.tokens_in += out["tokens_in"]
+                self.tokens_out += out["tokens_out"]
+                text = out["text"]
+        else:
+            resp = self.client.messages.create(model=self.model, max_tokens=200,
+                                               messages=[{"role": "user", "content": prompt}])
+            self.tokens_in += resp.usage.input_tokens
+            self.tokens_out += resp.usage.output_tokens
+            text = "".join(b.text for b in resp.content if b.type == "text")
         m = re.search(r"\{.*\}", text, re.S)
         try:
             d = json.loads(m.group(0))
@@ -203,7 +219,7 @@ def main():
     load_dotenv()
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--buyers", nargs="+", default=["split", "search"],
-                    choices=["split", "llm", "search", "jev"])
+                    choices=["split", "llm", "asi", "search", "jev"])
     ap.add_argument("--seeds", type=int, default=10, help="suppliers per type per company")
     ap.add_argument("--companies", nargs="*")
     ap.add_argument("--cash-floor", type=float, default=20000)
@@ -233,13 +249,16 @@ def main():
             for s in range(args.seeds):
                 seed = zlib.crc32(f"{cid}|{kind}|{s}".encode()) % 10**9   # same suppliers every run
                 for bname in args.buyers:
-                    if bname == "llm" and llm_used >= args.llm_limit:
+                    if bname in ("llm", "asi") and llm_used >= args.llm_limit:
                         continue
                     supplier, true_floor = make_supplier(kind, lp, seed)
                     if bname == "split":
                         buyer = SplitBuyer(opp, cash)
                     elif bname == "llm":
                         buyer = LLMBuyer(opp, cash, model=args.llm_model)
+                        llm_used += 1
+                    elif bname == "asi":
+                        buyer = LLMBuyer(opp, cash, provider="asi")
                         llm_used += 1
                     elif bname == "search":
                         buyer = SearchBuyer(opp, cash, HeuristicPredictor(), seed, "search")
@@ -261,6 +280,7 @@ def main():
                         row["floor_err_pct"] = round(abs(buyer.neg.belief.best_guess - true_floor) / lp, 4)
                     if isinstance(buyer, LLMBuyer):
                         row["tokens_in"], row["tokens_out"] = buyer.tokens_in, buyer.tokens_out
+                        row["llm_failures"] = buyer.failures
                         row["cost_usd"] = round((buyer.tokens_in * args.llm_price_in +
                                                  buyer.tokens_out * args.llm_price_out) / 1e6, 5)
                     rows.append(row)
@@ -311,7 +331,7 @@ def write_outputs(rows):
         for r in rows:
             if flt(r):
                 by[r["buyer"]].append(r)
-        for b in ("split", "llm", "search", "jev"):
+        for b in ("split", "llm", "asi", "search", "jev"):
             if by[b]:
                 lines.append(fmt(b, stats(by[b])))
         lines.append("")

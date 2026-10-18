@@ -7,6 +7,7 @@ ChatMessage/TextContent. Commands are plain text:
 Judge-only demo control (simulation, not something the buyer can do in real life):
   judge disrupt <supplier> <capacity> | judge restore <supplier>
 """
+import asyncio
 import re
 
 from datetime import datetime, timezone
@@ -23,6 +24,7 @@ from uagents_core.contrib.protocols.chat import (
 )
 
 from agents.buyer import MODES, controller, format_ranking
+from agents.intent import classify
 from supplier import controls          # judge control only; the buyer never reads supplier state
 from supplier.profiles import PROFILES
 
@@ -59,6 +61,28 @@ async def send_to_owner(ctx: Context, text: str) -> None:
 controller.notify_owner = send_to_owner
 
 
+YES = {"yes", "y", "yep", "yeah", "ok", "okay", "sure", "approve", "go", "deal"}
+YES_PHRASES = ("go ahead", "do it", "sounds good", "lets do it", "let's do it", "yes please")
+NO = {"no", "n", "nope", "decline", "cancel", "stop"}
+
+
+async def auto_run(ctx: Context) -> None:
+    """One message does the whole job: find the best bill, negotiate with every supplier,
+    post round updates, and stop only to ask the owner for approval."""
+    m = controller.market
+    if m and not m.done():
+        await send_to_owner(ctx, "Already negotiating. " + controller.status_text())
+        return
+    if m and m.done() and not m.approved and not m.declined:
+        await send_to_owner(ctx, "Deals are ready and waiting for you. Reply 'yes' to approve the "
+                                 "recommended one, 'approve <supplier>' to pick another, or 'no'.\n"
+                                 + format_ranking(m))
+        return
+    await controller.scan(ctx, auto=True)
+    if controller.opportunity:
+        await controller.negotiate(ctx)
+
+
 async def judge_command(ctx: Context, t: str) -> None:
     """Demo-only world events, applied to the supplier side. The buyer learns only from replies."""
     m = re.match(r"judge\s+(disrupt|restore)\s+(\w+)(?:\s+(\d+))?", t)
@@ -92,15 +116,22 @@ async def handle_command(ctx: Context, text: str) -> None:
         await send_to_owner(ctx, controller.set_mode(mode))
         if not ({"negotiate", "start"} & words):
             return
-    if {"approve", "approved"} & words or t in ("yes", "y"):
-        hint = re.sub(r"^(approve|approved)\s*", "", t).strip()
+    waiting = bool(controller.market and controller.market.done()
+                   and not controller.market.approved and not controller.market.declined)
+    if {"approve", "approved", "accept"} & words or (waiting and (words & YES or t in YES_PHRASES)):
+        m = re.match(r"^(?:approve|approved|accept)\s+(\w[\w\s]*)$", t)
+        hint = m.group(1).strip() if m else ""        # only "approve <supplier>" names a supplier
+        hint = "" if hint in YES or hint in YES_PHRASES else hint
         await controller.decide(ctx, True, hint)
-    elif {"decline", "declined"} & words or t in ("no", "n"):
+    elif {"decline", "declined", "reject", "cancel"} & words or (waiting and words & NO):
         await controller.decide(ctx, False)
     elif {"negotiate", "start", "haggle"} & words:
         await controller.negotiate(ctx)
-    elif {"scan", "find", "opportunity", "opportunities", "bills"} & words:
-        await controller.scan(ctx)
+    elif {"scan", "find", "opportunity", "opportunities", "bills", "save", "savings", "deal",
+          "deals", "cheaper", "lower", "reduce", "cut", "supplier", "suppliers"} & words:
+        await auto_run(ctx)
+    elif "help" in words or t in ("commands", "?"):
+        await send_to_owner(ctx, HELP)
     elif "status" in words:
         await send_to_owner(ctx, controller.status_text())
     elif {"compare", "offers", "ranking"} & words:
@@ -108,7 +139,36 @@ async def handle_command(ctx: Context, text: str) -> None:
     elif {"audit", "trail", "why"} & words:
         await send_to_owner(ctx, controller.audit_text())
     else:
+        # Not an exact command: let ASI:One read what the owner means, then act on it.
+        await act_on_intent(ctx, text, waiting)
+
+
+async def act_on_intent(ctx: Context, text: str, waiting: bool) -> None:
+    """Route a free-form message using ASI:One. Without a key (or on error), do the whole job."""
+    intent = await asyncio.to_thread(classify, text, waiting)
+    ctx.logger.info(f"[intent] {intent}")
+    a = intent["action"] if intent else "start"
+    if a == "approve" and waiting:
+        await controller.decide(ctx, True, intent.get("supplier", "") if intent else "")
+    elif a == "decline" and waiting:
+        await controller.decide(ctx, False)
+    elif a in MODES:
+        await send_to_owner(ctx, controller.set_mode(a))
+    elif a == "floor" and intent and intent.get("amount"):
+        await controller.set_floor(ctx, intent["amount"])
+    elif a == "status":
+        await send_to_owner(ctx, controller.status_text())
+    elif a == "compare":
+        await send_to_owner(ctx, format_ranking(controller.market) if controller.market else "No offers yet.")
+    elif a == "explain":
+        await send_to_owner(ctx, controller.audit_text())
+    elif a == "help":
         await send_to_owner(ctx, HELP)
+    elif a == "chat":
+        await send_to_owner(ctx, "I'm your purchasing agent. Tell me to find savings (for example "
+                                 "\"can you cut my supply costs?\") and I'll negotiate, then ask before buying.")
+    else:
+        await auto_run(ctx)
 
 
 @chat_proto.on_message(ChatMessage)
@@ -119,7 +179,7 @@ async def on_chat(ctx: Context, sender: str, msg: ChatMessage):
     _owner["address"] = sender
     for item in msg.content:
         if isinstance(item, StartSessionContent):
-            await send_to_owner(ctx, HELP)
+            continue   # the text that follows (or the first message) starts the work
         elif isinstance(item, TextContent):
             ctx.logger.info(f"[from owner] {item.text}")
             await handle_command(ctx, item.text)

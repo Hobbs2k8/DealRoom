@@ -13,11 +13,24 @@ TIMEOUT_S = 4.0
 _client = None
 
 
+SYSTEM = ("You write one or two short, plain sentences for a small-business purchasing "
+          "negotiation. Never invent numbers; use only the numbers given. No greetings.")
+
+
+def _asi(prompt: str) -> str | None:
+    """Same job via ASI:One (Fetch.ai's LLM) when ASI_ONE_API_KEY is set."""
+    from core import asi
+    out = asi.chat([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}],
+                   max_tokens=150, timeout=TIMEOUT_S)
+    return out["text"] if out and out["text"] else None
+
+
 def _claude(prompt: str) -> str | None:
-    """One short Claude call. Returns None on any failure so callers use the template."""
+    """One short LLM call: Claude if ANTHROPIC_API_KEY is set, else ASI:One if ASI_ONE_API_KEY
+    is set. Returns None on any failure so callers use the template."""
     global _client
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        return None
+        return _asi(prompt) if os.environ.get("ASI_ONE_API_KEY") else None
     try:
         import anthropic
         if _client is None:

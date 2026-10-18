@@ -62,7 +62,7 @@ class BuyerController:
         ctx.logger.info(f"[to owner] {text}")
 
     # ---- owner commands --------------------------------------------------
-    async def scan(self, ctx: Context) -> None:
+    async def scan(self, ctx: Context, auto: bool = False) -> None:
         """Find the best negotiation opportunity and explain why."""
         self.opportunity = best_opportunity(COMPANY_ID)
         if not self.opportunity:
@@ -73,8 +73,10 @@ class BuyerController:
         await self.notify_owner(ctx, (
             f"Best opportunity for {o.company}: {v.name}, "
             f"{describe_order(v.typical_qty, v.top_item, v.unit, v.price_now)}.\n{reasons}\n"
-            f"Say 'negotiate' and I'll get quotes from {len(self.suppliers)} suppliers "
-            f"(mode: {self.mode}, needed within {NEED_BY_DAYS} days)."))
+            + (f"Getting quotes from {len(self.suppliers)} suppliers now ({self.mode} mode). "
+               f"I'll report each round and ask before anything is final." if auto else
+               f"Say 'negotiate' and I'll get quotes from {len(self.suppliers)} suppliers "
+               f"(mode: {self.mode}, needed within {NEED_BY_DAYS} days).")))
 
     def set_mode(self, mode: str) -> str:
         if mode not in MODES:
